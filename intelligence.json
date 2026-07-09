@@ -1,6 +1,6 @@
 {
   "version": "7.0",
-  "updatedAt": "2026-07-09T12:35:59.059363",
+  "updatedAt": "2026-07-09T12:54:23.434613",
   "paperBoard": [
     {
       "rank": 1,
@@ -32,13 +32,14 @@
     },
     {
       "rank": 3,
-      "name": "Trout",
-      "team": "LAA",
-      "score": 82.05,
-      "hrEdge": 65,
-      "pa": 340,
-      "hr": 18,
+      "name": "Olson",
+      "team": "ATL",
+      "score": 82.47,
+      "hrEdge": 57,
+      "pa": 399,
+      "hr": 25,
       "reasons": [
+        "proven season HR power",
         "strong sample",
         "weather carry boost",
         "high confidence"
@@ -46,14 +47,13 @@
     },
     {
       "rank": 4,
-      "name": "Olson",
-      "team": "ATL",
-      "score": 81.96,
-      "hrEdge": 57,
-      "pa": 398,
-      "hr": 24,
+      "name": "Trout",
+      "team": "LAA",
+      "score": 82.05,
+      "hrEdge": 65,
+      "pa": 340,
+      "hr": 18,
       "reasons": [
-        "proven season HR power",
         "strong sample",
         "weather carry boost",
         "high confidence"
@@ -317,9 +317,9 @@
       "rank": 23,
       "name": "Lowe, B",
       "team": "PIT",
-      "score": 70.41,
+      "score": 70.39,
       "hrEdge": 44,
-      "pa": 385,
+      "pa": 386,
       "hr": 21,
       "reasons": [
         "proven season HR power",
@@ -330,6 +330,20 @@
     },
     {
       "rank": 24,
+      "name": "Baldwin, D",
+      "team": "ATL",
+      "score": 70.25,
+      "hrEdge": 48,
+      "pa": 302,
+      "hr": 15,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 25,
       "name": "Mayo",
       "team": "BAL",
       "score": 70.17,
@@ -343,26 +357,12 @@
       ]
     },
     {
-      "rank": 25,
-      "name": "Baldwin, D",
-      "team": "ATL",
-      "score": 70.16,
-      "hrEdge": 48,
-      "pa": 301,
-      "hr": 15,
-      "reasons": [
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
       "rank": 26,
       "name": "Harris II",
       "team": "ATL",
-      "score": 70.15,
+      "score": 70.12,
       "hrEdge": 47,
-      "pa": 334,
+      "pa": 335,
       "hr": 16,
       "reasons": [
         "strong sample",
@@ -483,9 +483,9 @@
       "rank": 35,
       "name": "Valdez, Es",
       "team": "PIT",
-      "score": 67.93,
+      "score": 67.82,
       "hrEdge": 43,
-      "pa": 87,
+      "pa": 88,
       "hr": 6,
       "reasons": [
         "weather carry boost",
@@ -793,9 +793,9 @@
       "rank": 58,
       "name": "Reynolds, B",
       "team": "PIT",
-      "score": 62.98,
+      "score": 62.97,
       "hrEdge": 41,
-      "pa": 405,
+      "pa": 406,
       "hr": 13,
       "reasons": [
         "strong sample",
@@ -850,6 +850,23 @@
     },
     {
       "rank": 2,
+      "name": "Mayo",
+      "team": "BAL",
+      "score": 70.84,
+      "paperRank": 25,
+      "hrEdge": 44,
+      "pa": 241,
+      "hr": 11,
+      "order": 6,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "real HR pop",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 3,
       "name": "Siri",
       "team": "LAA",
       "score": 70.61,
@@ -863,23 +880,6 @@
         "lower lineup spot",
         "environment helps carry",
         "smaller but usable sample"
-      ]
-    },
-    {
-      "rank": 3,
-      "name": "Mayo",
-      "team": "BAL",
-      "score": 70.45,
-      "paperRank": 24,
-      "hrEdge": 44,
-      "pa": 241,
-      "hr": 11,
-      "order": 6,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop",
-        "environment helps carry"
       ]
     },
     {
@@ -920,10 +920,10 @@
       "rank": 6,
       "name": "Valdez, Es",
       "team": "PIT",
-      "score": 67.42,
+      "score": 67.31,
       "paperRank": 35,
       "hrEdge": 43,
-      "pa": 87,
+      "pa": 88,
       "hr": 6,
       "order": 4,
       "reasons": [
@@ -1228,22 +1228,6 @@
     },
     {
       "rank": 25,
-      "name": "Baldwin, D",
-      "team": "ATL",
-      "score": 61.54,
-      "paperRank": 25,
-      "hrEdge": 48,
-      "pa": 301,
-      "hr": 15,
-      "order": 4,
-      "reasons": [
-        "not an obvious top-board play",
-        "real HR pop",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 26,
       "name": "Torkelson",
       "team": "DET",
       "score": 61.49,
@@ -1259,7 +1243,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 26,
       "name": "Monasterio",
       "team": "BOS",
       "score": 61.32,
@@ -1271,6 +1255,22 @@
       "reasons": [
         "not an obvious top-board play",
         "lower lineup spot"
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "Baldwin, D",
+      "team": "ATL",
+      "score": 61.13,
+      "paperRank": 24,
+      "hrEdge": 48,
+      "pa": 302,
+      "hr": 15,
+      "order": 4,
+      "reasons": [
+        "not an obvious top-board play",
+        "real HR pop",
+        "environment helps carry"
       ]
     },
     {

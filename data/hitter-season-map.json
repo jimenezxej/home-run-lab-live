@@ -1,6 +1,6 @@
 {
   "version": "8.0",
-  "updatedAt": "2026-07-09T12:35:56.766215",
+  "updatedAt": "2026-07-09T12:54:21.941089",
   "mappedCount": 228,
   "missingCount": 6,
   "suspiciousAttachedCount": 0,
@@ -10,8 +10,8 @@
       "team": "PIT",
       "resolved": "Jake Mangum",
       "playerId": "663968",
-      "pa": 239,
-      "h": 65,
+      "pa": 240,
+      "h": 66,
       "hr": 1,
       "trusted": true
     },
@@ -20,7 +20,7 @@
       "team": "PIT",
       "resolved": "Brandon Lowe",
       "playerId": "664040",
-      "pa": 385,
+      "pa": 386,
       "h": 84,
       "hr": 21,
       "trusted": true
@@ -30,7 +30,7 @@
       "team": "PIT",
       "resolved": "Bryan Reynolds",
       "playerId": "668804",
-      "pa": 405,
+      "pa": 406,
       "h": 95,
       "hr": 13,
       "trusted": true
@@ -40,7 +40,7 @@
       "team": "PIT",
       "resolved": "Esmerlyn Valdez",
       "playerId": "699013",
-      "pa": 87,
+      "pa": 88,
       "h": 23,
       "hr": 6,
       "trusted": true
@@ -100,7 +100,7 @@
       "team": "ATL",
       "resolved": "Michael Harris II",
       "playerId": "671739",
-      "pa": 334,
+      "pa": 335,
       "h": 97,
       "hr": 16,
       "trusted": true
@@ -110,7 +110,7 @@
       "team": "ATL",
       "resolved": "Ozzie Albies",
       "playerId": "645277",
-      "pa": 392,
+      "pa": 393,
       "h": 96,
       "hr": 14,
       "trusted": true
@@ -120,9 +120,9 @@
       "team": "ATL",
       "resolved": "Matt Olson",
       "playerId": "621566",
-      "pa": 398,
-      "h": 96,
-      "hr": 24,
+      "pa": 399,
+      "h": 97,
+      "hr": 25,
       "trusted": true
     },
     {
@@ -130,7 +130,7 @@
       "team": "ATL",
       "resolved": "Drake Baldwin",
       "playerId": "686948",
-      "pa": 301,
+      "pa": 302,
       "h": 67,
       "hr": 15,
       "trusted": true

@@ -1,13 +1,13 @@
 {
   "version": "8.3",
-  "updatedAt": "2026-07-09T12:39:06.641274",
-  "totalHomeRuns": 1023,
+  "updatedAt": "2026-07-09T12:57:26.470056",
+  "totalHomeRuns": 1024,
   "daysCovered": 30,
   "dates": [
     {
       "date": "2026-07-09",
       "games": 13,
-      "homeRuns": 0,
+      "homeRuns": 1,
       "errors": []
     },
     {

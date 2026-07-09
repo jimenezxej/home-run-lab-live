@@ -1,6 +1,6 @@
 {
   "version": "8.3",
-  "updatedAt": "2026-07-09T12:36:00.130597",
+  "updatedAt": "2026-07-09T12:54:23.999552",
   "slateDate": "2026-07-09",
   "games": [
     {
@@ -23,11 +23,11 @@
       "away": "KC",
       "home": "NYM",
       "status": {
-        "abstract": "Preview",
+        "abstract": "Live",
         "coded": "P",
-        "detailed": "Pre-Game",
-        "boardStatus": "pregame",
-        "lockedForBoard": false
+        "detailed": "Warmup",
+        "boardStatus": "live",
+        "lockedForBoard": true
       },
       "venue": "Citi Field"
     },
@@ -37,11 +37,11 @@
       "away": "NYY",
       "home": "TB",
       "status": {
-        "abstract": "Preview",
+        "abstract": "Live",
         "coded": "P",
-        "detailed": "Pre-Game",
-        "boardStatus": "pregame",
-        "lockedForBoard": false
+        "detailed": "Warmup",
+        "boardStatus": "live",
+        "lockedForBoard": true
       },
       "venue": "Tropicana Field"
     },
@@ -204,29 +204,29 @@
     "KC": {
       "gamePk": 823606,
       "opponent": "NYM",
-      "boardStatus": "pregame",
-      "lockedForBoard": false,
+      "boardStatus": "live",
+      "lockedForBoard": true,
       "gameDate": "2026-07-09T17:10:00Z"
     },
     "NYM": {
       "gamePk": 823606,
       "opponent": "KC",
-      "boardStatus": "pregame",
-      "lockedForBoard": false,
+      "boardStatus": "live",
+      "lockedForBoard": true,
       "gameDate": "2026-07-09T17:10:00Z"
     },
     "NYY": {
       "gamePk": 822954,
       "opponent": "TB",
-      "boardStatus": "pregame",
-      "lockedForBoard": false,
+      "boardStatus": "live",
+      "lockedForBoard": true,
       "gameDate": "2026-07-09T17:10:00Z"
     },
     "TB": {
       "gamePk": 822954,
       "opponent": "NYY",
-      "boardStatus": "pregame",
-      "lockedForBoard": false,
+      "boardStatus": "live",
+      "lockedForBoard": true,
       "gameDate": "2026-07-09T17:10:00Z"
     },
     "CHC": {
@@ -372,7 +372,11 @@
   },
   "lockedTeams": [
     "ATL",
-    "PIT"
+    "KC",
+    "NYM",
+    "NYY",
+    "PIT",
+    "TB"
   ],
   "activeTeams": [
     "ATH",
@@ -385,19 +389,15 @@
     "COL",
     "CWS",
     "DET",
-    "KC",
     "LAA",
     "MIA",
     "MIL",
     "MIN",
-    "NYM",
-    "NYY",
     "PHI",
     "SD",
     "SEA",
     "SF",
     "STL",
-    "TB",
     "TEX"
   ],
   "errors": []

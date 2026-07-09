@@ -2,7 +2,7 @@
   "version": "8.3",
   "source": "MLB Stats API game feed",
   "verifiedRule": "Only plays where result.event == Home Run are included.",
-  "updatedAt": "2026-07-09T12:39:06.260803",
+  "updatedAt": "2026-07-09T12:57:26.295621",
   "days": 30,
   "dates": [
     "2026-07-09",
@@ -37,7 +37,31 @@
     "2026-06-10"
   ],
   "byDate": {
-    "2026-07-09": [],
+    "2026-07-09": [
+      {
+        "verified": true,
+        "source": "MLB Stats API game feed",
+        "date": "2026-07-09",
+        "gamePk": 823359,
+        "venue": "PNC Park",
+        "away": "ATL",
+        "home": "PIT",
+        "team": "ATL",
+        "batter": "Matt Olson",
+        "batterId": 621566,
+        "pitcher": "Mitch Keller",
+        "pitcherId": 656605,
+        "inning": 1,
+        "halfInning": "top",
+        "description": "Matt Olson homers (25) on a fly ball to right field.",
+        "rbi": 1,
+        "pitchType": "Cutter",
+        "pitchSpeed": 88.9,
+        "exitVelocity": 107.6,
+        "launchAngle": 37.0,
+        "distance": 404.0
+      }
+    ],
     "2026-07-08": [
       {
         "verified": true,
@@ -23629,7 +23653,7 @@
   "dateStatus": {
     "2026-07-09": {
       "games": 13,
-      "homeRuns": 0,
+      "homeRuns": 1,
       "errors": []
     },
     "2026-07-08": {
@@ -23779,6 +23803,29 @@
     }
   },
   "home_runs": [
+    {
+      "verified": true,
+      "source": "MLB Stats API game feed",
+      "date": "2026-07-09",
+      "gamePk": 823359,
+      "venue": "PNC Park",
+      "away": "ATL",
+      "home": "PIT",
+      "team": "ATL",
+      "batter": "Matt Olson",
+      "batterId": 621566,
+      "pitcher": "Mitch Keller",
+      "pitcherId": 656605,
+      "inning": 1,
+      "halfInning": "top",
+      "description": "Matt Olson homers (25) on a fly ball to right field.",
+      "rbi": 1,
+      "pitchType": "Cutter",
+      "pitchSpeed": 88.9,
+      "exitVelocity": 107.6,
+      "launchAngle": 37.0,
+      "distance": 404.0
+    },
     {
       "verified": true,
       "source": "MLB Stats API game feed",

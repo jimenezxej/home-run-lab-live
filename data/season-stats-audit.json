@@ -1,6 +1,6 @@
 {
   "version": "8.0",
-  "updatedAt": "2026-07-09T12:35:57.125508",
+  "updatedAt": "2026-07-09T12:54:22.487034",
   "totalHitters": 234,
   "mappedHittersPAgt0": 228,
   "missingSeasonStats": 6,
@@ -52,8 +52,8 @@
       "name": "Mangum",
       "team": "PIT",
       "resolved": "Jake Mangum",
-      "pa": 239,
-      "h": 65,
+      "pa": 240,
+      "h": 66,
       "hr": 1,
       "trusted": true
     },
@@ -61,7 +61,7 @@
       "name": "Lowe, B",
       "team": "PIT",
       "resolved": "Brandon Lowe",
-      "pa": 385,
+      "pa": 386,
       "h": 84,
       "hr": 21,
       "trusted": true
@@ -70,7 +70,7 @@
       "name": "Reynolds, B",
       "team": "PIT",
       "resolved": "Bryan Reynolds",
-      "pa": 405,
+      "pa": 406,
       "h": 95,
       "hr": 13,
       "trusted": true
@@ -79,7 +79,7 @@
       "name": "Valdez, Es",
       "team": "PIT",
       "resolved": "Esmerlyn Valdez",
-      "pa": 87,
+      "pa": 88,
       "h": 23,
       "hr": 6,
       "trusted": true
@@ -133,7 +133,7 @@
       "name": "Harris II",
       "team": "ATL",
       "resolved": "Michael Harris II",
-      "pa": 334,
+      "pa": 335,
       "h": 97,
       "hr": 16,
       "trusted": true
@@ -142,7 +142,7 @@
       "name": "Albies",
       "team": "ATL",
       "resolved": "Ozzie Albies",
-      "pa": 392,
+      "pa": 393,
       "h": 96,
       "hr": 14,
       "trusted": true
@@ -151,16 +151,16 @@
       "name": "Olson",
       "team": "ATL",
       "resolved": "Matt Olson",
-      "pa": 398,
-      "h": 96,
-      "hr": 24,
+      "pa": 399,
+      "h": 97,
+      "hr": 25,
       "trusted": true
     },
     {
       "name": "Baldwin, D",
       "team": "ATL",
       "resolved": "Drake Baldwin",
-      "pa": 301,
+      "pa": 302,
       "h": 67,
       "hr": 15,
       "trusted": true
