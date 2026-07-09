@@ -1,0 +1,27 @@
+{
+  "version": "4.5",
+  "updatedAt": "2026-07-09T02:09:38.266151",
+  "date": "2026-07-09",
+  "homeRunsTrackedToday": 0,
+  "top10": {
+    "count": 10,
+    "hits": 0,
+    "hitters": []
+  },
+  "top12": {
+    "count": 12,
+    "hits": 0,
+    "hitters": []
+  },
+  "top20": {
+    "count": 20,
+    "hits": 0,
+    "hitters": []
+  },
+  "todayHomeRunHitters": [],
+  "notes": [
+    "This starts model accountability.",
+    "Track 14-30 days before tuning weights aggressively.",
+    "Top 10-12 goal should be evaluated by actual hit rate over time, not one slate."
+  ]
+}

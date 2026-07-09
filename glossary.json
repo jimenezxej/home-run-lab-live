@@ -1,0 +1,190 @@
+{
+  "version": "5.3",
+  "sections": [
+    {
+      "title": "Core Model Scores",
+      "items": [
+        {
+          "term": "HR Edge",
+          "meaning": "Overall home run opportunity score. Combines batter power, pitcher vulnerability, zone fit, weather, park, trend, and lineup context."
+        },
+        {
+          "term": "Model Probability",
+          "meaning": "Estimated chance of a home run. This is not a guarantee. It should only rise toward elite levels when many independent factors align."
+        },
+        {
+          "term": "Stack Score",
+          "meaning": "How many key factors are lining up together. A higher stack means batter, pitcher, weather, park, and form signals agree."
+        },
+        {
+          "term": "Confidence",
+          "meaning": "How reliable the model read is based on data completeness. TBD pitchers and missing lineups reduce confidence."
+        },
+        {
+          "term": "PVI",
+          "meaning": "Pitcher Vulnerability Index. Higher means the pitcher profile is more home-run friendly."
+        }
+      ]
+    },
+    {
+      "title": "New Batter Profile Metrics",
+      "items": [
+        {
+          "term": "KHR",
+          "meaning": "Killer HR Read. A combined hitter power indicator using power, blast quality, and recent HR form."
+        },
+        {
+          "term": "Blast%",
+          "meaning": "Contact violence score based on barrel rate, max exit velocity, and hard-hit ability."
+        },
+        {
+          "term": "Zone Fit",
+          "meaning": "How well the hitter's damage profile fits the expected attack zones/pitching shape."
+        },
+        {
+          "term": "HR Form",
+          "meaning": "Recent home-run/contact momentum indicator using recent trend data."
+        },
+        {
+          "term": "Sample Size",
+          "meaning": "Amount of batter data behind the profile. Larger samples usually improve reliability."
+        },
+        {
+          "term": "ISO",
+          "meaning": "Isolated Power. Slugging percentage minus batting average. Measures extra-base hit power."
+        },
+        {
+          "term": "Matchup",
+          "meaning": "How favorable the batter's profile is against the opposing pitcher. N/A when pitcher is TBD."
+        },
+        {
+          "term": "xwOBA",
+          "meaning": "Expected weighted on-base average based on contact quality, walks, and strikeouts."
+        },
+        {
+          "term": "xwOBAcon",
+          "meaning": "Expected weighted on-base average on contact only. Useful for judging quality of batted-ball contact."
+        }
+      ]
+    },
+    {
+      "title": "Pitcher Metrics",
+      "items": [
+        {
+          "term": "HR/9",
+          "meaning": "Home runs allowed per nine innings. Higher means more home-run risk."
+        },
+        {
+          "term": "FB%",
+          "meaning": "Fly-ball percentage. More fly balls can increase home-run exposure."
+        },
+        {
+          "term": "GB%",
+          "meaning": "Ground-ball percentage. Higher GB% usually lowers home-run risk."
+        },
+        {
+          "term": "Barrel A%",
+          "meaning": "Barrel rate allowed. Barrels are the most dangerous batted-ball contact type."
+        },
+        {
+          "term": "HardHit A%",
+          "meaning": "Hard-hit rate allowed. Measures how often a pitcher allows contact at 95+ mph."
+        },
+        {
+          "term": "xERA",
+          "meaning": "Expected ERA based on quality of contact, strikeouts, and walks."
+        },
+        {
+          "term": "FIP",
+          "meaning": "Fielding Independent Pitching. Estimates pitcher performance using outcomes most controlled by the pitcher."
+        },
+        {
+          "term": "SIERA",
+          "meaning": "Skill-Interactive ERA. Advanced ERA estimator using strikeouts, walks, and batted-ball type."
+        }
+      ]
+    },
+    {
+      "title": "Weather / Park",
+      "items": [
+        {
+          "term": "Carry",
+          "meaning": "Estimated environmental help or suppression for fly-ball distance."
+        },
+        {
+          "term": "Wind Out",
+          "meaning": "Wind blowing toward the outfield. Usually helps home runs."
+        },
+        {
+          "term": "Wind In",
+          "meaning": "Wind blowing toward home plate. Usually suppresses home runs."
+        },
+        {
+          "term": "Park HR Factor",
+          "meaning": "How friendly the stadium is for home runs compared with league average."
+        }
+      ]
+    },
+    {
+      "title": "Weather / Park Terms",
+      "items": [
+        {
+          "term": "Wind Out",
+          "meaning": "Wind blowing from home plate toward the outfield. Usually helps fly balls carry farther."
+        },
+        {
+          "term": "Wind In",
+          "meaning": "Wind blowing from the outfield toward home plate. Usually suppresses fly-ball distance."
+        },
+        {
+          "term": "Crosswind",
+          "meaning": "Wind blowing across the field, such as left-to-right or right-to-left. It can help or hurt depending on spray direction."
+        },
+        {
+          "term": "Carry",
+          "meaning": "How much the weather environment helps or hurts fly-ball distance."
+        },
+        {
+          "term": "Temperature",
+          "meaning": "Warmer air is less dense and can help the ball travel farther. Cold air usually suppresses carry."
+        },
+        {
+          "term": "Humidity",
+          "meaning": "Moist air can be slightly less dense than dry air, but humidity also interacts with temperature and park conditions."
+        },
+        {
+          "term": "Dew Point",
+          "meaning": "A measure of moisture in the air. Higher dew points can indicate heavier, more humid game conditions."
+        },
+        {
+          "term": "Air Density",
+          "meaning": "How thick the air is. Lower air density generally helps baseballs travel farther."
+        },
+        {
+          "term": "Roof Status",
+          "meaning": "Whether a stadium roof is open or closed. Closed roofs reduce or remove wind/weather impact."
+        },
+        {
+          "term": "Park Factor",
+          "meaning": "How much a ballpark increases or decreases home runs compared with league average."
+        },
+        {
+          "term": "HR Park Factor",
+          "meaning": "A park-specific measure focused on home run friendliness."
+        },
+        {
+          "term": "Pull-Side Park Factor",
+          "meaning": "How favorable the park is to the hitter pull side."
+        },
+        {
+          "term": "Wall Height",
+          "meaning": "Outfield fence height. Taller walls can turn would-be home runs into doubles or outs."
+        },
+        {
+          "term": "Field Orientation",
+          "meaning": "The direction the ballpark faces. This affects how wind direction maps onto left, center, or right field."
+        }
+      ]
+    }
+  ]
+}

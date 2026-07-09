@@ -1,0 +1,404 @@
+{
+  "version": "8.3",
+  "updatedAt": "2026-07-09T12:36:00.130597",
+  "slateDate": "2026-07-09",
+  "games": [
+    {
+      "gamePk": 823359,
+      "gameDate": "2026-07-09T16:35:00Z",
+      "away": "ATL",
+      "home": "PIT",
+      "status": {
+        "abstract": "Live",
+        "coded": "I",
+        "detailed": "In Progress",
+        "boardStatus": "live",
+        "lockedForBoard": true
+      },
+      "venue": "PNC Park"
+    },
+    {
+      "gamePk": 823606,
+      "gameDate": "2026-07-09T17:10:00Z",
+      "away": "KC",
+      "home": "NYM",
+      "status": {
+        "abstract": "Preview",
+        "coded": "P",
+        "detailed": "Pre-Game",
+        "boardStatus": "pregame",
+        "lockedForBoard": false
+      },
+      "venue": "Citi Field"
+    },
+    {
+      "gamePk": 822954,
+      "gameDate": "2026-07-09T17:10:00Z",
+      "away": "NYY",
+      "home": "TB",
+      "status": {
+        "abstract": "Preview",
+        "coded": "P",
+        "detailed": "Pre-Game",
+        "boardStatus": "pregame",
+        "lockedForBoard": false
+      },
+      "venue": "Tropicana Field"
+    },
+    {
+      "gamePk": 824816,
+      "gameDate": "2026-07-09T17:35:00Z",
+      "away": "CHC",
+      "home": "BAL",
+      "status": {
+        "abstract": "Preview",
+        "coded": "P",
+        "detailed": "Pre-Game",
+        "boardStatus": "pregame",
+        "lockedForBoard": false
+      },
+      "venue": "Oriole Park at Camden Yards"
+    },
+    {
+      "gamePk": 823683,
+      "gameDate": "2026-07-09T17:40:00Z",
+      "away": "CLE",
+      "home": "MIN",
+      "status": {
+        "abstract": "Preview",
+        "coded": "P",
+        "detailed": "Pre-Game",
+        "boardStatus": "pregame",
+        "lockedForBoard": false
+      },
+      "venue": "Target Field"
+    },
+    {
+      "gamePk": 824577,
+      "gameDate": "2026-07-09T18:10:00Z",
+      "away": "BOS",
+      "home": "CWS",
+      "status": {
+        "abstract": "Preview",
+        "coded": "P",
+        "detailed": "Pre-Game",
+        "boardStatus": "pregame",
+        "lockedForBoard": false
+      },
+      "venue": "Rate Field"
+    },
+    {
+      "gamePk": 824251,
+      "gameDate": "2026-07-09T22:40:00Z",
+      "away": "ATH",
+      "home": "DET",
+      "status": {
+        "abstract": "Preview",
+        "coded": "S",
+        "detailed": "Scheduled",
+        "boardStatus": "pregame",
+        "lockedForBoard": false
+      },
+      "venue": "Comerica Park"
+    },
+    {
+      "gamePk": 823846,
+      "gameDate": "2026-07-09T22:40:00Z",
+      "away": "SEA",
+      "home": "MIA",
+      "status": {
+        "abstract": "Preview",
+        "coded": "S",
+        "detailed": "Scheduled",
+        "boardStatus": "pregame",
+        "lockedForBoard": false
+      },
+      "venue": "loanDepot park"
+    },
+    {
+      "gamePk": 824494,
+      "gameDate": "2026-07-09T23:10:00Z",
+      "away": "PHI",
+      "home": "CIN",
+      "status": {
+        "abstract": "Preview",
+        "coded": "S",
+        "detailed": "Scheduled",
+        "boardStatus": "pregame",
+        "lockedForBoard": false
+      },
+      "venue": "Great American Ball Park"
+    },
+    {
+      "gamePk": 823034,
+      "gameDate": "2026-07-09T23:45:00Z",
+      "away": "MIL",
+      "home": "STL",
+      "status": {
+        "abstract": "Preview",
+        "coded": "S",
+        "detailed": "Scheduled",
+        "boardStatus": "pregame",
+        "lockedForBoard": false
+      },
+      "venue": "Busch Stadium"
+    },
+    {
+      "gamePk": 822877,
+      "gameDate": "2026-07-10T00:05:00Z",
+      "away": "LAA",
+      "home": "TEX",
+      "status": {
+        "abstract": "Preview",
+        "coded": "S",
+        "detailed": "Scheduled",
+        "boardStatus": "pregame",
+        "lockedForBoard": false
+      },
+      "venue": "Globe Life Field"
+    },
+    {
+      "gamePk": 823277,
+      "gameDate": "2026-07-10T01:40:00Z",
+      "away": "AZ",
+      "home": "SD",
+      "status": {
+        "abstract": "Preview",
+        "coded": "S",
+        "detailed": "Scheduled",
+        "boardStatus": "pregame",
+        "lockedForBoard": false
+      },
+      "venue": "Petco Park"
+    },
+    {
+      "gamePk": 823201,
+      "gameDate": "2026-07-10T01:45:00Z",
+      "away": "COL",
+      "home": "SF",
+      "status": {
+        "abstract": "Preview",
+        "coded": "S",
+        "detailed": "Scheduled",
+        "boardStatus": "pregame",
+        "lockedForBoard": false
+      },
+      "venue": "Oracle Park"
+    }
+  ],
+  "teamState": {
+    "ATL": {
+      "gamePk": 823359,
+      "opponent": "PIT",
+      "boardStatus": "live",
+      "lockedForBoard": true,
+      "gameDate": "2026-07-09T16:35:00Z"
+    },
+    "PIT": {
+      "gamePk": 823359,
+      "opponent": "ATL",
+      "boardStatus": "live",
+      "lockedForBoard": true,
+      "gameDate": "2026-07-09T16:35:00Z"
+    },
+    "KC": {
+      "gamePk": 823606,
+      "opponent": "NYM",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T17:10:00Z"
+    },
+    "NYM": {
+      "gamePk": 823606,
+      "opponent": "KC",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T17:10:00Z"
+    },
+    "NYY": {
+      "gamePk": 822954,
+      "opponent": "TB",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T17:10:00Z"
+    },
+    "TB": {
+      "gamePk": 822954,
+      "opponent": "NYY",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T17:10:00Z"
+    },
+    "CHC": {
+      "gamePk": 824816,
+      "opponent": "BAL",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T17:35:00Z"
+    },
+    "BAL": {
+      "gamePk": 824816,
+      "opponent": "CHC",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T17:35:00Z"
+    },
+    "CLE": {
+      "gamePk": 823683,
+      "opponent": "MIN",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T17:40:00Z"
+    },
+    "MIN": {
+      "gamePk": 823683,
+      "opponent": "CLE",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T17:40:00Z"
+    },
+    "BOS": {
+      "gamePk": 824577,
+      "opponent": "CWS",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T18:10:00Z"
+    },
+    "CWS": {
+      "gamePk": 824577,
+      "opponent": "BOS",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T18:10:00Z"
+    },
+    "ATH": {
+      "gamePk": 824251,
+      "opponent": "DET",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T22:40:00Z"
+    },
+    "DET": {
+      "gamePk": 824251,
+      "opponent": "ATH",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T22:40:00Z"
+    },
+    "SEA": {
+      "gamePk": 823846,
+      "opponent": "MIA",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T22:40:00Z"
+    },
+    "MIA": {
+      "gamePk": 823846,
+      "opponent": "SEA",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T22:40:00Z"
+    },
+    "PHI": {
+      "gamePk": 824494,
+      "opponent": "CIN",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T23:10:00Z"
+    },
+    "CIN": {
+      "gamePk": 824494,
+      "opponent": "PHI",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T23:10:00Z"
+    },
+    "MIL": {
+      "gamePk": 823034,
+      "opponent": "STL",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T23:45:00Z"
+    },
+    "STL": {
+      "gamePk": 823034,
+      "opponent": "MIL",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-09T23:45:00Z"
+    },
+    "LAA": {
+      "gamePk": 822877,
+      "opponent": "TEX",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-10T00:05:00Z"
+    },
+    "TEX": {
+      "gamePk": 822877,
+      "opponent": "LAA",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-10T00:05:00Z"
+    },
+    "AZ": {
+      "gamePk": 823277,
+      "opponent": "SD",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-10T01:40:00Z"
+    },
+    "SD": {
+      "gamePk": 823277,
+      "opponent": "AZ",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-10T01:40:00Z"
+    },
+    "COL": {
+      "gamePk": 823201,
+      "opponent": "SF",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-10T01:45:00Z"
+    },
+    "SF": {
+      "gamePk": 823201,
+      "opponent": "COL",
+      "boardStatus": "pregame",
+      "lockedForBoard": false,
+      "gameDate": "2026-07-10T01:45:00Z"
+    }
+  },
+  "lockedTeams": [
+    "ATL",
+    "PIT"
+  ],
+  "activeTeams": [
+    "ATH",
+    "AZ",
+    "BAL",
+    "BOS",
+    "CHC",
+    "CIN",
+    "CLE",
+    "COL",
+    "CWS",
+    "DET",
+    "KC",
+    "LAA",
+    "MIA",
+    "MIL",
+    "MIN",
+    "NYM",
+    "NYY",
+    "PHI",
+    "SD",
+    "SEA",
+    "SF",
+    "STL",
+    "TB",
+    "TEX"
+  ],
+  "errors": []
+}

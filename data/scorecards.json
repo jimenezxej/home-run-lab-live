@@ -1,0 +1,6269 @@
+{
+  "version": "6.0.1",
+  "players": [
+    {
+      "name": "Schwarber",
+      "team": "PHI",
+      "boardTier": "Main Board",
+      "boardRankScore": 79.15,
+      "scorecard": {
+        "raw_edge": 79.09,
+        "sample_adjusted_edge": 72.31,
+        "confidence_adjusted_edge": 71.1,
+        "board_rank_score": 79.15,
+        "sample_reliability": 94,
+        "sample_size": 397,
+        "board_tier": "Main Board",
+        "season_hits": 85,
+        "season_hr": 32
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 397
+    },
+    {
+      "name": "Trout",
+      "team": "LAA",
+      "boardTier": "Main Board",
+      "boardRankScore": 73.84,
+      "scorecard": {
+        "raw_edge": 73.14,
+        "sample_adjusted_edge": 66.45,
+        "confidence_adjusted_edge": 64.59,
+        "board_rank_score": 73.84,
+        "sample_reliability": 90,
+        "sample_size": 340,
+        "board_tier": "Main Board",
+        "season_hits": 63,
+        "season_hr": 18
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 340
+    },
+    {
+      "name": "Soto, J",
+      "team": "NYM",
+      "boardTier": "Main Board",
+      "boardRankScore": 68.28,
+      "scorecard": {
+        "raw_edge": 65.6,
+        "sample_adjusted_edge": 59.73,
+        "confidence_adjusted_edge": 57.89,
+        "board_rank_score": 68.28,
+        "sample_reliability": 89,
+        "sample_size": 318,
+        "board_tier": "Main Board",
+        "season_hits": 78,
+        "season_hr": 20
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 318
+    },
+    {
+      "name": "Olson",
+      "team": "ATL",
+      "boardTier": "Main Board",
+      "boardRankScore": 67.46,
+      "scorecard": {
+        "raw_edge": 62.86,
+        "sample_adjusted_edge": 57.73,
+        "confidence_adjusted_edge": 56.76,
+        "board_rank_score": 67.46,
+        "sample_reliability": 94,
+        "sample_size": 398,
+        "board_tier": "Main Board",
+        "season_hits": 96,
+        "season_hr": 24
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 398
+    },
+    {
+      "name": "Alonso",
+      "team": "BAL",
+      "boardTier": "Main Board",
+      "boardRankScore": 65.76,
+      "scorecard": {
+        "raw_edge": 60.55,
+        "sample_adjusted_edge": 55.62,
+        "confidence_adjusted_edge": 54.69,
+        "board_rank_score": 65.76,
+        "sample_reliability": 94,
+        "sample_size": 402,
+        "board_tier": "Main Board",
+        "season_hits": 87,
+        "season_hr": 20
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 402
+    },
+    {
+      "name": "Langeliers",
+      "team": "ATH",
+      "boardTier": "Main Board",
+      "boardRankScore": 65.51,
+      "scorecard": {
+        "raw_edge": 59.76,
+        "sample_adjusted_edge": 54.8,
+        "confidence_adjusted_edge": 53.57,
+        "board_rank_score": 65.51,
+        "sample_reliability": 92,
+        "sample_size": 371,
+        "board_tier": "Main Board",
+        "season_hits": 88,
+        "season_hr": 20
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 371
+    },
+    {
+      "name": "Clemens",
+      "team": "MIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 65.3,
+      "scorecard": {
+        "raw_edge": 61.69,
+        "sample_adjusted_edge": 56.8,
+        "confidence_adjusted_edge": 55.06,
+        "board_rank_score": 65.3,
+        "sample_reliability": 89,
+        "sample_size": 315,
+        "board_tier": "Main Board",
+        "season_hits": 73,
+        "season_hr": 16
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 315
+    },
+    {
+      "name": "De La Cruz, E",
+      "team": "CIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 63.26,
+      "scorecard": {
+        "raw_edge": 58.35,
+        "sample_adjusted_edge": 52.54,
+        "confidence_adjusted_edge": 50.92,
+        "board_rank_score": 63.26,
+        "sample_reliability": 89,
+        "sample_size": 321,
+        "board_tier": "Main Board",
+        "season_hits": 78,
+        "season_hr": 14
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 321
+    },
+    {
+      "name": "Bell",
+      "team": "MIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 63.24,
+      "scorecard": {
+        "raw_edge": 57.12,
+        "sample_adjusted_edge": 52.87,
+        "confidence_adjusted_edge": 51.69,
+        "board_rank_score": 63.24,
+        "sample_reliability": 92,
+        "sample_size": 359,
+        "board_tier": "Main Board",
+        "season_hits": 82,
+        "season_hr": 13
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 359
+    },
+    {
+      "name": "Caminero",
+      "team": "TB",
+      "boardTier": "Main Board",
+      "boardRankScore": 62.5,
+      "scorecard": {
+        "raw_edge": 55.29,
+        "sample_adjusted_edge": 50.76,
+        "confidence_adjusted_edge": 49.77,
+        "board_rank_score": 62.5,
+        "sample_reliability": 93,
+        "sample_size": 393,
+        "board_tier": "Main Board",
+        "season_hits": 95,
+        "season_hr": 26
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 393
+    },
+    {
+      "name": "Caglianone",
+      "team": "KC",
+      "boardTier": "Main Board",
+      "boardRankScore": 62.3,
+      "scorecard": {
+        "raw_edge": 57.2,
+        "sample_adjusted_edge": 52.39,
+        "confidence_adjusted_edge": 50.93,
+        "board_rank_score": 62.3,
+        "sample_reliability": 90,
+        "sample_size": 333,
+        "board_tier": "Main Board",
+        "season_hits": 78,
+        "season_hr": 14
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 333
+    },
+    {
+      "name": "Vargas, M",
+      "team": "CWS",
+      "boardTier": "Main Board",
+      "boardRankScore": 62.2,
+      "scorecard": {
+        "raw_edge": 60.28,
+        "sample_adjusted_edge": 52.45,
+        "confidence_adjusted_edge": 51.42,
+        "board_rank_score": 62.2,
+        "sample_reliability": 93,
+        "sample_size": 392,
+        "board_tier": "Main Board",
+        "season_hits": 79,
+        "season_hr": 20
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 392
+    },
+    {
+      "name": "Greene, R",
+      "team": "DET",
+      "boardTier": "Main Board",
+      "boardRankScore": 62.2,
+      "scorecard": {
+        "raw_edge": 55.67,
+        "sample_adjusted_edge": 51.15,
+        "confidence_adjusted_edge": 50.15,
+        "board_rank_score": 62.2,
+        "sample_reliability": 93,
+        "sample_size": 384,
+        "board_tier": "Main Board",
+        "season_hits": 97,
+        "season_hr": 13
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 384
+    },
+    {
+      "name": "Witt Jr.",
+      "team": "KC",
+      "boardTier": "Main Board",
+      "boardRankScore": 61.93,
+      "scorecard": {
+        "raw_edge": 55.73,
+        "sample_adjusted_edge": 51.32,
+        "confidence_adjusted_edge": 50.32,
+        "board_rank_score": 61.93,
+        "sample_reliability": 93,
+        "sample_size": 386,
+        "board_tier": "Main Board",
+        "season_hits": 99,
+        "season_hr": 12
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 386
+    },
+    {
+      "name": "Devers",
+      "team": "SF",
+      "boardTier": "Main Board",
+      "boardRankScore": 61.44,
+      "scorecard": {
+        "raw_edge": 55.58,
+        "sample_adjusted_edge": 51.19,
+        "confidence_adjusted_edge": 50.19,
+        "board_rank_score": 61.44,
+        "sample_reliability": 93,
+        "sample_size": 389,
+        "board_tier": "Main Board",
+        "season_hits": 86,
+        "season_hr": 18
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 389
+    },
+    {
+      "name": "Mitchell",
+      "team": "MIL",
+      "boardTier": "Main Board",
+      "boardRankScore": 61.3,
+      "scorecard": {
+        "raw_edge": 57.58,
+        "sample_adjusted_edge": 51.66,
+        "confidence_adjusted_edge": 49.78,
+        "board_rank_score": 61.3,
+        "sample_reliability": 87,
+        "sample_size": 293,
+        "board_tier": "Main Board",
+        "season_hits": 70,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 293
+    },
+    {
+      "name": "Rice",
+      "team": "NYY",
+      "boardTier": "Main Board",
+      "boardRankScore": 61.17,
+      "scorecard": {
+        "raw_edge": 54.66,
+        "sample_adjusted_edge": 50.31,
+        "confidence_adjusted_edge": 49.19,
+        "board_rank_score": 61.17,
+        "sample_reliability": 92,
+        "sample_size": 372,
+        "board_tier": "Main Board",
+        "season_hits": 88,
+        "season_hr": 26
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 372
+    },
+    {
+      "name": "Bauers",
+      "team": "MIL",
+      "boardTier": "Main Board",
+      "boardRankScore": 60.88,
+      "scorecard": {
+        "raw_edge": 54.28,
+        "sample_adjusted_edge": 49.42,
+        "confidence_adjusted_edge": 48.04,
+        "board_rank_score": 60.88,
+        "sample_reliability": 90,
+        "sample_size": 329,
+        "board_tier": "Main Board",
+        "season_hits": 75,
+        "season_hr": 16
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 329
+    },
+    {
+      "name": "Torkelson",
+      "team": "DET",
+      "boardTier": "Main Board",
+      "boardRankScore": 60.52,
+      "scorecard": {
+        "raw_edge": 53.37,
+        "sample_adjusted_edge": 49.06,
+        "confidence_adjusted_edge": 47.82,
+        "board_rank_score": 60.52,
+        "sample_reliability": 91,
+        "sample_size": 356,
+        "board_tier": "Main Board",
+        "season_hits": 66,
+        "season_hr": 15
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 356
+    },
+    {
+      "name": "Ramos, H",
+      "team": "SF",
+      "boardTier": "Main Board",
+      "boardRankScore": 60.49,
+      "scorecard": {
+        "raw_edge": 60.98,
+        "sample_adjusted_edge": 54.34,
+        "confidence_adjusted_edge": 50.99,
+        "board_rank_score": 60.49,
+        "sample_reliability": 78,
+        "sample_size": 218,
+        "board_tier": "Main Board",
+        "season_hits": 57,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 218
+    },
+    {
+      "name": "Marte, K",
+      "team": "ARI",
+      "boardTier": "Main Board",
+      "boardRankScore": 60.02,
+      "scorecard": {
+        "raw_edge": 54.43,
+        "sample_adjusted_edge": 50.52,
+        "confidence_adjusted_edge": 49.53,
+        "board_rank_score": 60.02,
+        "sample_reliability": 93,
+        "sample_size": 387,
+        "board_tier": "Main Board",
+        "season_hits": 94,
+        "season_hr": 17
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 387
+    },
+    {
+      "name": "Tatis Jr.",
+      "team": "SD",
+      "boardTier": "Main Board",
+      "boardRankScore": 59.92,
+      "scorecard": {
+        "raw_edge": 53.49,
+        "sample_adjusted_edge": 49.57,
+        "confidence_adjusted_edge": 48.74,
+        "board_rank_score": 59.92,
+        "sample_reliability": 94,
+        "sample_size": 398,
+        "board_tier": "Main Board",
+        "season_hits": 101,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 398
+    },
+    {
+      "name": "Harper, B",
+      "team": "PHI",
+      "boardTier": "Main Board",
+      "boardRankScore": 59.07,
+      "scorecard": {
+        "raw_edge": 54.2,
+        "sample_adjusted_edge": 50.3,
+        "confidence_adjusted_edge": 49.32,
+        "board_rank_score": 59.07,
+        "sample_reliability": 93,
+        "sample_size": 391,
+        "board_tier": "Main Board",
+        "season_hits": 86,
+        "season_hr": 20
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 391
+    },
+    {
+      "name": "Baldwin, D",
+      "team": "ATL",
+      "boardTier": "Main Board",
+      "boardRankScore": 58.6,
+      "scorecard": {
+        "raw_edge": 54.06,
+        "sample_adjusted_edge": 49.72,
+        "confidence_adjusted_edge": 47.91,
+        "board_rank_score": 58.6,
+        "sample_reliability": 87,
+        "sample_size": 301,
+        "board_tier": "Main Board",
+        "season_hits": 67,
+        "season_hr": 15
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 301
+    },
+    {
+      "name": "Eldridge",
+      "team": "SF",
+      "boardTier": "Main Board",
+      "boardRankScore": 58.38,
+      "scorecard": {
+        "raw_edge": 59.12,
+        "sample_adjusted_edge": 52.61,
+        "confidence_adjusted_edge": 48.93,
+        "board_rank_score": 58.38,
+        "sample_reliability": 75,
+        "sample_size": 200,
+        "board_tier": "Main Board",
+        "season_hits": 47,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 200
+    },
+    {
+      "name": "Crow-Armstrong",
+      "team": "CHC",
+      "boardTier": "Main Board",
+      "boardRankScore": 57.85,
+      "scorecard": {
+        "raw_edge": 51.36,
+        "sample_adjusted_edge": 47.56,
+        "confidence_adjusted_edge": 46.76,
+        "board_rank_score": 57.85,
+        "sample_reliability": 94,
+        "sample_size": 400,
+        "board_tier": "Main Board",
+        "season_hits": 102,
+        "season_hr": 21
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 400
+    },
+    {
+      "name": "Canzone",
+      "team": "SEA",
+      "boardTier": "Main Board",
+      "boardRankScore": 57.84,
+      "scorecard": {
+        "raw_edge": 55.91,
+        "sample_adjusted_edge": 50.77,
+        "confidence_adjusted_edge": 48.07,
+        "board_rank_score": 57.84,
+        "sample_reliability": 81,
+        "sample_size": 241,
+        "board_tier": "Main Board",
+        "season_hits": 57,
+        "season_hr": 14
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 241
+    },
+    {
+      "name": "Harris II",
+      "team": "ATL",
+      "boardTier": "Main Board",
+      "boardRankScore": 57.18,
+      "scorecard": {
+        "raw_edge": 51.98,
+        "sample_adjusted_edge": 48.1,
+        "confidence_adjusted_edge": 46.75,
+        "board_rank_score": 57.18,
+        "sample_reliability": 90,
+        "sample_size": 334,
+        "board_tier": "Main Board",
+        "season_hits": 97,
+        "season_hr": 16
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 334
+    },
+    {
+      "name": "Stowers",
+      "team": "MIA",
+      "boardTier": "Main Board",
+      "boardRankScore": 57.15,
+      "scorecard": {
+        "raw_edge": 52.41,
+        "sample_adjusted_edge": 47.38,
+        "confidence_adjusted_edge": 45.53,
+        "board_rank_score": 57.15,
+        "sample_reliability": 86,
+        "sample_size": 290,
+        "board_tier": "Main Board",
+        "season_hits": 62,
+        "season_hr": 12
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 290
+    },
+    {
+      "name": "Carroll",
+      "team": "ARI",
+      "boardTier": "Main Board",
+      "boardRankScore": 56.02,
+      "scorecard": {
+        "raw_edge": 48.58,
+        "sample_adjusted_edge": 45.46,
+        "confidence_adjusted_edge": 44.57,
+        "board_rank_score": 56.02,
+        "sample_reliability": 93,
+        "sample_size": 380,
+        "board_tier": "Main Board",
+        "season_hits": 86,
+        "season_hr": 13
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 380
+    },
+    {
+      "name": "Neto",
+      "team": "LAA",
+      "boardTier": "Main Board",
+      "boardRankScore": 55.96,
+      "scorecard": {
+        "raw_edge": 46.59,
+        "sample_adjusted_edge": 43.46,
+        "confidence_adjusted_edge": 42.73,
+        "board_rank_score": 55.96,
+        "sample_reliability": 94,
+        "sample_size": 405,
+        "board_tier": "Main Board",
+        "season_hits": 83,
+        "season_hr": 19
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 405
+    },
+    {
+      "name": "Lowe, B",
+      "team": "PIT",
+      "boardTier": "Main Board",
+      "boardRankScore": 55.77,
+      "scorecard": {
+        "raw_edge": 48.58,
+        "sample_adjusted_edge": 44.98,
+        "confidence_adjusted_edge": 44.1,
+        "board_rank_score": 55.77,
+        "sample_reliability": 93,
+        "sample_size": 385,
+        "board_tier": "Main Board",
+        "season_hits": 84,
+        "season_hr": 21
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 385
+    },
+    {
+      "name": "Mayo",
+      "team": "BAL",
+      "boardTier": "Main Board",
+      "boardRankScore": 55.64,
+      "scorecard": {
+        "raw_edge": 50.86,
+        "sample_adjusted_edge": 46.53,
+        "confidence_adjusted_edge": 44.06,
+        "board_rank_score": 55.64,
+        "sample_reliability": 81,
+        "sample_size": 241,
+        "board_tier": "Main Board",
+        "season_hits": 42,
+        "season_hr": 11
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 241
+    },
+    {
+      "name": "Basallo",
+      "team": "BAL",
+      "boardTier": "Main Board",
+      "boardRankScore": 55.54,
+      "scorecard": {
+        "raw_edge": 50.56,
+        "sample_adjusted_edge": 46.7,
+        "confidence_adjusted_edge": 44.87,
+        "board_rank_score": 55.54,
+        "sample_reliability": 86,
+        "sample_size": 285,
+        "board_tier": "Main Board",
+        "season_hits": 65,
+        "season_hr": 14
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 285
+    },
+    {
+      "name": "Montgomery, C",
+      "team": "CWS",
+      "boardTier": "Main Board",
+      "boardRankScore": 54.75,
+      "scorecard": {
+        "raw_edge": 50.61,
+        "sample_adjusted_edge": 44.44,
+        "confidence_adjusted_edge": 43.45,
+        "board_rank_score": 54.75,
+        "sample_reliability": 92,
+        "sample_size": 364,
+        "board_tier": "Main Board",
+        "season_hits": 71,
+        "season_hr": 23
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 364
+    },
+    {
+      "name": "Hern\u00e1ndez, H",
+      "team": "MIA",
+      "boardTier": "Main Board",
+      "boardRankScore": 53.6,
+      "scorecard": {
+        "raw_edge": 50.63,
+        "sample_adjusted_edge": 45.49,
+        "confidence_adjusted_edge": 42.56,
+        "board_rank_score": 53.6,
+        "sample_reliability": 77,
+        "sample_size": 212,
+        "board_tier": "Main Board",
+        "season_hits": 45,
+        "season_hr": 12
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 212
+    },
+    {
+      "name": "Keith",
+      "team": "DET",
+      "boardTier": "Main Board",
+      "boardRankScore": 53.43,
+      "scorecard": {
+        "raw_edge": 44.73,
+        "sample_adjusted_edge": 41.68,
+        "confidence_adjusted_edge": 39.81,
+        "board_rank_score": 53.43,
+        "sample_reliability": 84,
+        "sample_size": 262,
+        "board_tier": "Main Board",
+        "season_hits": 61,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 262
+    },
+    {
+      "name": "Soderstrom",
+      "team": "ATH",
+      "boardTier": "Main Board",
+      "boardRankScore": 53.25,
+      "scorecard": {
+        "raw_edge": 44.21,
+        "sample_adjusted_edge": 41.56,
+        "confidence_adjusted_edge": 40.4,
+        "board_rank_score": 53.25,
+        "sample_reliability": 90,
+        "sample_size": 339,
+        "board_tier": "Main Board",
+        "season_hits": 71,
+        "season_hr": 13
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 339
+    },
+    {
+      "name": "Reynolds, B",
+      "team": "PIT",
+      "boardTier": "Main Board",
+      "boardRankScore": 53.05,
+      "scorecard": {
+        "raw_edge": 44.3,
+        "sample_adjusted_edge": 41.21,
+        "confidence_adjusted_edge": 40.52,
+        "board_rank_score": 53.05,
+        "sample_reliability": 94,
+        "sample_size": 405,
+        "board_tier": "Main Board",
+        "season_hits": 95,
+        "season_hr": 13
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 405
+    },
+    {
+      "name": "Schmitt",
+      "team": "SF",
+      "boardTier": "Main Board",
+      "boardRankScore": 52.91,
+      "scorecard": {
+        "raw_edge": 45.08,
+        "sample_adjusted_edge": 42.23,
+        "confidence_adjusted_edge": 41.17,
+        "board_rank_score": 52.91,
+        "sample_reliability": 91,
+        "sample_size": 352,
+        "board_tier": "Main Board",
+        "season_hits": 92,
+        "season_hr": 17
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 352
+    },
+    {
+      "name": "Burleson",
+      "team": "STL",
+      "boardTier": "Main Board",
+      "boardRankScore": 52.89,
+      "scorecard": {
+        "raw_edge": 45.02,
+        "sample_adjusted_edge": 41.8,
+        "confidence_adjusted_edge": 40.98,
+        "board_rank_score": 52.89,
+        "sample_reliability": 93,
+        "sample_size": 383,
+        "board_tier": "Main Board",
+        "season_hits": 96,
+        "season_hr": 15
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 383
+    },
+    {
+      "name": "Marsh",
+      "team": "PHI",
+      "boardTier": "Main Board",
+      "boardRankScore": 52.71,
+      "scorecard": {
+        "raw_edge": 44.36,
+        "sample_adjusted_edge": 41.73,
+        "confidence_adjusted_edge": 40.67,
+        "board_rank_score": 52.71,
+        "sample_reliability": 91,
+        "sample_size": 347,
+        "board_tier": "Main Board",
+        "season_hits": 99,
+        "season_hr": 15
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 347
+    },
+    {
+      "name": "Perez, S",
+      "team": "KC",
+      "boardTier": "Main Board",
+      "boardRankScore": 51.92,
+      "scorecard": {
+        "raw_edge": 41.06,
+        "sample_adjusted_edge": 38.48,
+        "confidence_adjusted_edge": 37.62,
+        "board_rank_score": 51.92,
+        "sample_reliability": 92,
+        "sample_size": 359,
+        "board_tier": "Main Board",
+        "season_hits": 71,
+        "season_hr": 11
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 359
+    },
+    {
+      "name": "Carpenter",
+      "team": "DET",
+      "boardTier": "Main Board",
+      "boardRankScore": 51.9,
+      "scorecard": {
+        "raw_edge": 45.36,
+        "sample_adjusted_edge": 42.64,
+        "confidence_adjusted_edge": 40.14,
+        "board_rank_score": 51.9,
+        "sample_reliability": 79,
+        "sample_size": 224,
+        "board_tier": "Main Board",
+        "season_hits": 45,
+        "season_hr": 13
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 224
+    },
+    {
+      "name": "Raley, L",
+      "team": "SEA",
+      "boardTier": "Main Board",
+      "boardRankScore": 51.9,
+      "scorecard": {
+        "raw_edge": 47.08,
+        "sample_adjusted_edge": 43.79,
+        "confidence_adjusted_edge": 41.59,
+        "board_rank_score": 51.9,
+        "sample_reliability": 82,
+        "sample_size": 249,
+        "board_tier": "Main Board",
+        "season_hits": 52,
+        "season_hr": 14
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 249
+    },
+    {
+      "name": "Lewis, R",
+      "team": "MIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 51.86,
+      "scorecard": {
+        "raw_edge": 44.0,
+        "sample_adjusted_edge": 42.52,
+        "confidence_adjusted_edge": 40.26,
+        "board_rank_score": 51.86,
+        "sample_reliability": 81,
+        "sample_size": 241,
+        "board_tier": "Main Board",
+        "season_hits": 45,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 241
+    },
+    {
+      "name": "Chourio, J",
+      "team": "MIL",
+      "boardTier": "Main Board",
+      "boardRankScore": 51.33,
+      "scorecard": {
+        "raw_edge": 45.26,
+        "sample_adjusted_edge": 41.7,
+        "confidence_adjusted_edge": 39.83,
+        "board_rank_score": 51.33,
+        "sample_reliability": 84,
+        "sample_size": 267,
+        "board_tier": "Main Board",
+        "season_hits": 69,
+        "season_hr": 13
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 267
+    },
+    {
+      "name": "Ewing",
+      "team": "NYM",
+      "boardTier": "Main Board",
+      "boardRankScore": 51.1,
+      "scorecard": {
+        "raw_edge": 43.47,
+        "sample_adjusted_edge": 40.84,
+        "confidence_adjusted_edge": 38.1,
+        "board_rank_score": 51.1,
+        "sample_reliability": 76,
+        "sample_size": 205,
+        "board_tier": "Main Board",
+        "season_hits": 50,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 205
+    },
+    {
+      "name": "McMahon",
+      "team": "NYY",
+      "boardTier": "Main Board",
+      "boardRankScore": 51.03,
+      "scorecard": {
+        "raw_edge": 44.89,
+        "sample_adjusted_edge": 41.32,
+        "confidence_adjusted_edge": 38.65,
+        "board_rank_score": 51.03,
+        "sample_reliability": 77,
+        "sample_size": 213,
+        "board_tier": "Main Board",
+        "season_hits": 41,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 213
+    },
+    {
+      "name": "Sheets",
+      "team": "SD",
+      "boardTier": "Main Board",
+      "boardRankScore": 50.84,
+      "scorecard": {
+        "raw_edge": 41.29,
+        "sample_adjusted_edge": 39.74,
+        "confidence_adjusted_edge": 38.41,
+        "board_rank_score": 50.84,
+        "sample_reliability": 88,
+        "sample_size": 306,
+        "board_tier": "Main Board",
+        "season_hits": 62,
+        "season_hr": 14
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 306
+    },
+    {
+      "name": "O'Hearn",
+      "team": "PIT",
+      "boardTier": "Main Board",
+      "boardRankScore": 50.77,
+      "scorecard": {
+        "raw_edge": 40.55,
+        "sample_adjusted_edge": 38.11,
+        "confidence_adjusted_edge": 36.93,
+        "board_rank_score": 50.77,
+        "sample_reliability": 89,
+        "sample_size": 323,
+        "board_tier": "Main Board",
+        "season_hits": 86,
+        "season_hr": 16
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 323
+    },
+    {
+      "name": "Larnach",
+      "team": "MIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 50.7,
+      "scorecard": {
+        "raw_edge": 40.8,
+        "sample_adjusted_edge": 39.81,
+        "confidence_adjusted_edge": 38.14,
+        "board_rank_score": 50.7,
+        "sample_reliability": 85,
+        "sample_size": 275,
+        "board_tier": "Main Board",
+        "season_hits": 68,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 275
+    },
+    {
+      "name": "Burger",
+      "team": "TEX",
+      "boardTier": "Main Board",
+      "boardRankScore": 50.55,
+      "scorecard": {
+        "raw_edge": 39.54,
+        "sample_adjusted_edge": 37.34,
+        "confidence_adjusted_edge": 36.4,
+        "board_rank_score": 50.55,
+        "sample_reliability": 91,
+        "sample_size": 357,
+        "board_tier": "Main Board",
+        "season_hits": 79,
+        "season_hr": 15
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 357
+    },
+    {
+      "name": "Valdez, Es",
+      "team": "PIT",
+      "boardTier": "Main Board",
+      "boardRankScore": 50.51,
+      "scorecard": {
+        "raw_edge": 61.94,
+        "sample_adjusted_edge": 51.04,
+        "confidence_adjusted_edge": 43.18,
+        "board_rank_score": 50.51,
+        "sample_reliability": 45,
+        "sample_size": 87,
+        "board_tier": "Main Board",
+        "season_hits": 23,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 87
+    },
+    {
+      "name": "Alvarez, F",
+      "team": "NYM",
+      "boardTier": "Main Board",
+      "boardRankScore": 50.44,
+      "scorecard": {
+        "raw_edge": 43.85,
+        "sample_adjusted_edge": 40.93,
+        "confidence_adjusted_edge": 38.41,
+        "board_rank_score": 50.44,
+        "sample_reliability": 78,
+        "sample_size": 220,
+        "board_tier": "Main Board",
+        "season_hits": 50,
+        "season_hr": 9
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 220
+    },
+    {
+      "name": "Stewart, S",
+      "team": "CIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 50.42,
+      "scorecard": {
+        "raw_edge": 41.08,
+        "sample_adjusted_edge": 38.23,
+        "confidence_adjusted_edge": 37.48,
+        "board_rank_score": 50.42,
+        "sample_reliability": 93,
+        "sample_size": 396,
+        "board_tier": "Main Board",
+        "season_hits": 89,
+        "season_hr": 19
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 396
+    },
+    {
+      "name": "Foscue",
+      "team": "TEX",
+      "boardTier": "Main Board",
+      "boardRankScore": 50.19,
+      "scorecard": {
+        "raw_edge": 52.16,
+        "sample_adjusted_edge": 47.67,
+        "confidence_adjusted_edge": 41.4,
+        "board_rank_score": 50.19,
+        "sample_reliability": 53,
+        "sample_size": 109,
+        "board_tier": "Main Board",
+        "season_hits": 27,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 109
+    },
+    {
+      "name": "Adell",
+      "team": "LAA",
+      "boardTier": "Main Board",
+      "boardRankScore": 50.15,
+      "scorecard": {
+        "raw_edge": 38.66,
+        "sample_adjusted_edge": 36.56,
+        "confidence_adjusted_edge": 35.84,
+        "board_rank_score": 50.15,
+        "sample_reliability": 93,
+        "sample_size": 385,
+        "board_tier": "Main Board",
+        "season_hits": 90,
+        "season_hr": 13
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 385
+    },
+    {
+      "name": "Merrill",
+      "team": "SD",
+      "boardTier": "Main Board",
+      "boardRankScore": 50.13,
+      "scorecard": {
+        "raw_edge": 39.18,
+        "sample_adjusted_edge": 37.27,
+        "confidence_adjusted_edge": 36.44,
+        "board_rank_score": 50.13,
+        "sample_reliability": 92,
+        "sample_size": 374,
+        "board_tier": "Main Board",
+        "season_hits": 76,
+        "season_hr": 10
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 374
+    },
+    {
+      "name": "O'Neill",
+      "team": "BAL",
+      "boardTier": "Main Board",
+      "boardRankScore": 49.71,
+      "scorecard": {
+        "raw_edge": 44.76,
+        "sample_adjusted_edge": 41.99,
+        "confidence_adjusted_edge": 38.23,
+        "board_rank_score": 49.71,
+        "sample_reliability": 68,
+        "sample_size": 166,
+        "board_tier": "Main Board",
+        "season_hits": 28,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 166
+    },
+    {
+      "name": "Thomas, L",
+      "team": "KC",
+      "boardTier": "Main Board",
+      "boardRankScore": 49.52,
+      "scorecard": {
+        "raw_edge": 38.07,
+        "sample_adjusted_edge": 36.77,
+        "confidence_adjusted_edge": 35.02,
+        "board_rank_score": 49.52,
+        "sample_reliability": 83,
+        "sample_size": 253,
+        "board_tier": "Main Board",
+        "season_hits": 50,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 253
+    },
+    {
+      "name": "O'Hoppe",
+      "team": "LAA",
+      "boardTier": "Main Board",
+      "boardRankScore": 49.29,
+      "scorecard": {
+        "raw_edge": 40.09,
+        "sample_adjusted_edge": 38.63,
+        "confidence_adjusted_edge": 36.25,
+        "board_rank_score": 49.29,
+        "sample_reliability": 78,
+        "sample_size": 221,
+        "board_tier": "Main Board",
+        "season_hits": 45,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 221
+    },
+    {
+      "name": "Happ",
+      "team": "CHC",
+      "boardTier": "Main Board",
+      "boardRankScore": 49.09,
+      "scorecard": {
+        "raw_edge": 39.06,
+        "sample_adjusted_edge": 36.78,
+        "confidence_adjusted_edge": 36.06,
+        "board_rank_score": 49.09,
+        "sample_reliability": 93,
+        "sample_size": 381,
+        "board_tier": "Main Board",
+        "season_hits": 71,
+        "season_hr": 17
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 381
+    },
+    {
+      "name": "Moreno",
+      "team": "ARI",
+      "boardTier": "Main Board",
+      "boardRankScore": 48.97,
+      "scorecard": {
+        "raw_edge": 39.42,
+        "sample_adjusted_edge": 38.64,
+        "confidence_adjusted_edge": 36.8,
+        "board_rank_score": 48.97,
+        "sample_reliability": 83,
+        "sample_size": 257,
+        "board_tier": "Main Board",
+        "season_hits": 65,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 257
+    },
+    {
+      "name": "Suzuki",
+      "team": "CHC",
+      "boardTier": "Main Board",
+      "boardRankScore": 48.93,
+      "scorecard": {
+        "raw_edge": 39.05,
+        "sample_adjusted_edge": 37.05,
+        "confidence_adjusted_edge": 35.9,
+        "board_rank_score": 48.93,
+        "sample_reliability": 89,
+        "sample_size": 325,
+        "board_tier": "Main Board",
+        "season_hits": 74,
+        "season_hr": 14
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 325
+    },
+    {
+      "name": "Grisham",
+      "team": "NYY",
+      "boardTier": "Main Board",
+      "boardRankScore": 48.83,
+      "scorecard": {
+        "raw_edge": 38.73,
+        "sample_adjusted_edge": 36.83,
+        "confidence_adjusted_edge": 35.39,
+        "board_rank_score": 48.83,
+        "sample_reliability": 86,
+        "sample_size": 285,
+        "board_tier": "Main Board",
+        "season_hits": 56,
+        "season_hr": 9
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 285
+    },
+    {
+      "name": "Vientos",
+      "team": "NYM",
+      "boardTier": "Main Board",
+      "boardRankScore": 48.71,
+      "scorecard": {
+        "raw_edge": 38.92,
+        "sample_adjusted_edge": 36.99,
+        "confidence_adjusted_edge": 35.23,
+        "board_rank_score": 48.71,
+        "sample_reliability": 83,
+        "sample_size": 253,
+        "board_tier": "Main Board",
+        "season_hits": 50,
+        "season_hr": 11
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 253
+    },
+    {
+      "name": "Abreu, W",
+      "team": "BOS",
+      "boardTier": "Main Board",
+      "boardRankScore": 48.24,
+      "scorecard": {
+        "raw_edge": 37.74,
+        "sample_adjusted_edge": 35.65,
+        "confidence_adjusted_edge": 34.95,
+        "board_rank_score": 48.24,
+        "sample_reliability": 93,
+        "sample_size": 383,
+        "board_tier": "Main Board",
+        "season_hits": 88,
+        "season_hr": 10
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 383
+    },
+    {
+      "name": "Siri",
+      "team": "LAA",
+      "boardTier": "Main Board",
+      "boardRankScore": 48.19,
+      "scorecard": {
+        "raw_edge": 49.08,
+        "sample_adjusted_edge": 46.17,
+        "confidence_adjusted_edge": 39.45,
+        "board_rank_score": 48.19,
+        "sample_reliability": 48,
+        "sample_size": 95,
+        "board_tier": "Main Board",
+        "season_hits": 22,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 95
+    },
+    {
+      "name": "Bolte",
+      "team": "ATH",
+      "boardTier": "Main Board",
+      "boardRankScore": 48.06,
+      "scorecard": {
+        "raw_edge": 40.15,
+        "sample_adjusted_edge": 38.88,
+        "confidence_adjusted_edge": 35.94,
+        "board_rank_score": 48.06,
+        "sample_reliability": 73,
+        "sample_size": 190,
+        "board_tier": "Main Board",
+        "season_hits": 46,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 190
+    },
+    {
+      "name": "Grichuk",
+      "team": "CWS",
+      "boardTier": "Main Board",
+      "boardRankScore": 47.77,
+      "scorecard": {
+        "raw_edge": 50.06,
+        "sample_adjusted_edge": 44.26,
+        "confidence_adjusted_edge": 39.43,
+        "board_rank_score": 47.77,
+        "sample_reliability": 61,
+        "sample_size": 138,
+        "board_tier": "Main Board",
+        "season_hits": 33,
+        "season_hr": 9
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 138
+    },
+    {
+      "name": "Riley, A",
+      "team": "ATL",
+      "boardTier": "Main Board",
+      "boardRankScore": 47.72,
+      "scorecard": {
+        "raw_edge": 36.65,
+        "sample_adjusted_edge": 34.73,
+        "confidence_adjusted_edge": 33.95,
+        "board_rank_score": 47.72,
+        "sample_reliability": 92,
+        "sample_size": 368,
+        "board_tier": "Main Board",
+        "season_hits": 69,
+        "season_hr": 9
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 368
+    },
+    {
+      "name": "D\u00edaz, Y",
+      "team": "TB",
+      "boardTier": "Main Board",
+      "boardRankScore": 47.62,
+      "scorecard": {
+        "raw_edge": 35.61,
+        "sample_adjusted_edge": 33.63,
+        "confidence_adjusted_edge": 32.97,
+        "board_rank_score": 47.62,
+        "sample_reliability": 93,
+        "sample_size": 376,
+        "board_tier": "Main Board",
+        "season_hits": 107,
+        "season_hr": 13
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 376
+    },
+    {
+      "name": "Aranda",
+      "team": "TB",
+      "boardTier": "Main Board",
+      "boardRankScore": 47.18,
+      "scorecard": {
+        "raw_edge": 34.86,
+        "sample_adjusted_edge": 32.96,
+        "confidence_adjusted_edge": 32.32,
+        "board_rank_score": 47.18,
+        "sample_reliability": 93,
+        "sample_size": 388,
+        "board_tier": "Main Board",
+        "season_hits": 92,
+        "season_hr": 13
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 388
+    },
+    {
+      "name": "Busch",
+      "team": "CHC",
+      "boardTier": "Main Board",
+      "boardRankScore": 47.08,
+      "scorecard": {
+        "raw_edge": 35.69,
+        "sample_adjusted_edge": 33.71,
+        "confidence_adjusted_edge": 33.15,
+        "board_rank_score": 47.08,
+        "sample_reliability": 94,
+        "sample_size": 408,
+        "board_tier": "Main Board",
+        "season_hits": 77,
+        "season_hr": 11
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 408
+    },
+    {
+      "name": "Adames",
+      "team": "SF",
+      "boardTier": "Main Board",
+      "boardRankScore": 47.07,
+      "scorecard": {
+        "raw_edge": 35.62,
+        "sample_adjusted_edge": 33.94,
+        "confidence_adjusted_edge": 33.18,
+        "board_rank_score": 47.07,
+        "sample_reliability": 92,
+        "sample_size": 366,
+        "board_tier": "Main Board",
+        "season_hits": 78,
+        "season_hr": 14
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 366
+    },
+    {
+      "name": "Alexander",
+      "team": "BAL",
+      "boardTier": "Main Board",
+      "boardRankScore": 46.89,
+      "scorecard": {
+        "raw_edge": 37.74,
+        "sample_adjusted_edge": 36.75,
+        "confidence_adjusted_edge": 34.69,
+        "board_rank_score": 46.89,
+        "sample_reliability": 80,
+        "sample_size": 234,
+        "board_tier": "Main Board",
+        "season_hits": 65,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 234
+    },
+    {
+      "name": "Gray, T",
+      "team": "MIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 46.86,
+      "scorecard": {
+        "raw_edge": 36.69,
+        "sample_adjusted_edge": 38.38,
+        "confidence_adjusted_edge": 35.16,
+        "board_rank_score": 46.86,
+        "sample_reliability": 70,
+        "sample_size": 173,
+        "board_tier": "Main Board",
+        "season_hits": 36,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 173
+    },
+    {
+      "name": "Swanson",
+      "team": "CHC",
+      "boardTier": "Main Board",
+      "boardRankScore": 46.84,
+      "scorecard": {
+        "raw_edge": 35.48,
+        "sample_adjusted_edge": 33.95,
+        "confidence_adjusted_edge": 33.0,
+        "board_rank_score": 46.84,
+        "sample_reliability": 90,
+        "sample_size": 341,
+        "board_tier": "Main Board",
+        "season_hits": 63,
+        "season_hr": 16
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 341
+    },
+    {
+      "name": "Chisholm Jr.",
+      "team": "NYY",
+      "boardTier": "Main Board",
+      "boardRankScore": 46.66,
+      "scorecard": {
+        "raw_edge": 33.66,
+        "sample_adjusted_edge": 32.05,
+        "confidence_adjusted_edge": 31.24,
+        "board_rank_score": 46.66,
+        "sample_reliability": 91,
+        "sample_size": 343,
+        "board_tier": "Main Board",
+        "season_hits": 68,
+        "season_hr": 12
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 343
+    },
+    {
+      "name": "Arozarena",
+      "team": "SEA",
+      "boardTier": "Main Board",
+      "boardRankScore": 46.64,
+      "scorecard": {
+        "raw_edge": 35.64,
+        "sample_adjusted_edge": 33.86,
+        "confidence_adjusted_edge": 33.11,
+        "board_rank_score": 46.64,
+        "sample_reliability": 92,
+        "sample_size": 361,
+        "board_tier": "Main Board",
+        "season_hits": 89,
+        "season_hr": 9
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 361
+    },
+    {
+      "name": "Bogaerts",
+      "team": "SD",
+      "boardTier": "Main Board",
+      "boardRankScore": 46.53,
+      "scorecard": {
+        "raw_edge": 33.93,
+        "sample_adjusted_edge": 32.95,
+        "confidence_adjusted_edge": 32.12,
+        "board_rank_score": 46.53,
+        "sample_reliability": 91,
+        "sample_size": 345,
+        "board_tier": "Main Board",
+        "season_hits": 69,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 345
+    },
+    {
+      "name": "Raleigh",
+      "team": "SEA",
+      "boardTier": "Main Board",
+      "boardRankScore": 46.43,
+      "scorecard": {
+        "raw_edge": 36.28,
+        "sample_adjusted_edge": 34.87,
+        "confidence_adjusted_edge": 33.3,
+        "board_rank_score": 46.43,
+        "sample_reliability": 84,
+        "sample_size": 263,
+        "board_tier": "Main Board",
+        "season_hits": 39,
+        "season_hr": 9
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 263
+    },
+    {
+      "name": "Lowe, J",
+      "team": "LAA",
+      "boardTier": "Main Board",
+      "boardRankScore": 46.28,
+      "scorecard": {
+        "raw_edge": 35.93,
+        "sample_adjusted_edge": 36.68,
+        "confidence_adjusted_edge": 33.6,
+        "board_rank_score": 46.28,
+        "sample_reliability": 70,
+        "sample_size": 174,
+        "board_tier": "Main Board",
+        "season_hits": 35,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 174
+    },
+    {
+      "name": "Sosa, E",
+      "team": "PHI",
+      "boardTier": "Main Board",
+      "boardRankScore": 46.24,
+      "scorecard": {
+        "raw_edge": 39.66,
+        "sample_adjusted_edge": 40.1,
+        "confidence_adjusted_edge": 36.28,
+        "board_rank_score": 46.24,
+        "sample_reliability": 66,
+        "sample_size": 158,
+        "board_tier": "Main Board",
+        "season_hits": 32,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 158
+    },
+    {
+      "name": "Stott",
+      "team": "PHI",
+      "boardTier": "Main Board",
+      "boardRankScore": 46.0,
+      "scorecard": {
+        "raw_edge": 34.25,
+        "sample_adjusted_edge": 33.2,
+        "confidence_adjusted_edge": 32.27,
+        "board_rank_score": 46.0,
+        "sample_reliability": 90,
+        "sample_size": 337,
+        "board_tier": "Main Board",
+        "season_hits": 75,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 337
+    },
+    {
+      "name": "Bichette",
+      "team": "NYM",
+      "boardTier": "Main Board",
+      "boardRankScore": 45.77,
+      "scorecard": {
+        "raw_edge": 32.29,
+        "sample_adjusted_edge": 30.61,
+        "confidence_adjusted_edge": 30.1,
+        "board_rank_score": 45.77,
+        "sample_reliability": 94,
+        "sample_size": 407,
+        "board_tier": "Main Board",
+        "season_hits": 97,
+        "season_hr": 10
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 407
+    },
+    {
+      "name": "Henderson",
+      "team": "BAL",
+      "boardTier": "Main Board",
+      "boardRankScore": 45.71,
+      "scorecard": {
+        "raw_edge": 33.3,
+        "sample_adjusted_edge": 31.56,
+        "confidence_adjusted_edge": 31.12,
+        "board_rank_score": 45.71,
+        "sample_reliability": 95,
+        "sample_size": 422,
+        "board_tier": "Main Board",
+        "season_hits": 84,
+        "season_hr": 16
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 422
+    },
+    {
+      "name": "DeLauter",
+      "team": "CLE",
+      "boardTier": "Main Board",
+      "boardRankScore": 45.58,
+      "scorecard": {
+        "raw_edge": 34.41,
+        "sample_adjusted_edge": 32.97,
+        "confidence_adjusted_edge": 31.95,
+        "board_rank_score": 45.58,
+        "sample_reliability": 89,
+        "sample_size": 315,
+        "board_tier": "Main Board",
+        "season_hits": 79,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 315
+    },
+    {
+      "name": "Baty",
+      "team": "NYM",
+      "boardTier": "Main Board",
+      "boardRankScore": 45.41,
+      "scorecard": {
+        "raw_edge": 32.4,
+        "sample_adjusted_edge": 31.24,
+        "confidence_adjusted_edge": 30.19,
+        "board_rank_score": 45.41,
+        "sample_reliability": 88,
+        "sample_size": 312,
+        "board_tier": "Main Board",
+        "season_hits": 60,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 312
+    },
+    {
+      "name": "Rutschman",
+      "team": "BAL",
+      "boardTier": "Main Board",
+      "boardRankScore": 45.37,
+      "scorecard": {
+        "raw_edge": 34.31,
+        "sample_adjusted_edge": 33.99,
+        "confidence_adjusted_edge": 32.47,
+        "board_rank_score": 45.37,
+        "sample_reliability": 84,
+        "sample_size": 263,
+        "board_tier": "Main Board",
+        "season_hits": 60,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 263
+    },
+    {
+      "name": "Benge",
+      "team": "NYM",
+      "boardTier": "Main Board",
+      "boardRankScore": 45.3,
+      "scorecard": {
+        "raw_edge": 31.91,
+        "sample_adjusted_edge": 30.59,
+        "confidence_adjusted_edge": 29.9,
+        "board_rank_score": 45.3,
+        "sample_reliability": 92,
+        "sample_size": 370,
+        "board_tier": "Main Board",
+        "season_hits": 90,
+        "season_hr": 11
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 370
+    },
+    {
+      "name": "Lopez, O",
+      "team": "MIA",
+      "boardTier": "Main Board",
+      "boardRankScore": 45.21,
+      "scorecard": {
+        "raw_edge": 33.21,
+        "sample_adjusted_edge": 31.37,
+        "confidence_adjusted_edge": 30.75,
+        "board_rank_score": 45.21,
+        "sample_reliability": 93,
+        "sample_size": 392,
+        "board_tier": "Main Board",
+        "season_hits": 126,
+        "season_hr": 9
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 392
+    },
+    {
+      "name": "McGonigle",
+      "team": "DET",
+      "boardTier": "Main Board",
+      "boardRankScore": 45.08,
+      "scorecard": {
+        "raw_edge": 31.66,
+        "sample_adjusted_edge": 30.4,
+        "confidence_adjusted_edge": 29.8,
+        "board_rank_score": 45.08,
+        "sample_reliability": 93,
+        "sample_size": 396,
+        "board_tier": "Main Board",
+        "season_hits": 96,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 396
+    },
+    {
+      "name": "Ward, T",
+      "team": "BAL",
+      "boardTier": "Main Board",
+      "boardRankScore": 44.99,
+      "scorecard": {
+        "raw_edge": 32.03,
+        "sample_adjusted_edge": 30.43,
+        "confidence_adjusted_edge": 30.0,
+        "board_rank_score": 44.99,
+        "sample_reliability": 95,
+        "sample_size": 422,
+        "board_tier": "Main Board",
+        "season_hits": 88,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 422
+    },
+    {
+      "name": "Cronenworth",
+      "team": "SD",
+      "boardTier": "Main Board",
+      "boardRankScore": 44.86,
+      "scorecard": {
+        "raw_edge": 34.15,
+        "sample_adjusted_edge": 37.26,
+        "confidence_adjusted_edge": 33.5,
+        "board_rank_score": 44.86,
+        "sample_reliability": 64,
+        "sample_size": 150,
+        "board_tier": "Main Board",
+        "season_hits": 24,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 150
+    },
+    {
+      "name": "Butler, L",
+      "team": "ATH",
+      "boardTier": "Main Board",
+      "boardRankScore": 44.85,
+      "scorecard": {
+        "raw_edge": 32.32,
+        "sample_adjusted_edge": 32.24,
+        "confidence_adjusted_edge": 30.7,
+        "board_rank_score": 44.85,
+        "sample_reliability": 83,
+        "sample_size": 259,
+        "board_tier": "Main Board",
+        "season_hits": 46,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 259
+    },
+    {
+      "name": "Cortes",
+      "team": "ATH",
+      "boardTier": "Main Board",
+      "boardRankScore": 44.81,
+      "scorecard": {
+        "raw_edge": 32.89,
+        "sample_adjusted_edge": 33.54,
+        "confidence_adjusted_edge": 31.57,
+        "board_rank_score": 44.81,
+        "sample_reliability": 79,
+        "sample_size": 225,
+        "board_tier": "Main Board",
+        "season_hits": 56,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 225
+    },
+    {
+      "name": "Bleday",
+      "team": "CIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 44.61,
+      "scorecard": {
+        "raw_edge": 34.35,
+        "sample_adjusted_edge": 33.23,
+        "confidence_adjusted_edge": 31.74,
+        "board_rank_score": 44.61,
+        "sample_reliability": 84,
+        "sample_size": 268,
+        "board_tier": "Main Board",
+        "season_hits": 54,
+        "season_hr": 14
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 268
+    },
+    {
+      "name": "Kelly, C",
+      "team": "CHC",
+      "boardTier": "Main Board",
+      "boardRankScore": 44.5,
+      "scorecard": {
+        "raw_edge": 33.16,
+        "sample_adjusted_edge": 33.02,
+        "confidence_adjusted_edge": 31.17,
+        "board_rank_score": 44.5,
+        "sample_reliability": 80,
+        "sample_size": 235,
+        "board_tier": "Main Board",
+        "season_hits": 58,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 235
+    },
+    {
+      "name": "Young, J",
+      "team": "NYM",
+      "boardTier": "Main Board",
+      "boardRankScore": 44.47,
+      "scorecard": {
+        "raw_edge": 36.61,
+        "sample_adjusted_edge": 36.59,
+        "confidence_adjusted_edge": 32.9,
+        "board_rank_score": 44.47,
+        "sample_reliability": 64,
+        "sample_size": 148,
+        "board_tier": "Main Board",
+        "season_hits": 30,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 148
+    },
+    {
+      "name": "Monasterio",
+      "team": "BOS",
+      "boardTier": "Main Board",
+      "boardRankScore": 44.29,
+      "scorecard": {
+        "raw_edge": 34.25,
+        "sample_adjusted_edge": 35.42,
+        "confidence_adjusted_edge": 32.05,
+        "board_rank_score": 44.29,
+        "sample_reliability": 66,
+        "sample_size": 157,
+        "board_tier": "Main Board",
+        "season_hits": 33,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 157
+    },
+    {
+      "name": "Troy",
+      "team": "ARI",
+      "boardTier": "Main Board",
+      "boardRankScore": 44.18,
+      "scorecard": {
+        "raw_edge": 34.27,
+        "sample_adjusted_edge": 38.06,
+        "confidence_adjusted_edge": 33.69,
+        "board_rank_score": 44.18,
+        "sample_reliability": 59,
+        "sample_size": 128,
+        "board_tier": "Main Board",
+        "season_hits": 26,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 128
+    },
+    {
+      "name": "Steer",
+      "team": "CIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 44.17,
+      "scorecard": {
+        "raw_edge": 32.28,
+        "sample_adjusted_edge": 30.77,
+        "confidence_adjusted_edge": 29.91,
+        "board_rank_score": 44.17,
+        "sample_reliability": 90,
+        "sample_size": 341,
+        "board_tier": "Main Board",
+        "season_hits": 73,
+        "season_hr": 14
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 341
+    },
+    {
+      "name": "Grissom",
+      "team": "LAA",
+      "boardTier": "Main Board",
+      "boardRankScore": 44.1,
+      "scorecard": {
+        "raw_edge": 31.17,
+        "sample_adjusted_edge": 33.2,
+        "confidence_adjusted_edge": 30.79,
+        "board_rank_score": 44.1,
+        "sample_reliability": 74,
+        "sample_size": 197,
+        "board_tier": "Main Board",
+        "season_hits": 43,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 197
+    },
+    {
+      "name": "Marte, S",
+      "team": "KC",
+      "boardTier": "Main Board",
+      "boardRankScore": 44.05,
+      "scorecard": {
+        "raw_edge": 35.92,
+        "sample_adjusted_edge": 37.51,
+        "confidence_adjusted_edge": 32.99,
+        "board_rank_score": 44.05,
+        "sample_reliability": 57,
+        "sample_size": 122,
+        "board_tier": "Main Board",
+        "season_hits": 29,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 122
+    },
+    {
+      "name": "Lee, B",
+      "team": "MIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 43.85,
+      "scorecard": {
+        "raw_edge": 29.43,
+        "sample_adjusted_edge": 29.14,
+        "confidence_adjusted_edge": 28.48,
+        "board_rank_score": 43.85,
+        "sample_reliability": 92,
+        "sample_size": 358,
+        "board_tier": "Main Board",
+        "season_hits": 83,
+        "season_hr": 14
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 358
+    },
+    {
+      "name": "Bohm",
+      "team": "PHI",
+      "boardTier": "Main Board",
+      "boardRankScore": 43.83,
+      "scorecard": {
+        "raw_edge": 30.73,
+        "sample_adjusted_edge": 30.04,
+        "confidence_adjusted_edge": 29.28,
+        "board_rank_score": 43.83,
+        "sample_reliability": 91,
+        "sample_size": 357,
+        "board_tier": "Main Board",
+        "season_hits": 72,
+        "season_hr": 11
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 357
+    },
+    {
+      "name": "Schneemann",
+      "team": "CLE",
+      "boardTier": "Main Board",
+      "boardRankScore": 43.29,
+      "scorecard": {
+        "raw_edge": 31.25,
+        "sample_adjusted_edge": 30.76,
+        "confidence_adjusted_edge": 29.29,
+        "board_rank_score": 43.29,
+        "sample_reliability": 83,
+        "sample_size": 254,
+        "board_tier": "Main Board",
+        "season_hits": 49,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 254
+    },
+    {
+      "name": "Andujar",
+      "team": "SD",
+      "boardTier": "Main Board",
+      "boardRankScore": 43.13,
+      "scorecard": {
+        "raw_edge": 29.0,
+        "sample_adjusted_edge": 31.11,
+        "confidence_adjusted_edge": 29.37,
+        "board_rank_score": 43.13,
+        "sample_reliability": 80,
+        "sample_size": 234,
+        "board_tier": "Main Board",
+        "season_hits": 59,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 234
+    },
+    {
+      "name": "Manzardo",
+      "team": "CLE",
+      "boardTier": "Main Board",
+      "boardRankScore": 43.08,
+      "scorecard": {
+        "raw_edge": 30.69,
+        "sample_adjusted_edge": 30.07,
+        "confidence_adjusted_edge": 28.98,
+        "board_rank_score": 43.08,
+        "sample_reliability": 87,
+        "sample_size": 293,
+        "board_tier": "Main Board",
+        "season_hits": 56,
+        "season_hr": 10
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 293
+    },
+    {
+      "name": "Gelof",
+      "team": "ATH",
+      "boardTier": "Main Board",
+      "boardRankScore": 43.01,
+      "scorecard": {
+        "raw_edge": 28.79,
+        "sample_adjusted_edge": 30.01,
+        "confidence_adjusted_edge": 28.5,
+        "board_rank_score": 43.01,
+        "sample_reliability": 82,
+        "sample_size": 246,
+        "board_tier": "Main Board",
+        "season_hits": 62,
+        "season_hr": 11
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 246
+    },
+    {
+      "name": "Collins",
+      "team": "KC",
+      "boardTier": "Main Board",
+      "boardRankScore": 42.7,
+      "scorecard": {
+        "raw_edge": 28.08,
+        "sample_adjusted_edge": 28.05,
+        "confidence_adjusted_edge": 27.11,
+        "board_rank_score": 42.7,
+        "sample_reliability": 88,
+        "sample_size": 302,
+        "board_tier": "Main Board",
+        "season_hits": 61,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 302
+    },
+    {
+      "name": "Vargas, I",
+      "team": "ARI",
+      "boardTier": "Main Board",
+      "boardRankScore": 42.68,
+      "scorecard": {
+        "raw_edge": 28.17,
+        "sample_adjusted_edge": 29.09,
+        "confidence_adjusted_edge": 27.95,
+        "board_rank_score": 42.68,
+        "sample_reliability": 86,
+        "sample_size": 289,
+        "board_tier": "Main Board",
+        "season_hits": 69,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 289
+    },
+    {
+      "name": "Arias, G",
+      "team": "CLE",
+      "boardTier": "Main Board",
+      "boardRankScore": 42.67,
+      "scorecard": {
+        "raw_edge": 43.59,
+        "sample_adjusted_edge": 40.45,
+        "confidence_adjusted_edge": 34.1,
+        "board_rank_score": 42.67,
+        "sample_reliability": 44,
+        "sample_size": 85,
+        "board_tier": "Main Board",
+        "season_hits": 17,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 85
+    },
+    {
+      "name": "Peraza, O",
+      "team": "LAA",
+      "boardTier": "Main Board",
+      "boardRankScore": 42.65,
+      "scorecard": {
+        "raw_edge": 27.71,
+        "sample_adjusted_edge": 28.69,
+        "confidence_adjusted_edge": 27.4,
+        "board_rank_score": 42.65,
+        "sample_reliability": 84,
+        "sample_size": 270,
+        "board_tier": "Main Board",
+        "season_hits": 61,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 270
+    },
+    {
+      "name": "Contreras, Wm",
+      "team": "MIL",
+      "boardTier": "Main Board",
+      "boardRankScore": 42.56,
+      "scorecard": {
+        "raw_edge": 29.61,
+        "sample_adjusted_edge": 28.32,
+        "confidence_adjusted_edge": 27.68,
+        "board_rank_score": 42.56,
+        "sample_reliability": 92,
+        "sample_size": 373,
+        "board_tier": "Main Board",
+        "season_hits": 95,
+        "season_hr": 9
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 373
+    },
+    {
+      "name": "Herrera",
+      "team": "STL",
+      "boardTier": "Main Board",
+      "boardRankScore": 42.48,
+      "scorecard": {
+        "raw_edge": 29.24,
+        "sample_adjusted_edge": 27.95,
+        "confidence_adjusted_edge": 27.48,
+        "board_rank_score": 42.48,
+        "sample_reliability": 94,
+        "sample_size": 407,
+        "board_tier": "Main Board",
+        "season_hits": 83,
+        "season_hr": 11
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 407
+    },
+    {
+      "name": "Higashioka",
+      "team": "TEX",
+      "boardTier": "Main Board",
+      "boardRankScore": 42.36,
+      "scorecard": {
+        "raw_edge": 29.12,
+        "sample_adjusted_edge": 32.01,
+        "confidence_adjusted_edge": 29.14,
+        "board_rank_score": 42.36,
+        "sample_reliability": 68,
+        "sample_size": 166,
+        "board_tier": "Main Board",
+        "season_hits": 33,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 166
+    },
+    {
+      "name": "Duran, E",
+      "team": "TEX",
+      "boardTier": "Main Board",
+      "boardRankScore": 42.24,
+      "scorecard": {
+        "raw_edge": 27.16,
+        "sample_adjusted_edge": 27.29,
+        "confidence_adjusted_edge": 26.37,
+        "board_rank_score": 42.24,
+        "sample_reliability": 88,
+        "sample_size": 309,
+        "board_tier": "Main Board",
+        "season_hits": 76,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 309
+    },
+    {
+      "name": "Guzman, D",
+      "team": "LAA",
+      "boardTier": "Main Board",
+      "boardRankScore": 42.11,
+      "scorecard": {
+        "raw_edge": 31.03,
+        "sample_adjusted_edge": 36.46,
+        "confidence_adjusted_edge": 31.46,
+        "board_rank_score": 42.11,
+        "sample_reliability": 51,
+        "sample_size": 103,
+        "board_tier": "Main Board",
+        "season_hits": 25,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 103
+    },
+    {
+      "name": "Keaschall",
+      "team": "MIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 41.91,
+      "scorecard": {
+        "raw_edge": 26.53,
+        "sample_adjusted_edge": 26.79,
+        "confidence_adjusted_edge": 26.12,
+        "board_rank_score": 41.91,
+        "sample_reliability": 91,
+        "sample_size": 342,
+        "board_tier": "Main Board",
+        "season_hits": 76,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 342
+    },
+    {
+      "name": "Nootbaar",
+      "team": "STL",
+      "boardTier": "Main Board",
+      "boardRankScore": 41.79,
+      "scorecard": {
+        "raw_edge": 37.77,
+        "sample_adjusted_edge": 37.54,
+        "confidence_adjusted_edge": 32.6,
+        "board_rank_score": 41.79,
+        "sample_reliability": 53,
+        "sample_size": 109,
+        "board_tier": "Main Board",
+        "season_hits": 25,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 109
+    },
+    {
+      "name": "Bellinger",
+      "team": "NYY",
+      "boardTier": "Main Board",
+      "boardRankScore": 41.74,
+      "scorecard": {
+        "raw_edge": 26.58,
+        "sample_adjusted_edge": 25.88,
+        "confidence_adjusted_edge": 25.37,
+        "board_rank_score": 41.74,
+        "sample_reliability": 93,
+        "sample_size": 386,
+        "board_tier": "Main Board",
+        "season_hits": 81,
+        "season_hr": 11
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 386
+    },
+    {
+      "name": "Yelich",
+      "team": "MIL",
+      "boardTier": "Main Board",
+      "boardRankScore": 41.71,
+      "scorecard": {
+        "raw_edge": 28.77,
+        "sample_adjusted_edge": 28.4,
+        "confidence_adjusted_edge": 27.13,
+        "board_rank_score": 41.71,
+        "sample_reliability": 84,
+        "sample_size": 262,
+        "board_tier": "Main Board",
+        "season_hits": 56,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 262
+    },
+    {
+      "name": "Carter",
+      "team": "TEX",
+      "boardTier": "Main Board",
+      "boardRankScore": 41.59,
+      "scorecard": {
+        "raw_edge": 26.25,
+        "sample_adjusted_edge": 27.42,
+        "confidence_adjusted_edge": 26.11,
+        "board_rank_score": 41.59,
+        "sample_reliability": 83,
+        "sample_size": 254,
+        "board_tier": "Main Board",
+        "season_hits": 39,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 254
+    },
+    {
+      "name": "Vilade",
+      "team": "TB",
+      "boardTier": "Main Board",
+      "boardRankScore": 41.55,
+      "scorecard": {
+        "raw_edge": 29.64,
+        "sample_adjusted_edge": 31.99,
+        "confidence_adjusted_edge": 28.86,
+        "board_rank_score": 41.55,
+        "sample_reliability": 65,
+        "sample_size": 151,
+        "board_tier": "Main Board",
+        "season_hits": 35,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 151
+    },
+    {
+      "name": "Arenado",
+      "team": "ARI",
+      "boardTier": "Main Board",
+      "boardRankScore": 41.53,
+      "scorecard": {
+        "raw_edge": 26.19,
+        "sample_adjusted_edge": 26.57,
+        "confidence_adjusted_edge": 25.83,
+        "board_rank_score": 41.53,
+        "sample_reliability": 90,
+        "sample_size": 330,
+        "board_tier": "Main Board",
+        "season_hits": 72,
+        "season_hr": 10
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 330
+    },
+    {
+      "name": "Yastrzemski",
+      "team": "ATL",
+      "boardTier": "Main Board",
+      "boardRankScore": 41.07,
+      "scorecard": {
+        "raw_edge": 27.02,
+        "sample_adjusted_edge": 28.11,
+        "confidence_adjusted_edge": 26.78,
+        "board_rank_score": 41.07,
+        "sample_reliability": 83,
+        "sample_size": 254,
+        "board_tier": "Main Board",
+        "season_hits": 51,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 254
+    },
+    {
+      "name": "Song",
+      "team": "SD",
+      "boardTier": "Main Board",
+      "boardRankScore": 40.8,
+      "scorecard": {
+        "raw_edge": 27.07,
+        "sample_adjusted_edge": 36.97,
+        "confidence_adjusted_edge": 31.28,
+        "board_rank_score": 40.8,
+        "sample_reliability": 45,
+        "sample_size": 88,
+        "board_tier": "Main Board",
+        "season_hits": 17,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 88
+    },
+    {
+      "name": "Conine",
+      "team": "MIA",
+      "boardTier": "Main Board",
+      "boardRankScore": 40.57,
+      "scorecard": {
+        "raw_edge": 41.22,
+        "sample_adjusted_edge": 38.96,
+        "confidence_adjusted_edge": 32.63,
+        "board_rank_score": 40.57,
+        "sample_reliability": 42,
+        "sample_size": 80,
+        "board_tier": "Main Board",
+        "season_hits": 16,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 80
+    },
+    {
+      "name": "Young",
+      "team": "SEA",
+      "boardTier": "Main Board",
+      "boardRankScore": 40.5,
+      "scorecard": {
+        "raw_edge": 29.22,
+        "sample_adjusted_edge": 32.6,
+        "confidence_adjusted_edge": 29.32,
+        "board_rank_score": 40.5,
+        "sample_reliability": 64,
+        "sample_size": 148,
+        "board_tier": "Main Board",
+        "season_hits": 30,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 148
+    },
+    {
+      "name": "Loftin",
+      "team": "KC",
+      "boardTier": "Main Board",
+      "boardRankScore": 40.43,
+      "scorecard": {
+        "raw_edge": 24.9,
+        "sample_adjusted_edge": 28.59,
+        "confidence_adjusted_edge": 26.51,
+        "board_rank_score": 40.43,
+        "sample_reliability": 74,
+        "sample_size": 195,
+        "board_tier": "Main Board",
+        "season_hits": 41,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 195
+    },
+    {
+      "name": "Amaya",
+      "team": "CHC",
+      "boardTier": "Main Board",
+      "boardRankScore": 39.97,
+      "scorecard": {
+        "raw_edge": 27.53,
+        "sample_adjusted_edge": 31.07,
+        "confidence_adjusted_edge": 28.03,
+        "board_rank_score": 39.97,
+        "sample_reliability": 65,
+        "sample_size": 151,
+        "board_tier": "Main Board",
+        "season_hits": 29,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 151
+    },
+    {
+      "name": "Dom\u00ednguez",
+      "team": "NYY",
+      "boardTier": "Main Board",
+      "boardRankScore": 39.78,
+      "scorecard": {
+        "raw_edge": 26.39,
+        "sample_adjusted_edge": 31.36,
+        "confidence_adjusted_edge": 27.59,
+        "board_rank_score": 39.78,
+        "sample_reliability": 57,
+        "sample_size": 123,
+        "board_tier": "Main Board",
+        "season_hits": 26,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 123
+    },
+    {
+      "name": "Smith, P",
+      "team": "ARI",
+      "boardTier": "Main Board",
+      "boardRankScore": 39.59,
+      "scorecard": {
+        "raw_edge": 23.73,
+        "sample_adjusted_edge": 34.96,
+        "confidence_adjusted_edge": 29.67,
+        "board_rank_score": 39.59,
+        "sample_reliability": 46,
+        "sample_size": 89,
+        "board_tier": "Main Board",
+        "season_hits": 11,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 89
+    },
+    {
+      "name": "Gurriel Jr.",
+      "team": "ARI",
+      "boardTier": "Main Board",
+      "boardRankScore": 39.47,
+      "scorecard": {
+        "raw_edge": 22.71,
+        "sample_adjusted_edge": 28.79,
+        "confidence_adjusted_edge": 26.29,
+        "board_rank_score": 39.47,
+        "sample_reliability": 69,
+        "sample_size": 172,
+        "board_tier": "Main Board",
+        "season_hits": 35,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 172
+    },
+    {
+      "name": "Crawford, J",
+      "team": "SEA",
+      "boardTier": "Main Board",
+      "boardRankScore": 39.47,
+      "scorecard": {
+        "raw_edge": 24.76,
+        "sample_adjusted_edge": 25.05,
+        "confidence_adjusted_edge": 24.28,
+        "board_rank_score": 39.47,
+        "sample_reliability": 89,
+        "sample_size": 317,
+        "board_tier": "Main Board",
+        "season_hits": 57,
+        "season_hr": 10
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 317
+    },
+    {
+      "name": "Wells, A",
+      "team": "NYY",
+      "boardTier": "Main Board",
+      "boardRankScore": 39.41,
+      "scorecard": {
+        "raw_edge": 24.01,
+        "sample_adjusted_edge": 26.28,
+        "confidence_adjusted_edge": 24.52,
+        "board_rank_score": 39.41,
+        "sample_reliability": 76,
+        "sample_size": 207,
+        "board_tier": "Main Board",
+        "season_hits": 27,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 207
+    },
+    {
+      "name": "Bregman",
+      "team": "CHC",
+      "boardTier": "Main Board",
+      "boardRankScore": 39.29,
+      "scorecard": {
+        "raw_edge": 23.74,
+        "sample_adjusted_edge": 23.22,
+        "confidence_adjusted_edge": 22.83,
+        "board_rank_score": 39.29,
+        "sample_reliability": 94,
+        "sample_size": 413,
+        "board_tier": "Main Board",
+        "season_hits": 85,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 413
+    },
+    {
+      "name": "Antonacci",
+      "team": "CWS",
+      "boardTier": "Main Board",
+      "boardRankScore": 39.09,
+      "scorecard": {
+        "raw_edge": 28.0,
+        "sample_adjusted_edge": 26.92,
+        "confidence_adjusted_edge": 25.87,
+        "board_rank_score": 39.09,
+        "sample_reliability": 86,
+        "sample_size": 290,
+        "board_tier": "Main Board",
+        "season_hits": 73,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 290
+    },
+    {
+      "name": "Crawford",
+      "team": "PHI",
+      "boardTier": "Main Board",
+      "boardRankScore": 39.02,
+      "scorecard": {
+        "raw_edge": 23.47,
+        "sample_adjusted_edge": 24.31,
+        "confidence_adjusted_edge": 23.57,
+        "board_rank_score": 39.02,
+        "sample_reliability": 89,
+        "sample_size": 317,
+        "board_tier": "Main Board",
+        "season_hits": 57,
+        "season_hr": 10
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 317
+    },
+    {
+      "name": "Dub\u00f3n",
+      "team": "ATL",
+      "boardTier": "Main Board",
+      "boardRankScore": 38.94,
+      "scorecard": {
+        "raw_edge": 23.38,
+        "sample_adjusted_edge": 23.73,
+        "confidence_adjusted_edge": 23.13,
+        "board_rank_score": 38.94,
+        "sample_reliability": 91,
+        "sample_size": 354,
+        "board_tier": "Main Board",
+        "season_hits": 89,
+        "season_hr": 9
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 354
+    },
+    {
+      "name": "Naylor, J",
+      "team": "SEA",
+      "boardTier": "Main Board",
+      "boardRankScore": 38.9,
+      "scorecard": {
+        "raw_edge": 23.83,
+        "sample_adjusted_edge": 23.62,
+        "confidence_adjusted_edge": 23.09,
+        "board_rank_score": 38.9,
+        "sample_reliability": 92,
+        "sample_size": 372,
+        "board_tier": "Main Board",
+        "season_hits": 85,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 372
+    },
+    {
+      "name": "Vierling",
+      "team": "DET",
+      "boardTier": "Main Board",
+      "boardRankScore": 38.83,
+      "scorecard": {
+        "raw_edge": 21.86,
+        "sample_adjusted_edge": 24.23,
+        "confidence_adjusted_edge": 23.01,
+        "board_rank_score": 38.83,
+        "sample_reliability": 82,
+        "sample_size": 249,
+        "board_tier": "Main Board",
+        "season_hits": 45,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 249
+    },
+    {
+      "name": "Bazzana",
+      "team": "CLE",
+      "boardTier": "Main Board",
+      "boardRankScore": 38.8,
+      "scorecard": {
+        "raw_edge": 23.8,
+        "sample_adjusted_edge": 25.05,
+        "confidence_adjusted_edge": 23.93,
+        "board_rank_score": 38.8,
+        "sample_reliability": 84,
+        "sample_size": 263,
+        "board_tier": "Main Board",
+        "season_hits": 56,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 263
+    },
+    {
+      "name": "Smith",
+      "team": "TEX",
+      "boardTier": "Main Board",
+      "boardRankScore": 38.69,
+      "scorecard": {
+        "raw_edge": 21.61,
+        "sample_adjusted_edge": 28.57,
+        "confidence_adjusted_edge": 25.45,
+        "board_rank_score": 38.69,
+        "sample_reliability": 61,
+        "sample_size": 138,
+        "board_tier": "Main Board",
+        "season_hits": 28,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 138
+    },
+    {
+      "name": "Caballero",
+      "team": "NYY",
+      "boardTier": "Main Board",
+      "boardRankScore": 38.66,
+      "scorecard": {
+        "raw_edge": 21.47,
+        "sample_adjusted_edge": 22.7,
+        "confidence_adjusted_edge": 21.81,
+        "board_rank_score": 38.66,
+        "sample_reliability": 86,
+        "sample_size": 284,
+        "board_tier": "Main Board",
+        "season_hits": 64,
+        "season_hr": 10
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 284
+    },
+    {
+      "name": "Wong",
+      "team": "BOS",
+      "boardTier": "Main Board",
+      "boardRankScore": 38.38,
+      "scorecard": {
+        "raw_edge": 24.31,
+        "sample_adjusted_edge": 31.15,
+        "confidence_adjusted_edge": 27.4,
+        "board_rank_score": 38.38,
+        "sample_reliability": 57,
+        "sample_size": 122,
+        "board_tier": "Main Board",
+        "season_hits": 30,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 122
+    },
+    {
+      "name": "Rafaela",
+      "team": "BOS",
+      "boardTier": "Main Board",
+      "boardRankScore": 38.28,
+      "scorecard": {
+        "raw_edge": 22.3,
+        "sample_adjusted_edge": 22.68,
+        "confidence_adjusted_edge": 22.11,
+        "board_rank_score": 38.28,
+        "sample_reliability": 91,
+        "sample_size": 349,
+        "board_tier": "Main Board",
+        "season_hits": 93,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 349
+    },
+    {
+      "name": "March\u00e1n",
+      "team": "PHI",
+      "boardTier": "Main Board",
+      "boardRankScore": 38.21,
+      "scorecard": {
+        "raw_edge": 22.8,
+        "sample_adjusted_edge": 34.16,
+        "confidence_adjusted_edge": 28.81,
+        "board_rank_score": 38.21,
+        "sample_reliability": 44,
+        "sample_size": 85,
+        "board_tier": "Main Board",
+        "season_hits": 9,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 85
+    },
+    {
+      "name": "Mesa Jr.",
+      "team": "TB",
+      "boardTier": "Main Board",
+      "boardRankScore": 38.19,
+      "scorecard": {
+        "raw_edge": 24.67,
+        "sample_adjusted_edge": 31.61,
+        "confidence_adjusted_edge": 27.01,
+        "board_rank_score": 38.19,
+        "sample_reliability": 48,
+        "sample_size": 94,
+        "board_tier": "Main Board",
+        "season_hits": 15,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 94
+    },
+    {
+      "name": "Acu\u00f1a",
+      "team": "CWS",
+      "boardTier": "Main Board",
+      "boardRankScore": 38.1,
+      "scorecard": {
+        "raw_edge": 27.64,
+        "sample_adjusted_edge": 29.28,
+        "confidence_adjusted_edge": 26.49,
+        "board_rank_score": 38.1,
+        "sample_reliability": 66,
+        "sample_size": 156,
+        "board_tier": "Main Board",
+        "season_hits": 33,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 156
+    },
+    {
+      "name": "Callihan, T",
+      "team": "PIT",
+      "boardTier": "Main Board",
+      "boardRankScore": 38.0,
+      "scorecard": {
+        "raw_edge": 26.66,
+        "sample_adjusted_edge": 34.52,
+        "confidence_adjusted_edge": 28.91,
+        "board_rank_score": 38.0,
+        "sample_reliability": 42,
+        "sample_size": 80,
+        "board_tier": "Main Board",
+        "season_hits": 18,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 80
+    },
+    {
+      "name": "Albies",
+      "team": "ATL",
+      "boardTier": "Main Board",
+      "boardRankScore": 37.93,
+      "scorecard": {
+        "raw_edge": 21.7,
+        "sample_adjusted_edge": 21.84,
+        "confidence_adjusted_edge": 21.41,
+        "board_rank_score": 37.93,
+        "sample_reliability": 93,
+        "sample_size": 392,
+        "board_tier": "Main Board",
+        "season_hits": 96,
+        "season_hr": 14
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 392
+    },
+    {
+      "name": "Osuna, A",
+      "team": "TEX",
+      "boardTier": "Main Board",
+      "boardRankScore": 37.91,
+      "scorecard": {
+        "raw_edge": 20.05,
+        "sample_adjusted_edge": 25.2,
+        "confidence_adjusted_edge": 23.23,
+        "board_rank_score": 37.91,
+        "sample_reliability": 72,
+        "sample_size": 186,
+        "board_tier": "Main Board",
+        "season_hits": 41,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 186
+    },
+    {
+      "name": "Outman",
+      "team": "DET",
+      "boardTier": "Main Board",
+      "boardRankScore": 37.9,
+      "scorecard": {
+        "raw_edge": 20.98,
+        "sample_adjusted_edge": 28.66,
+        "confidence_adjusted_edge": 25.29,
+        "board_rank_score": 37.9,
+        "sample_reliability": 58,
+        "sample_size": 126,
+        "board_tier": "Main Board",
+        "season_hits": 18,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 126
+    },
+    {
+      "name": "Gonzales, N",
+      "team": "PIT",
+      "boardTier": "Main Board",
+      "boardRankScore": 37.77,
+      "scorecard": {
+        "raw_edge": 21.78,
+        "sample_adjusted_edge": 21.99,
+        "confidence_adjusted_edge": 21.44,
+        "board_rank_score": 37.77,
+        "sample_reliability": 91,
+        "sample_size": 356,
+        "board_tier": "Main Board",
+        "season_hits": 101,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 356
+    },
+    {
+      "name": "Taveras, L",
+      "team": "BAL",
+      "boardTier": "Main Board",
+      "boardRankScore": 37.65,
+      "scorecard": {
+        "raw_edge": 21.31,
+        "sample_adjusted_edge": 22.9,
+        "confidence_adjusted_edge": 22.01,
+        "board_rank_score": 37.65,
+        "sample_reliability": 86,
+        "sample_size": 280,
+        "board_tier": "Main Board",
+        "season_hits": 58,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 280
+    },
+    {
+      "name": "Romo",
+      "team": "CWS",
+      "boardTier": "Main Board",
+      "boardRankScore": 37.63,
+      "scorecard": {
+        "raw_edge": 27.75,
+        "sample_adjusted_edge": 31.62,
+        "confidence_adjusted_edge": 27.64,
+        "board_rank_score": 37.63,
+        "sample_reliability": 55,
+        "sample_size": 115,
+        "board_tier": "Main Board",
+        "season_hits": 14,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 115
+    },
+    {
+      "name": "Bailey",
+      "team": "CLE",
+      "boardTier": "Main Board",
+      "boardRankScore": 37.48,
+      "scorecard": {
+        "raw_edge": 22.37,
+        "sample_adjusted_edge": 26.08,
+        "confidence_adjusted_edge": 23.97,
+        "board_rank_score": 37.48,
+        "sample_reliability": 71,
+        "sample_size": 182,
+        "board_tier": "Main Board",
+        "season_hits": 30,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 182
+    },
+    {
+      "name": "Vaughn",
+      "team": "MIL",
+      "boardTier": "Main Board",
+      "boardRankScore": 37.43,
+      "scorecard": {
+        "raw_edge": 23.71,
+        "sample_adjusted_edge": 27.45,
+        "confidence_adjusted_edge": 24.99,
+        "board_rank_score": 37.43,
+        "sample_reliability": 68,
+        "sample_size": 163,
+        "board_tier": "Main Board",
+        "season_hits": 46,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 163
+    },
+    {
+      "name": "Mack",
+      "team": "MIA",
+      "boardTier": "Main Board",
+      "boardRankScore": 37.41,
+      "scorecard": {
+        "raw_edge": 23.79,
+        "sample_adjusted_edge": 27.06,
+        "confidence_adjusted_edge": 24.64,
+        "board_rank_score": 37.41,
+        "sample_reliability": 68,
+        "sample_size": 163,
+        "board_tier": "Main Board",
+        "season_hits": 36,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 163
+    },
+    {
+      "name": "Lee, J",
+      "team": "SF",
+      "boardTier": "Main Board",
+      "boardRankScore": 37.34,
+      "scorecard": {
+        "raw_edge": 20.98,
+        "sample_adjusted_edge": 21.85,
+        "confidence_adjusted_edge": 21.24,
+        "board_rank_score": 37.34,
+        "sample_reliability": 90,
+        "sample_size": 338,
+        "board_tier": "Main Board",
+        "season_hits": 98,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 338
+    },
+    {
+      "name": "McNeil",
+      "team": "ATH",
+      "boardTier": "Main Board",
+      "boardRankScore": 37.33,
+      "scorecard": {
+        "raw_edge": 19.15,
+        "sample_adjusted_edge": 21.33,
+        "confidence_adjusted_edge": 20.49,
+        "board_rank_score": 37.33,
+        "sample_reliability": 86,
+        "sample_size": 288,
+        "board_tier": "Main Board",
+        "season_hits": 59,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 288
+    },
+    {
+      "name": "Church",
+      "team": "STL",
+      "boardTier": "Main Board",
+      "boardRankScore": 36.97,
+      "scorecard": {
+        "raw_edge": 21.0,
+        "sample_adjusted_edge": 23.02,
+        "confidence_adjusted_edge": 21.86,
+        "board_rank_score": 36.97,
+        "sample_reliability": 82,
+        "sample_size": 245,
+        "board_tier": "Main Board",
+        "season_hits": 56,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 245
+    },
+    {
+      "name": "Wilson, J",
+      "team": "ATH",
+      "boardTier": "Main Board",
+      "boardRankScore": 36.83,
+      "scorecard": {
+        "raw_edge": 18.04,
+        "sample_adjusted_edge": 22.42,
+        "confidence_adjusted_edge": 21.04,
+        "board_rank_score": 36.83,
+        "sample_reliability": 78,
+        "sample_size": 222,
+        "board_tier": "Main Board",
+        "season_hits": 56,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 222
+    },
+    {
+      "name": "Fortes",
+      "team": "TB",
+      "boardTier": "Main Board",
+      "boardRankScore": 36.81,
+      "scorecard": {
+        "raw_edge": 18.97,
+        "sample_adjusted_edge": 22.28,
+        "confidence_adjusted_edge": 20.84,
+        "board_rank_score": 36.81,
+        "sample_reliability": 77,
+        "sample_size": 214,
+        "board_tier": "Main Board",
+        "season_hits": 51,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 214
+    },
+    {
+      "name": "Emerson",
+      "team": "SEA",
+      "boardTier": "Main Board",
+      "boardRankScore": 36.68,
+      "scorecard": {
+        "raw_edge": 20.23,
+        "sample_adjusted_edge": 26.91,
+        "confidence_adjusted_edge": 24.27,
+        "board_rank_score": 36.68,
+        "sample_reliability": 65,
+        "sample_size": 152,
+        "board_tier": "Main Board",
+        "season_hits": 28,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 152
+    },
+    {
+      "name": "Arraez",
+      "team": "SF",
+      "boardTier": "Main Board",
+      "boardRankScore": 36.52,
+      "scorecard": {
+        "raw_edge": 19.76,
+        "sample_adjusted_edge": 20.09,
+        "confidence_adjusted_edge": 19.7,
+        "board_rank_score": 36.52,
+        "sample_reliability": 93,
+        "sample_size": 384,
+        "board_tier": "Main Board",
+        "season_hits": 112,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 384
+    },
+    {
+      "name": "Marte, N",
+      "team": "CIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 36.4,
+      "scorecard": {
+        "raw_edge": 22.88,
+        "sample_adjusted_edge": 27.87,
+        "confidence_adjusted_edge": 24.6,
+        "board_rank_score": 36.4,
+        "sample_reliability": 58,
+        "sample_size": 125,
+        "board_tier": "Main Board",
+        "season_hits": 24,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 125
+    },
+    {
+      "name": "Durbin",
+      "team": "BOS",
+      "boardTier": "Main Board",
+      "boardRankScore": 36.31,
+      "scorecard": {
+        "raw_edge": 19.2,
+        "sample_adjusted_edge": 21.03,
+        "confidence_adjusted_edge": 20.27,
+        "board_rank_score": 36.31,
+        "sample_reliability": 87,
+        "sample_size": 300,
+        "board_tier": "Main Board",
+        "season_hits": 61,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 300
+    },
+    {
+      "name": "Williamson",
+      "team": "TB",
+      "boardTier": "Main Board",
+      "boardRankScore": 36.3,
+      "scorecard": {
+        "raw_edge": 18.14,
+        "sample_adjusted_edge": 21.74,
+        "confidence_adjusted_edge": 20.34,
+        "board_rank_score": 36.3,
+        "sample_reliability": 77,
+        "sample_size": 211,
+        "board_tier": "Main Board",
+        "season_hits": 44,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 211
+    },
+    {
+      "name": "Pratt",
+      "team": "MIL",
+      "boardTier": "Main Board",
+      "boardRankScore": 36.2,
+      "scorecard": {
+        "raw_edge": 25.54,
+        "sample_adjusted_edge": 32.53,
+        "confidence_adjusted_edge": 27.16,
+        "board_rank_score": 36.2,
+        "sample_reliability": 41,
+        "sample_size": 77,
+        "board_tier": "Main Board",
+        "season_hits": 15,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 77
+    },
+    {
+      "name": "Torrens",
+      "team": "NYM",
+      "boardTier": "Main Board",
+      "boardRankScore": 36.14,
+      "scorecard": {
+        "raw_edge": 17.66,
+        "sample_adjusted_edge": 23.51,
+        "confidence_adjusted_edge": 21.47,
+        "board_rank_score": 36.14,
+        "sample_reliability": 69,
+        "sample_size": 171,
+        "board_tier": "Main Board",
+        "season_hits": 34,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 171
+    },
+    {
+      "name": "Montgomery, B",
+      "team": "CWS",
+      "boardTier": "Main Board",
+      "boardRankScore": 35.99,
+      "scorecard": {
+        "raw_edge": 24.28,
+        "sample_adjusted_edge": 30.78,
+        "confidence_adjusted_edge": 26.47,
+        "board_rank_score": 35.99,
+        "sample_reliability": 50,
+        "sample_size": 100,
+        "board_tier": "Main Board",
+        "season_hits": 20,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 100
+    },
+    {
+      "name": "McKinstry",
+      "team": "DET",
+      "boardTier": "Main Board",
+      "boardRankScore": 35.79,
+      "scorecard": {
+        "raw_edge": 16.47,
+        "sample_adjusted_edge": 20.46,
+        "confidence_adjusted_edge": 19.31,
+        "board_rank_score": 35.79,
+        "sample_reliability": 80,
+        "sample_size": 233,
+        "board_tier": "Main Board",
+        "season_hits": 41,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 233
+    },
+    {
+      "name": "Rocchio",
+      "team": "CLE",
+      "boardTier": "Main Board",
+      "boardRankScore": 35.71,
+      "scorecard": {
+        "raw_edge": 18.57,
+        "sample_adjusted_edge": 19.52,
+        "confidence_adjusted_edge": 18.97,
+        "board_rank_score": 35.71,
+        "sample_reliability": 90,
+        "sample_size": 341,
+        "board_tier": "Main Board",
+        "season_hits": 82,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 341
+    },
+    {
+      "name": "Hoerner",
+      "team": "CHC",
+      "boardTier": "Main Board",
+      "boardRankScore": 35.46,
+      "scorecard": {
+        "raw_edge": 18.16,
+        "sample_adjusted_edge": 18.33,
+        "confidence_adjusted_edge": 18.02,
+        "board_rank_score": 35.46,
+        "sample_reliability": 94,
+        "sample_size": 405,
+        "board_tier": "Main Board",
+        "season_hits": 86,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 405
+    },
+    {
+      "name": "Su\u00e1rez, E",
+      "team": "CIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 35.36,
+      "scorecard": {
+        "raw_edge": 18.5,
+        "sample_adjusted_edge": 20.65,
+        "confidence_adjusted_edge": 19.61,
+        "board_rank_score": 35.36,
+        "sample_reliability": 82,
+        "sample_size": 251,
+        "board_tier": "Main Board",
+        "season_hits": 46,
+        "season_hr": 9
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 251
+    },
+    {
+      "name": "Jordan",
+      "team": "STL",
+      "boardTier": "Main Board",
+      "boardRankScore": 35.3,
+      "scorecard": {
+        "raw_edge": 21.87,
+        "sample_adjusted_edge": 30.78,
+        "confidence_adjusted_edge": 25.69,
+        "board_rank_score": 35.3,
+        "sample_reliability": 41,
+        "sample_size": 77,
+        "board_tier": "Main Board",
+        "season_hits": 16,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 77
+    },
+    {
+      "name": "Triolo",
+      "team": "PIT",
+      "boardTier": "Main Board",
+      "boardRankScore": 35.28,
+      "scorecard": {
+        "raw_edge": 17.69,
+        "sample_adjusted_edge": 22.05,
+        "confidence_adjusted_edge": 20.5,
+        "board_rank_score": 35.28,
+        "sample_reliability": 75,
+        "sample_size": 199,
+        "board_tier": "Main Board",
+        "season_hits": 42,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 199
+    },
+    {
+      "name": "Winn",
+      "team": "STL",
+      "boardTier": "Main Board",
+      "boardRankScore": 35.12,
+      "scorecard": {
+        "raw_edge": 17.8,
+        "sample_adjusted_edge": 18.52,
+        "confidence_adjusted_edge": 18.06,
+        "board_rank_score": 35.12,
+        "sample_reliability": 91,
+        "sample_size": 343,
+        "board_tier": "Main Board",
+        "season_hits": 76,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 343
+    },
+    {
+      "name": "Pag\u00e9s, P",
+      "team": "STL",
+      "boardTier": "Main Board",
+      "boardRankScore": 34.98,
+      "scorecard": {
+        "raw_edge": 17.93,
+        "sample_adjusted_edge": 23.74,
+        "confidence_adjusted_edge": 21.55,
+        "board_rank_score": 34.98,
+        "sample_reliability": 67,
+        "sample_size": 159,
+        "board_tier": "Main Board",
+        "season_hits": 31,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 159
+    },
+    {
+      "name": "Robles",
+      "team": "SEA",
+      "boardTier": "Main Board",
+      "boardRankScore": 34.85,
+      "scorecard": {
+        "raw_edge": 16.81,
+        "sample_adjusted_edge": 28.34,
+        "confidence_adjusted_edge": 24.22,
+        "board_rank_score": 34.85,
+        "sample_reliability": 48,
+        "sample_size": 94,
+        "board_tier": "Main Board",
+        "season_hits": 20,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 94
+    },
+    {
+      "name": "Marsee",
+      "team": "MIA",
+      "boardTier": "Main Board",
+      "boardRankScore": 34.69,
+      "scorecard": {
+        "raw_edge": 17.39,
+        "sample_adjusted_edge": 17.74,
+        "confidence_adjusted_edge": 17.34,
+        "board_rank_score": 34.69,
+        "sample_reliability": 92,
+        "sample_size": 375,
+        "board_tier": "Main Board",
+        "season_hits": 61,
+        "season_hr": 5
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 375
+    },
+    {
+      "name": "Meidroth",
+      "team": "CWS",
+      "boardTier": "Main Board",
+      "boardRankScore": 34.48,
+      "scorecard": {
+        "raw_edge": 19.91,
+        "sample_adjusted_edge": 19.04,
+        "confidence_adjusted_edge": 18.67,
+        "board_rank_score": 34.48,
+        "sample_reliability": 93,
+        "sample_size": 376,
+        "board_tier": "Main Board",
+        "season_hits": 88,
+        "season_hr": 7
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 376
+    },
+    {
+      "name": "Walls",
+      "team": "TB",
+      "boardTier": "Main Board",
+      "boardRankScore": 33.8,
+      "scorecard": {
+        "raw_edge": 13.76,
+        "sample_adjusted_edge": 17.04,
+        "confidence_adjusted_edge": 16.23,
+        "board_rank_score": 33.8,
+        "sample_reliability": 83,
+        "sample_size": 255,
+        "board_tier": "Main Board",
+        "season_hits": 48,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 255
+    },
+    {
+      "name": "Kwan",
+      "team": "CLE",
+      "boardTier": "Main Board",
+      "boardRankScore": 33.69,
+      "scorecard": {
+        "raw_edge": 15.56,
+        "sample_adjusted_edge": 16.96,
+        "confidence_adjusted_edge": 16.48,
+        "board_rank_score": 33.69,
+        "sample_reliability": 90,
+        "sample_size": 339,
+        "board_tier": "Main Board",
+        "season_hits": 63,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 339
+    },
+    {
+      "name": "Mangum",
+      "team": "PIT",
+      "boardTier": "Main Board",
+      "boardRankScore": 33.58,
+      "scorecard": {
+        "raw_edge": 14.37,
+        "sample_adjusted_edge": 18.26,
+        "confidence_adjusted_edge": 17.28,
+        "board_rank_score": 33.58,
+        "sample_reliability": 81,
+        "sample_size": 239,
+        "board_tier": "Main Board",
+        "season_hits": 65,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 239
+    },
+    {
+      "name": "Edwards, X",
+      "team": "MIA",
+      "boardTier": "Main Board",
+      "boardRankScore": 33.46,
+      "scorecard": {
+        "raw_edge": 15.68,
+        "sample_adjusted_edge": 16.14,
+        "confidence_adjusted_edge": 15.82,
+        "board_rank_score": 33.46,
+        "sample_reliability": 93,
+        "sample_size": 392,
+        "board_tier": "Main Board",
+        "season_hits": 102,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 392
+    },
+    {
+      "name": "Hicks, L",
+      "team": "MIA",
+      "boardTier": "Main Board",
+      "boardRankScore": 33.21,
+      "scorecard": {
+        "raw_edge": 14.98,
+        "sample_adjusted_edge": 16.3,
+        "confidence_adjusted_edge": 15.84,
+        "board_rank_score": 33.21,
+        "sample_reliability": 90,
+        "sample_size": 328,
+        "board_tier": "Main Board",
+        "season_hits": 82,
+        "season_hr": 13
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 328
+    },
+    {
+      "name": "Simpson",
+      "team": "TB",
+      "boardTier": "Main Board",
+      "boardRankScore": 33.14,
+      "scorecard": {
+        "raw_edge": 12.95,
+        "sample_adjusted_edge": 14.6,
+        "confidence_adjusted_edge": 14.2,
+        "board_rank_score": 33.14,
+        "sample_reliability": 90,
+        "sample_size": 339,
+        "board_tier": "Main Board",
+        "season_hits": 86,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 339
+    },
+    {
+      "name": "Sanoja",
+      "team": "MIA",
+      "boardTier": "Main Board",
+      "boardRankScore": 32.23,
+      "scorecard": {
+        "raw_edge": 13.12,
+        "sample_adjusted_edge": 16.98,
+        "confidence_adjusted_edge": 16.03,
+        "board_rank_score": 32.23,
+        "sample_reliability": 80,
+        "sample_size": 232,
+        "board_tier": "Main Board",
+        "season_hits": 60,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 232
+    },
+    {
+      "name": "Arroyo",
+      "team": "CIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 31.7,
+      "scorecard": {
+        "raw_edge": 11.17,
+        "sample_adjusted_edge": 23.79,
+        "confidence_adjusted_edge": 20.26,
+        "board_rank_score": 31.7,
+        "sample_reliability": 47,
+        "sample_size": 93,
+        "board_tier": "Main Board",
+        "season_hits": 21,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 93
+    },
+    {
+      "name": "Frelick",
+      "team": "MIL",
+      "boardTier": "Main Board",
+      "boardRankScore": 31.53,
+      "scorecard": {
+        "raw_edge": 12.21,
+        "sample_adjusted_edge": 14.59,
+        "confidence_adjusted_edge": 14.06,
+        "board_rank_score": 31.53,
+        "sample_reliability": 87,
+        "sample_size": 300,
+        "board_tier": "Main Board",
+        "season_hits": 62,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 300
+    },
+    {
+      "name": "Friedl",
+      "team": "CIN",
+      "boardTier": "Main Board",
+      "boardRankScore": 30.87,
+      "scorecard": {
+        "raw_edge": 10.6,
+        "sample_adjusted_edge": 15.95,
+        "confidence_adjusted_edge": 14.87,
+        "board_rank_score": 30.87,
+        "sample_reliability": 76,
+        "sample_size": 207,
+        "board_tier": "Main Board",
+        "season_hits": 31,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 207
+    },
+    {
+      "name": "Goodman",
+      "team": "COL",
+      "boardTier": "Watchlist",
+      "boardRankScore": 54.51,
+      "scorecard": {
+        "raw_edge": 58.32,
+        "sample_adjusted_edge": 47.27,
+        "confidence_adjusted_edge": 46.21,
+        "board_rank_score": 54.51,
+        "sample_reliability": 92,
+        "sample_size": 359,
+        "board_tier": "Watchlist",
+        "season_hits": 81,
+        "season_hr": 27
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 359
+    },
+    {
+      "name": "Campusano",
+      "team": "SD",
+      "boardTier": "Watchlist",
+      "boardRankScore": 44.43,
+      "scorecard": {
+        "raw_edge": 55.92,
+        "sample_adjusted_edge": 52.09,
+        "confidence_adjusted_edge": 43.19,
+        "board_rank_score": 44.43,
+        "sample_reliability": 39,
+        "sample_size": 72,
+        "board_tier": "Watchlist",
+        "season_hits": 20,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 72
+    },
+    {
+      "name": "Karros, K",
+      "team": "COL",
+      "boardTier": "Watchlist",
+      "boardRankScore": 40.99,
+      "scorecard": {
+        "raw_edge": 40.12,
+        "sample_adjusted_edge": 33.59,
+        "confidence_adjusted_edge": 32.46,
+        "board_rank_score": 40.99,
+        "sample_reliability": 88,
+        "sample_size": 306,
+        "board_tier": "Watchlist",
+        "season_hits": 69,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 306
+    },
+    {
+      "name": "Bowen",
+      "team": "SD",
+      "boardTier": "Watchlist",
+      "boardRankScore": 39.07,
+      "scorecard": {
+        "raw_edge": 49.99,
+        "sample_adjusted_edge": 46.6,
+        "confidence_adjusted_edge": 36.81,
+        "board_rank_score": 39.07,
+        "sample_reliability": 25,
+        "sample_size": 42,
+        "board_tier": "Watchlist",
+        "season_hits": 5,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 42
+    },
+    {
+      "name": "Jackson, A",
+      "team": "MIN",
+      "boardTier": "Watchlist",
+      "boardRankScore": 38.26,
+      "scorecard": {
+        "raw_edge": 34.27,
+        "sample_adjusted_edge": 43.33,
+        "confidence_adjusted_edge": 34.95,
+        "board_rank_score": 38.26,
+        "sample_reliability": 31,
+        "sample_size": 53,
+        "board_tier": "Watchlist",
+        "season_hits": 16,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 53
+    },
+    {
+      "name": "Rincones Jr.",
+      "team": "PHI",
+      "boardTier": "Watchlist",
+      "boardRankScore": 38.21,
+      "scorecard": {
+        "raw_edge": 42.65,
+        "sample_adjusted_edge": 43.31,
+        "confidence_adjusted_edge": 35.3,
+        "board_rank_score": 38.21,
+        "sample_reliability": 34,
+        "sample_size": 60,
+        "board_tier": "Watchlist",
+        "season_hits": 12,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 60
+    },
+    {
+      "name": "Schuemann",
+      "team": "NYY",
+      "boardTier": "Watchlist",
+      "boardRankScore": 38.16,
+      "scorecard": {
+        "raw_edge": 45.16,
+        "sample_adjusted_edge": 42.38,
+        "confidence_adjusted_edge": 34.43,
+        "board_rank_score": 38.16,
+        "sample_reliability": 33,
+        "sample_size": 59,
+        "board_tier": "Watchlist",
+        "season_hits": 10,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 59
+    },
+    {
+      "name": "Seigler",
+      "team": "BOS",
+      "boardTier": "Watchlist",
+      "boardRankScore": 35.13,
+      "scorecard": {
+        "raw_edge": 28.89,
+        "sample_adjusted_edge": 37.47,
+        "confidence_adjusted_edge": 30.86,
+        "board_rank_score": 35.13,
+        "sample_reliability": 37,
+        "sample_size": 66,
+        "board_tier": "Watchlist",
+        "season_hits": 17,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 66
+    },
+    {
+      "name": "Carrigg",
+      "team": "COL",
+      "boardTier": "Watchlist",
+      "boardRankScore": 35.03,
+      "scorecard": {
+        "raw_edge": 32.52,
+        "sample_adjusted_edge": 33.48,
+        "confidence_adjusted_edge": 28.98,
+        "board_rank_score": 35.03,
+        "sample_reliability": 52,
+        "sample_size": 105,
+        "board_tier": "Watchlist",
+        "season_hits": 27,
+        "season_hr": 4
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 105
+    },
+    {
+      "name": "Castro, W",
+      "team": "COL",
+      "boardTier": "Watchlist",
+      "boardRankScore": 34.28,
+      "scorecard": {
+        "raw_edge": 29.1,
+        "sample_adjusted_edge": 25.39,
+        "confidence_adjusted_edge": 24.54,
+        "board_rank_score": 34.28,
+        "sample_reliability": 88,
+        "sample_size": 311,
+        "board_tier": "Watchlist",
+        "season_hits": 74,
+        "season_hr": 6
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 311
+    },
+    {
+      "name": "McCarthy",
+      "team": "COL",
+      "boardTier": "Watchlist",
+      "boardRankScore": 34.25,
+      "scorecard": {
+        "raw_edge": 28.47,
+        "sample_adjusted_edge": 25.54,
+        "confidence_adjusted_edge": 24.54,
+        "board_rank_score": 34.25,
+        "sample_reliability": 86,
+        "sample_size": 290,
+        "board_tier": "Watchlist",
+        "season_hits": 80,
+        "season_hr": 9
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 290
+    },
+    {
+      "name": "Tolbert",
+      "team": "KC",
+      "boardTier": "Watchlist",
+      "boardRankScore": 33.93,
+      "scorecard": {
+        "raw_edge": 21.01,
+        "sample_adjusted_edge": 35.51,
+        "confidence_adjusted_edge": 28.85,
+        "board_rank_score": 33.93,
+        "sample_reliability": 33,
+        "sample_size": 57,
+        "board_tier": "Watchlist",
+        "season_hits": 19,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 57
+    },
+    {
+      "name": "Watson",
+      "team": "CLE",
+      "boardTier": "Watchlist",
+      "boardRankScore": 32.05,
+      "scorecard": {
+        "raw_edge": 22.11,
+        "sample_adjusted_edge": 32.24,
+        "confidence_adjusted_edge": 26.55,
+        "board_rank_score": 32.05,
+        "sample_reliability": 37,
+        "sample_size": 66,
+        "board_tier": "Watchlist",
+        "season_hits": 14,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 66
+    },
+    {
+      "name": "Kepler",
+      "team": "ARI",
+      "boardTier": "Watchlist",
+      "boardRankScore": 31.88,
+      "scorecard": {
+        "raw_edge": 58.72,
+        "sample_adjusted_edge": 50.08,
+        "confidence_adjusted_edge": 35.5,
+        "board_rank_score": 31.88,
+        "sample_reliability": 18,
+        "sample_size": 29,
+        "board_tier": "Watchlist",
+        "season_hits": 5,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 29
+    },
+    {
+      "name": "Rumfield",
+      "team": "COL",
+      "boardTier": "Watchlist",
+      "boardRankScore": 31.26,
+      "scorecard": {
+        "raw_edge": 24.08,
+        "sample_adjusted_edge": 21.26,
+        "confidence_adjusted_edge": 20.78,
+        "board_rank_score": 31.26,
+        "sample_reliability": 92,
+        "sample_size": 368,
+        "board_tier": "Watchlist",
+        "season_hits": 96,
+        "season_hr": 12
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 368
+    },
+    {
+      "name": "Tovar",
+      "team": "COL",
+      "boardTier": "Watchlist",
+      "boardRankScore": 30.78,
+      "scorecard": {
+        "raw_edge": 23.15,
+        "sample_adjusted_edge": 20.73,
+        "confidence_adjusted_edge": 20.15,
+        "board_rank_score": 30.78,
+        "sample_reliability": 90,
+        "sample_size": 329,
+        "board_tier": "Watchlist",
+        "season_hits": 62,
+        "season_hr": 8
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 329
+    },
+    {
+      "name": "Freeman, T",
+      "team": "COL",
+      "boardTier": "Watchlist",
+      "boardRankScore": 30.53,
+      "scorecard": {
+        "raw_edge": 22.64,
+        "sample_adjusted_edge": 22.09,
+        "confidence_adjusted_edge": 20.91,
+        "board_rank_score": 30.53,
+        "sample_reliability": 81,
+        "sample_size": 239,
+        "board_tier": "Watchlist",
+        "season_hits": 56,
+        "season_hr": 3
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 239
+    },
+    {
+      "name": "Gonzalez, R",
+      "team": "BOS",
+      "boardTier": "Watchlist",
+      "boardRankScore": 28.32,
+      "scorecard": {
+        "raw_edge": 34.37,
+        "sample_adjusted_edge": 43.18,
+        "confidence_adjusted_edge": 30.6,
+        "board_rank_score": 28.32,
+        "sample_reliability": 18,
+        "sample_size": 28,
+        "board_tier": "Watchlist",
+        "season_hits": 8,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 28
+    },
+    {
+      "name": "Trevino",
+      "team": "CIN",
+      "boardTier": "Watchlist",
+      "boardRankScore": 28.32,
+      "scorecard": {
+        "raw_edge": 10.61,
+        "sample_adjusted_edge": 25.87,
+        "confidence_adjusted_edge": 21.31,
+        "board_rank_score": 28.32,
+        "sample_reliability": 37,
+        "sample_size": 67,
+        "board_tier": "Watchlist",
+        "season_hits": 16,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 67
+    },
+    {
+      "name": "Kuroda-Grauer",
+      "team": "ATH",
+      "boardTier": "Watchlist",
+      "boardRankScore": 27.76,
+      "scorecard": {
+        "raw_edge": 28.15,
+        "sample_adjusted_edge": 39.86,
+        "confidence_adjusted_edge": 28.35,
+        "board_rank_score": 27.76,
+        "sample_reliability": 19,
+        "sample_size": 31,
+        "board_tier": "Watchlist",
+        "season_hits": 15,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 31
+    },
+    {
+      "name": "Fulford",
+      "team": "COL",
+      "boardTier": "Watchlist",
+      "boardRankScore": 27.43,
+      "scorecard": {
+        "raw_edge": 22.37,
+        "sample_adjusted_edge": 29.98,
+        "confidence_adjusted_edge": 24.52,
+        "board_rank_score": 27.43,
+        "sample_reliability": 35,
+        "sample_size": 63,
+        "board_tier": "Watchlist",
+        "season_hits": 10,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 63
+    },
+    {
+      "name": "Eaton",
+      "team": "BOS",
+      "boardTier": "Watchlist",
+      "boardRankScore": 27.18,
+      "scorecard": {
+        "raw_edge": 27.05,
+        "sample_adjusted_edge": 39.52,
+        "confidence_adjusted_edge": 28.31,
+        "board_rank_score": 27.18,
+        "sample_reliability": 21,
+        "sample_size": 34,
+        "board_tier": "Watchlist",
+        "season_hits": 4,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 34
+    },
+    {
+      "name": "Cauley",
+      "team": "TEX",
+      "boardTier": "Watchlist",
+      "boardRankScore": 26.88,
+      "scorecard": {
+        "raw_edge": 26.38,
+        "sample_adjusted_edge": 39.62,
+        "confidence_adjusted_edge": 27.47,
+        "board_rank_score": 26.88,
+        "sample_reliability": 12,
+        "sample_size": 18,
+        "board_tier": "Watchlist",
+        "season_hits": 3,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 18
+    },
+    {
+      "name": "Perez, J",
+      "team": "CWS",
+      "boardTier": "Watchlist",
+      "boardRankScore": 26.73,
+      "scorecard": {
+        "raw_edge": 40.83,
+        "sample_adjusted_edge": 40.05,
+        "confidence_adjusted_edge": 28.39,
+        "board_rank_score": 26.73,
+        "sample_reliability": 18,
+        "sample_size": 29,
+        "board_tier": "Watchlist",
+        "season_hits": 5,
+        "season_hr": 2
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 29
+    },
+    {
+      "name": "Jarvis",
+      "team": "ATL",
+      "boardTier": "Watchlist",
+      "boardRankScore": 26.48,
+      "scorecard": {
+        "raw_edge": 26.18,
+        "sample_adjusted_edge": 40.23,
+        "confidence_adjusted_edge": 28.0,
+        "board_rank_score": 26.48,
+        "sample_reliability": 13,
+        "sample_size": 20,
+        "board_tier": "Watchlist",
+        "season_hits": 4,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 20
+    },
+    {
+      "name": "Cavanaugh",
+      "team": "SF",
+      "boardTier": "Watchlist",
+      "boardRankScore": 25.99,
+      "scorecard": {
+        "raw_edge": 18.89,
+        "sample_adjusted_edge": 38.38,
+        "confidence_adjusted_edge": 27.0,
+        "board_rank_score": 25.99,
+        "sample_reliability": 16,
+        "sample_size": 26,
+        "board_tier": "Watchlist",
+        "season_hits": 4,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 26
+    },
+    {
+      "name": "Roden",
+      "team": "MIN",
+      "boardTier": "Deep Longshot",
+      "boardRankScore": 23.74,
+      "scorecard": {
+        "raw_edge": 72.15,
+        "sample_adjusted_edge": 53.07,
+        "confidence_adjusted_edge": 32.47,
+        "board_rank_score": 23.74,
+        "sample_reliability": 3,
+        "sample_size": 5,
+        "board_tier": "Deep Longshot",
+        "season_hits": 2,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "estimated",
+        "seasonStatsVerified": true
+      },
+      "sample": 5
+    },
+    {
+      "name": "Maile",
+      "team": "KC",
+      "boardTier": "Deep Longshot",
+      "boardRankScore": 22.55,
+      "scorecard": {
+        "raw_edge": 49.6,
+        "sample_adjusted_edge": 47.94,
+        "confidence_adjusted_edge": 29.33,
+        "board_rank_score": 22.55,
+        "sample_reliability": 3,
+        "sample_size": 5,
+        "board_tier": "Deep Longshot",
+        "season_hits": 1,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 5
+    },
+    {
+      "name": "Flores Jr.",
+      "team": "PIT",
+      "boardTier": "Deep Longshot",
+      "boardRankScore": 22.02,
+      "scorecard": {
+        "raw_edge": 62.17,
+        "sample_adjusted_edge": 49.23,
+        "confidence_adjusted_edge": 30.12,
+        "board_rank_score": 22.02,
+        "sample_reliability": 3,
+        "sample_size": 5,
+        "board_tier": "Deep Longshot",
+        "season_hits": 2,
+        "season_hr": 1
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 5
+    },
+    {
+      "name": "D\u00edaz, E",
+      "team": "TEX",
+      "boardTier": "Deep Longshot",
+      "boardRankScore": 20.25,
+      "scorecard": {
+        "raw_edge": 32.62,
+        "sample_adjusted_edge": 42.71,
+        "confidence_adjusted_edge": 26.34,
+        "board_rank_score": 20.25,
+        "sample_reliability": 5,
+        "sample_size": 0,
+        "board_tier": "Deep Longshot",
+        "season_hits": 0,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "estimated",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": false
+      },
+      "sample": 0
+    },
+    {
+      "name": "Harris, B",
+      "team": "BOS",
+      "boardTier": "Deep Longshot",
+      "boardRankScore": 20.1,
+      "scorecard": {
+        "raw_edge": 41.11,
+        "sample_adjusted_edge": 41.44,
+        "confidence_adjusted_edge": 25.45,
+        "board_rank_score": 20.1,
+        "sample_reliability": 4,
+        "sample_size": 6,
+        "board_tier": "Deep Longshot",
+        "season_hits": 0,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 6
+    },
+    {
+      "name": "Walker, J",
+      "team": "STL",
+      "boardTier": "Deep Longshot",
+      "boardRankScore": 19.89,
+      "scorecard": {
+        "raw_edge": 62.31,
+        "sample_adjusted_edge": 44.42,
+        "confidence_adjusted_edge": 27.39,
+        "board_rank_score": 19.89,
+        "sample_reliability": 5,
+        "sample_size": 0,
+        "board_tier": "Deep Longshot",
+        "season_hits": 0,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "estimated",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": false
+      },
+      "sample": 0
+    },
+    {
+      "name": "Rogers",
+      "team": "DET",
+      "boardTier": "Deep Longshot",
+      "boardRankScore": 19.8,
+      "scorecard": {
+        "raw_edge": 25.6,
+        "sample_adjusted_edge": 41.34,
+        "confidence_adjusted_edge": 25.49,
+        "board_rank_score": 19.8,
+        "sample_reliability": 5,
+        "sample_size": 0,
+        "board_tier": "Deep Longshot",
+        "season_hits": 0,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "estimated",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": false
+      },
+      "sample": 0
+    },
+    {
+      "name": "Smith, D",
+      "team": "ATL",
+      "boardTier": "Deep Longshot",
+      "boardRankScore": 19.72,
+      "scorecard": {
+        "raw_edge": 26.36,
+        "sample_adjusted_edge": 43.08,
+        "confidence_adjusted_edge": 26.56,
+        "board_rank_score": 19.72,
+        "sample_reliability": 5,
+        "sample_size": 0,
+        "board_tier": "Deep Longshot",
+        "season_hits": 0,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "estimated",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": false
+      },
+      "sample": 0
+    },
+    {
+      "name": "Gilbert",
+      "team": "SF",
+      "boardTier": "Deep Longshot",
+      "boardRankScore": 19.24,
+      "scorecard": {
+        "raw_edge": 22.18,
+        "sample_adjusted_edge": 41.67,
+        "confidence_adjusted_edge": 25.69,
+        "board_rank_score": 19.24,
+        "sample_reliability": 5,
+        "sample_size": 0,
+        "board_tier": "Deep Longshot",
+        "season_hits": 0,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "estimated",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": false
+      },
+      "sample": 0
+    },
+    {
+      "name": "Lara",
+      "team": "MIL",
+      "boardTier": "Deep Longshot",
+      "boardRankScore": 18.7,
+      "scorecard": {
+        "raw_edge": 21.25,
+        "sample_adjusted_edge": 37.74,
+        "confidence_adjusted_edge": 23.36,
+        "board_rank_score": 18.7,
+        "sample_reliability": 6,
+        "sample_size": 9,
+        "board_tier": "Deep Longshot",
+        "season_hits": 2,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "verified",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": true
+      },
+      "sample": 9
+    },
+    {
+      "name": "Ferm\u00edn",
+      "team": "STL",
+      "boardTier": "Deep Longshot",
+      "boardRankScore": 17.63,
+      "scorecard": {
+        "raw_edge": 15.25,
+        "sample_adjusted_edge": 36.87,
+        "confidence_adjusted_edge": 22.73,
+        "board_rank_score": 17.63,
+        "sample_reliability": 5,
+        "sample_size": 0,
+        "board_tier": "Deep Longshot",
+        "season_hits": 0,
+        "season_hr": 0
+      },
+      "provenance": {
+        "pitcherFieldsUsed": [
+          "barrelA",
+          "hardHitA"
+        ],
+        "isoStatus": "estimated",
+        "xwobaconStatus": "calculated",
+        "seasonStatsVerified": false
+      },
+      "sample": 0
+    }
+  ]
+}

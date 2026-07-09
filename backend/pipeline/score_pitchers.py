@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""
+Home Run Lab 4.0 pipeline module: score_pitchers.py
+
+This is a placeholder module for the modular backend. The current app still uses
+your existing pipeline.py plus backend/model/scoring.py. We will migrate logic
+from pipeline.py into this file in the next backend phase.
+"""
+
+def run():
+    print("score_pitchers.py: pending migration from legacy pipeline.py")
+
+if __name__ == "__main__":
+    run()

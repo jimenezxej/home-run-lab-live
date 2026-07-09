@@ -1,0 +1,43 @@
+{
+  "version": "8.0",
+  "updatedAt": "2026-07-09T12:35:56.960999",
+  "totalHitters": 234,
+  "identityReady": true,
+  "suspiciousCount": 0,
+  "unresolvedCount": 6,
+  "untrustedCount": 6,
+  "suspicious": [],
+  "unresolved": [
+    {
+      "name": "Smith, D",
+      "team": "ATL",
+      "method": "identity_unresolved"
+    },
+    {
+      "name": "Rogers",
+      "team": "DET",
+      "method": "identity_unresolved"
+    },
+    {
+      "name": "Walker, J",
+      "team": "STL",
+      "method": "identity_unresolved"
+    },
+    {
+      "name": "Ferm\u00edn",
+      "team": "STL",
+      "method": "identity_unresolved"
+    },
+    {
+      "name": "D\u00edaz, E",
+      "team": "TEX",
+      "method": "identity_unresolved"
+    },
+    {
+      "name": "Gilbert",
+      "team": "SF",
+      "method": "identity_unresolved"
+    }
+  ],
+  "rule": "Do not publish if obvious wrong player identities remain."
+}

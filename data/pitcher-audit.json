@@ -1,0 +1,528 @@
+{
+  "version": "4.2",
+  "updatedAt": "2026-07-09T08:45:41.149672",
+  "pitcherCount": 26,
+  "averageCompleteness": 50,
+  "incompleteCount": 26,
+  "missingProbablePitchers": [
+    "NYY",
+    "SF"
+  ],
+  "pitchers": [
+    {
+      "team": "NYY",
+      "name": "TBD",
+      "hand": "R",
+      "completeness": 15,
+      "missing": [
+        "hr9",
+        "barrelA",
+        "hardHitA",
+        "fb",
+        "gb",
+        "xera",
+        "fip",
+        "siera",
+        "veloTrend",
+        "mix"
+      ],
+      "importantMissing": [
+        "hr9",
+        "barrelA",
+        "hardHitA",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "BOS",
+      "name": "Sandoval",
+      "hand": "L",
+      "completeness": 15,
+      "missing": [
+        "hr9",
+        "barrelA",
+        "hardHitA",
+        "fb",
+        "gb",
+        "xera",
+        "fip",
+        "siera",
+        "veloTrend",
+        "mix"
+      ],
+      "importantMissing": [
+        "hr9",
+        "barrelA",
+        "hardHitA",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "SF",
+      "name": "TBD",
+      "hand": "R",
+      "completeness": 15,
+      "missing": [
+        "hr9",
+        "barrelA",
+        "hardHitA",
+        "fb",
+        "gb",
+        "xera",
+        "fip",
+        "siera",
+        "veloTrend",
+        "mix"
+      ],
+      "importantMissing": [
+        "hr9",
+        "barrelA",
+        "hardHitA",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "PIT",
+      "name": "Keller, M",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "ATL",
+      "name": "Elder",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "NYM",
+      "name": "Manaea",
+      "hand": "L",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "KC",
+      "name": "Wacha",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "TB",
+      "name": "Rasmussen",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "BAL",
+      "name": "Rogers, Tr",
+      "hand": "L",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "CHC",
+      "name": "Peterson, D",
+      "hand": "L",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "MIN",
+      "name": "Ober",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "CLE",
+      "name": "Williams, G",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "CWS",
+      "name": "Kay",
+      "hand": "L",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "DET",
+      "name": "Valdez, F",
+      "hand": "L",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "ATH",
+      "name": "Perkins",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "MIA",
+      "name": "Junk",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "SEA",
+      "name": "Miller, B",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "CIN",
+      "name": "Singer",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "PHI",
+      "name": "Luzardo",
+      "hand": "L",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "STL",
+      "name": "Pallante",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "MIL",
+      "name": "Henderson",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "TEX",
+      "name": "Eovaldi",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "LAA",
+      "name": "Detmers",
+      "hand": "L",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "SD",
+      "name": "Canning",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "ARI",
+      "name": "Kelly, Me",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "team": "COL",
+      "name": "Feltner",
+      "hand": "R",
+      "completeness": 54,
+      "missing": [
+        "hr9",
+        "fb",
+        "gb",
+        "fip",
+        "siera"
+      ],
+      "importantMissing": [
+        "hr9",
+        "fb",
+        "gb"
+      ],
+      "status": "incomplete"
+    }
+  ]
+}

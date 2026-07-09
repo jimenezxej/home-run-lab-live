@@ -1,0 +1,82 @@
+{
+  "version": "6.0.4",
+  "peopleCount": 1296,
+  "examples": {
+    "trout": [
+      "Mike Trout"
+    ],
+    "soto": [
+      "Gregory Soto",
+      "Juan Soto"
+    ],
+    "lowe": [
+      "Brandon Lowe",
+      "Nathaniel Lowe",
+      "Josh Lowe"
+    ],
+    "reynolds": [
+      "Bryan Reynolds"
+    ],
+    "tatis": [
+      "Fernando Tatis Jr."
+    ],
+    "olson": [
+      "Matt Olson"
+    ]
+  },
+  "unmapped": [
+    {
+      "name": "Crow-Armstrong",
+      "team": "CHC",
+      "resolved": "Shawn Armstrong",
+      "playerId": "542888",
+      "method": "no_season_hitting_split"
+    },
+    {
+      "name": "Young",
+      "team": "SEA",
+      "resolved": "Brandon Young",
+      "playerId": "687064",
+      "method": "no_season_hitting_split"
+    },
+    {
+      "name": "De La Cruz, E",
+      "team": "CIN",
+      "method": "no_player_id_match",
+      "parts": {
+        "full": "de la cruz e",
+        "firstInitial": "l",
+        "last": "de",
+        "suffix": null
+      }
+    },
+    {
+      "name": "Winn",
+      "team": "STL",
+      "resolved": "Cole Winn",
+      "playerId": "668390",
+      "method": "no_season_hitting_split"
+    },
+    {
+      "name": "Smith",
+      "team": "TEX",
+      "resolved": "Burch Smith",
+      "playerId": "572143",
+      "method": "no_season_hitting_split"
+    },
+    {
+      "name": "D\u00edaz, E",
+      "team": "TEX",
+      "resolved": "Edwin D\u00edaz",
+      "playerId": "621242",
+      "method": "no_season_hitting_split"
+    },
+    {
+      "name": "O'Hoppe",
+      "team": "LAA",
+      "resolved": "Alex Hoppe",
+      "playerId": "695380",
+      "method": "no_season_hitting_split"
+    }
+  ]
+}

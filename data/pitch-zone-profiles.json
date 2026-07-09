@@ -1,0 +1,1110 @@
+{
+  "version": "5.1",
+  "updatedAt": "2026-07-09T12:35:58.299627",
+  "integrityRule": "Zone visuals declare whether they are verified pitch mix or placeholder profiles.",
+  "profiles": {
+    "PIT": {
+      "team": "PIT",
+      "name": "Keller, M",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "4-Seam",
+          "pct": 28.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 24.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 21.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 13.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 7.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 7.0
+        }
+      ],
+      "zoneGrid": [
+        51,
+        76,
+        71,
+        29,
+        13,
+        75,
+        100,
+        86,
+        90
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "ATL": {
+      "team": "ATL",
+      "name": "Elder",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Sinker",
+          "pct": 36.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 21.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 20.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 17.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 7.0
+        }
+      ],
+      "zoneGrid": [
+        26,
+        40,
+        44,
+        55,
+        31,
+        72,
+        100,
+        67,
+        74
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "NYM": {
+      "team": "NYM",
+      "name": "Manaea",
+      "hand": "L",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "4-Seam",
+          "pct": 33.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 30.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 20.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 14.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 3.0
+        }
+      ],
+      "zoneGrid": [
+        59,
+        89,
+        85,
+        42,
+        25,
+        100,
+        62,
+        41,
+        81
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "KC": {
+      "team": "KC",
+      "name": "Wacha",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "4-Seam",
+          "pct": 23.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 23.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 18.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 17.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 13.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 6.0
+        }
+      ],
+      "zoneGrid": [
+        32,
+        47,
+        30,
+        61,
+        25,
+        31,
+        100,
+        82,
+        39
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "TB": {
+      "team": "TB",
+      "name": "Rasmussen",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Cutter",
+          "pct": 25.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 24.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 24.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 18.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 5.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 4.0
+        }
+      ],
+      "zoneGrid": [
+        35,
+        53,
+        31,
+        75,
+        37,
+        36,
+        100,
+        73,
+        38
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "NYY": {
+      "team": "NYY",
+      "name": "Blackburn, P",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Changeup",
+          "pct": 32.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 30.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 13.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 9.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 9.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 6.0
+        }
+      ],
+      "zoneGrid": [
+        8,
+        13,
+        11,
+        35,
+        8,
+        15,
+        100,
+        77,
+        36
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "BAL": {
+      "team": "BAL",
+      "name": "Rogers, Tr",
+      "hand": "L",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "4-Seam",
+          "pct": 51.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 21.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 12.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 9.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 6.0
+        }
+      ],
+      "zoneGrid": [
+        67,
+        100,
+        62,
+        38,
+        12,
+        32,
+        53,
+        35,
+        22
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "CHC": {
+      "team": "CHC",
+      "name": "Peterson, D",
+      "hand": "L",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Sinker",
+          "pct": 28.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 27.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 24.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 13.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 9.0
+        }
+      ],
+      "zoneGrid": [
+        38,
+        57,
+        54,
+        14,
+        0,
+        51,
+        100,
+        77,
+        73
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "MIN": {
+      "team": "MIN",
+      "name": "Ober",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Changeup",
+          "pct": 38.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 29.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 29.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 4.0
+        }
+      ],
+      "zoneGrid": [
+        46,
+        69,
+        69,
+        45,
+        0,
+        69,
+        100,
+        67,
+        51
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "CLE": {
+      "team": "CLE",
+      "name": "Williams, G",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Slider",
+          "pct": 29.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 28.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 18.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 15.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 9.0
+        }
+      ],
+      "zoneGrid": [
+        24,
+        35,
+        52,
+        21,
+        14,
+        79,
+        94,
+        87,
+        100
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "CWS": {
+      "team": "CWS",
+      "name": "Kay",
+      "hand": "L",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Slider",
+          "pct": 37.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 19.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 18.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 16.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 11.0
+        }
+      ],
+      "zoneGrid": [
+        28,
+        42,
+        62,
+        48,
+        24,
+        100,
+        64,
+        43,
+        75
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "BOS": {
+      "team": "BOS",
+      "name": "Sandoval",
+      "hand": "L",
+      "status": "profile_placeholder",
+      "mix": [
+        {
+          "pitch": "4-Seam",
+          "pct": 34
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 16
+        },
+        {
+          "pitch": "Slider",
+          "pct": 24
+        },
+        {
+          "pitch": "Curve",
+          "pct": 14
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 12
+        }
+      ],
+      "zoneGrid": [
+        61,
+        91,
+        78,
+        21,
+        0,
+        64,
+        100,
+        87,
+        78
+      ],
+      "notes": [
+        "Pitch-location data is not available yet. This is a labeled visual placeholder, not verified Statcast location data.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "DET": {
+      "team": "DET",
+      "name": "Valdez, F",
+      "hand": "L",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Sinker",
+          "pct": 49.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 27.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 16.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 4.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 3.0
+        }
+      ],
+      "zoneGrid": [
+        3,
+        5,
+        4,
+        10,
+        0,
+        4,
+        100,
+        85,
+        48
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "ATH": {
+      "team": "ATH",
+      "name": "Perkins",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Slider",
+          "pct": 34.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 31.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 21.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 10.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 3.0
+        }
+      ],
+      "zoneGrid": [
+        53,
+        79,
+        83,
+        53,
+        17,
+        100,
+        62,
+        41,
+        62
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "MIA": {
+      "team": "MIA",
+      "name": "Junk",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "4-Seam",
+          "pct": 37.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 35.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 18.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 6.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 4.0
+        }
+      ],
+      "zoneGrid": [
+        67,
+        100,
+        97,
+        24,
+        0,
+        95,
+        70,
+        56,
+        77
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "SEA": {
+      "team": "SEA",
+      "name": "Miller, B",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "4-Seam",
+          "pct": 39.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 32.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 15.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 8.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 4.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 3.0
+        }
+      ],
+      "zoneGrid": [
+        63,
+        94,
+        65,
+        46,
+        5,
+        40,
+        100,
+        77,
+        39
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "CIN": {
+      "team": "CIN",
+      "name": "Singer",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Sinker",
+          "pct": 47.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 41.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 9.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 3.0
+        }
+      ],
+      "zoneGrid": [
+        4,
+        6,
+        43,
+        18,
+        12,
+        90,
+        92,
+        62,
+        100
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "PHI": {
+      "team": "PHI",
+      "name": "Luzardo",
+      "hand": "L",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Slider",
+          "pct": 43.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 29.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 15.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 13.0
+        }
+      ],
+      "zoneGrid": [
+        23,
+        35,
+        67,
+        15,
+        0,
+        100,
+        97,
+        65,
+        100
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "STL": {
+      "team": "STL",
+      "name": "Pallante",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "4-Seam",
+          "pct": 32.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 32.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 18.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 16.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 2.0
+        }
+      ],
+      "zoneGrid": [
+        56,
+        83,
+        83,
+        3,
+        0,
+        83,
+        80,
+        77,
+        100
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "MIL": {
+      "team": "MIL",
+      "name": "Henderson",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "4-Seam",
+          "pct": 44.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 33.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 21.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 3.0
+        }
+      ],
+      "zoneGrid": [
+        67,
+        100,
+        53,
+        85,
+        32,
+        31,
+        75,
+        50,
+        5
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "TEX": {
+      "team": "TEX",
+      "name": "Eovaldi",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Changeup",
+          "pct": 33.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 26.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 20.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 15.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 6.0
+        }
+      ],
+      "zoneGrid": [
+        18,
+        27,
+        13,
+        65,
+        24,
+        18,
+        100,
+        92,
+        28
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "LAA": {
+      "team": "LAA",
+      "name": "Detmers",
+      "hand": "L",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "4-Seam",
+          "pct": 44.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 38.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 10.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 8.0
+        }
+      ],
+      "zoneGrid": [
+        67,
+        100,
+        93,
+        9,
+        0,
+        86,
+        33,
+        35,
+        69
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "SD": {
+      "team": "SD",
+      "name": "Canning",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "4-Seam",
+          "pct": 31.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 24.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 22.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 10.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 7.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 5.0
+        }
+      ],
+      "zoneGrid": [
+        61,
+        92,
+        82,
+        53,
+        14,
+        82,
+        100,
+        83,
+        70
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "ARI": {
+      "team": "ARI",
+      "name": "Kelly, Me",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "4-Seam",
+          "pct": 28.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 22.0
+        },
+        {
+          "pitch": "Cutter",
+          "pct": 20.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 13.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 10.0
+        },
+        {
+          "pitch": "Slider",
+          "pct": 6.0
+        }
+      ],
+      "zoneGrid": [
+        46,
+        69,
+        42,
+        76,
+        33,
+        39,
+        100,
+        84,
+        38
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    },
+    "SF": {
+      "team": "SF",
+      "name": "TBD",
+      "status": "missing",
+      "mix": [],
+      "zoneGrid": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "notes": [
+        "Pitcher is TBD. Zone visual appears once a probable starter is available."
+      ]
+    },
+    "COL": {
+      "team": "COL",
+      "name": "Feltner",
+      "hand": "R",
+      "status": "verified_mix",
+      "mix": [
+        {
+          "pitch": "Slider",
+          "pct": 37.0
+        },
+        {
+          "pitch": "4-Seam",
+          "pct": 29.0
+        },
+        {
+          "pitch": "Changeup",
+          "pct": 16.0
+        },
+        {
+          "pitch": "Sinker",
+          "pct": 12.0
+        },
+        {
+          "pitch": "Curve",
+          "pct": 7.0
+        }
+      ],
+      "zoneGrid": [
+        52,
+        78,
+        89,
+        22,
+        0,
+        100,
+        88,
+        69,
+        92
+      ],
+      "notes": [
+        "Pitch mix is sourced from available pitcher profile fields.",
+        "Future upgrade: collect actual Statcast pitch locations by pitcher and pitch type."
+      ]
+    }
+  }
+}

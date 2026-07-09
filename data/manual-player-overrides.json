@@ -1,0 +1,14 @@
+{
+  "version": "8.0",
+  "overrides": {
+    "CHC|Crow-Armstrong": {"playerId": 691718, "expectedName": "Pete Crow-Armstrong"},
+    "LAA|O'Hoppe": {"playerId": 681351, "expectedName": "Logan O'Hoppe"},
+    "STL|Winn": {"playerId": 691026, "expectedName": "Masyn Winn"},
+    "CIN|De La Cruz, E": {"playerId": 682829, "expectedName": "Elly De La Cruz"},
+    "TB|Díaz, Y": {"playerId": 650490, "expectedName": "Yandy Díaz"},
+    "BOS|Duran, Ja": {"playerId": 680776, "expectedName": "Jarren Duran"},
+    "TEX|Smith": {"playerId": 669701, "expectedName": "Josh Smith"},
+    "NYM|Young, J": {"playerId": 676724, "expectedName": "Jared Young"},
+    "SEA|Young": {"playerId": 676724, "expectedName": "Jared Young"}
+  }
+}

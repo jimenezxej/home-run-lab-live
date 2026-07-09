@@ -1,0 +1,10 @@
+This package does not overwrite your current app.js.
+
+It adds data reliability files that the current app can use next:
+- data/health.json
+- data/pitcher-audit.json
+- data/update-log.json
+
+Next UI patch can display these in:
+- Command Center
+- Pitcher Lab

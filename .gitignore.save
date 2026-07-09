@@ -1,0 +1,127 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+
+# Cache
+cache/
+*.log
+server.log
+hr-tracker.log
+
+# Temporary folders
+home-run-lab-4.0-*/
+*.zip
+
+# Generated data
+app/slate.json
+app/hr-history.json
+app/live-events.json
+data/slate.json
+data/hr-history.json
+data/live-events.json
+scores.json
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+
+# Cache
+cache/
+*.log
+server.log
+hr-tracker.log
+
+# Temporary folders
+home-run-lab-4.0-*/
+*.zip
+
+# Generated data
+app/slate.json
+app/hr-history.json
+app/live-events.json
+data/slate.json
+data/hr-history.json
+data/live-events.json
+scores.json
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+
+# Cache
+cache/
+*.log
+server.log
+hr-tracker.log
+
+# Temporary folders
+home-run-lab-4.0-*/
+*.zip
+
+# Generated data
+app/slate.json
+app/hr-history.json
+app/live-events.json
+data/slate.json
+data/hr-history.json
+data/live-events.json
+scores.json
+
+# macOS / Windows
+.DS_Store
+Thumbs.db# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+
+# Cache
+cache/
+*.log
+server.log
+hr-tracker.log
+
+# Temporary folders
+home-run-lab-4.0-*/
+*.zip
+
+# Generated data
+app/slate.json
+app/hr-history.json
+app/live-events.json
+data/slate.json
+data/hr-history.json
+data/live-events.json
+scores.json
+
+# macOS / Windows
+.DS_Storeu
+Thumbs.db

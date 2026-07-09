@@ -1,0 +1,188 @@
+{
+  "version": "8.3",
+  "updatedAt": "2026-07-09T12:39:06.641274",
+  "totalHomeRuns": 1023,
+  "daysCovered": 30,
+  "dates": [
+    {
+      "date": "2026-07-09",
+      "games": 13,
+      "homeRuns": 0,
+      "errors": []
+    },
+    {
+      "date": "2026-07-08",
+      "games": 15,
+      "homeRuns": 38,
+      "errors": []
+    },
+    {
+      "date": "2026-07-07",
+      "games": 16,
+      "homeRuns": 33,
+      "errors": []
+    },
+    {
+      "date": "2026-07-06",
+      "games": 8,
+      "homeRuns": 25,
+      "errors": []
+    },
+    {
+      "date": "2026-07-05",
+      "games": 15,
+      "homeRuns": 35,
+      "errors": []
+    },
+    {
+      "date": "2026-07-04",
+      "games": 15,
+      "homeRuns": 45,
+      "errors": []
+    },
+    {
+      "date": "2026-07-03",
+      "games": 13,
+      "homeRuns": 37,
+      "errors": []
+    },
+    {
+      "date": "2026-07-02",
+      "games": 9,
+      "homeRuns": 26,
+      "errors": []
+    },
+    {
+      "date": "2026-07-01",
+      "games": 14,
+      "homeRuns": 45,
+      "errors": []
+    },
+    {
+      "date": "2026-06-30",
+      "games": 15,
+      "homeRuns": 46,
+      "errors": []
+    },
+    {
+      "date": "2026-06-29",
+      "games": 13,
+      "homeRuns": 36,
+      "errors": []
+    },
+    {
+      "date": "2026-06-28",
+      "games": 15,
+      "homeRuns": 28,
+      "errors": []
+    },
+    {
+      "date": "2026-06-27",
+      "games": 15,
+      "homeRuns": 34,
+      "errors": []
+    },
+    {
+      "date": "2026-06-26",
+      "games": 15,
+      "homeRuns": 29,
+      "errors": []
+    },
+    {
+      "date": "2026-06-25",
+      "games": 9,
+      "homeRuns": 23,
+      "errors": []
+    },
+    {
+      "date": "2026-06-24",
+      "games": 16,
+      "homeRuns": 40,
+      "errors": []
+    },
+    {
+      "date": "2026-06-23",
+      "games": 15,
+      "homeRuns": 39,
+      "errors": []
+    },
+    {
+      "date": "2026-06-22",
+      "games": 13,
+      "homeRuns": 21,
+      "errors": []
+    },
+    {
+      "date": "2026-06-21",
+      "games": 15,
+      "homeRuns": 36,
+      "errors": []
+    },
+    {
+      "date": "2026-06-20",
+      "games": 14,
+      "homeRuns": 32,
+      "errors": []
+    },
+    {
+      "date": "2026-06-19",
+      "games": 14,
+      "homeRuns": 42,
+      "errors": []
+    },
+    {
+      "date": "2026-06-18",
+      "games": 9,
+      "homeRuns": 23,
+      "errors": []
+    },
+    {
+      "date": "2026-06-17",
+      "games": 15,
+      "homeRuns": 47,
+      "errors": []
+    },
+    {
+      "date": "2026-06-16",
+      "games": 15,
+      "homeRuns": 35,
+      "errors": []
+    },
+    {
+      "date": "2026-06-15",
+      "games": 10,
+      "homeRuns": 28,
+      "errors": []
+    },
+    {
+      "date": "2026-06-14",
+      "games": 15,
+      "homeRuns": 44,
+      "errors": []
+    },
+    {
+      "date": "2026-06-13",
+      "games": 15,
+      "homeRuns": 45,
+      "errors": []
+    },
+    {
+      "date": "2026-06-12",
+      "games": 15,
+      "homeRuns": 39,
+      "errors": []
+    },
+    {
+      "date": "2026-06-11",
+      "games": 8,
+      "homeRuns": 27,
+      "errors": []
+    },
+    {
+      "date": "2026-06-10",
+      "games": 15,
+      "homeRuns": 45,
+      "errors": []
+    }
+  ]
+}

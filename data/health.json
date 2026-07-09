@@ -1,0 +1,15 @@
+{
+  "version": "4.2",
+  "updatedAt": "2026-07-09T08:52:07.502730",
+  "slatePath": "/home/jimenezxej/homerun-lab/data/slate.json",
+  "pitcherCompleteness": 50,
+  "incompletePitchers": 26,
+  "missingProbablePitchers": [
+    "NYY",
+    "SF"
+  ],
+  "lastFullRefresh": "2026-07-09T08:45:41.250749",
+  "lastFullRefreshReason": "scheduled lineup/pitcher/slate refresh",
+  "currentSlateDate": "2026-07-09",
+  "lastLiveRefresh": "2026-07-09T08:52:07.502543"
+}
