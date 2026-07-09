@@ -1349,14 +1349,14 @@
       "name": "O'Hearn",
       "team": "PIT",
       "boardTier": "Main Board",
-      "boardRankScore": 50.77,
+      "boardRankScore": 50.75,
       "scorecard": {
-        "raw_edge": 40.55,
-        "sample_adjusted_edge": 38.11,
-        "confidence_adjusted_edge": 36.93,
-        "board_rank_score": 50.77,
+        "raw_edge": 40.52,
+        "sample_adjusted_edge": 38.08,
+        "confidence_adjusted_edge": 36.91,
+        "board_rank_score": 50.75,
         "sample_reliability": 89,
-        "sample_size": 323,
+        "sample_size": 324,
         "board_tier": "Main Board",
         "season_hits": 86,
         "season_hr": 16
@@ -1370,7 +1370,7 @@
         "xwobaconStatus": "calculated",
         "seasonStatsVerified": true
       },
-      "sample": 323
+      "sample": 324
     },
     {
       "name": "Larnach",
@@ -1920,7 +1920,7 @@
         "confidence_adjusted_edge": 33.95,
         "board_rank_score": 47.72,
         "sample_reliability": 92,
-        "sample_size": 368,
+        "sample_size": 369,
         "board_tier": "Main Board",
         "season_hits": 69,
         "season_hr": 9
@@ -1934,7 +1934,7 @@
         "xwobaconStatus": "calculated",
         "seasonStatsVerified": true
       },
-      "sample": 368
+      "sample": 369
     },
     {
       "name": "D\u00edaz, Y",
@@ -3459,7 +3459,7 @@
         "confidence_adjusted_edge": 26.78,
         "board_rank_score": 41.07,
         "sample_reliability": 83,
-        "sample_size": 254,
+        "sample_size": 255,
         "board_tier": "Main Board",
         "season_hits": 51,
         "season_hr": 5
@@ -3473,7 +3473,7 @@
         "xwobaconStatus": "calculated",
         "seasonStatsVerified": true
       },
-      "sample": 254
+      "sample": 255
     },
     {
       "name": "Song",
@@ -3834,7 +3834,7 @@
         "confidence_adjusted_edge": 23.13,
         "board_rank_score": 38.94,
         "sample_reliability": 91,
-        "sample_size": 354,
+        "sample_size": 355,
         "board_tier": "Main Board",
         "season_hits": 89,
         "season_hr": 9
@@ -3848,7 +3848,7 @@
         "xwobaconStatus": "calculated",
         "seasonStatsVerified": true
       },
-      "sample": 354
+      "sample": 355
     },
     {
       "name": "Naylor, J",

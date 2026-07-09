@@ -2,7 +2,7 @@
   "version": "8.3",
   "source": "MLB Stats API game feed",
   "verifiedRule": "Only plays where result.event == Home Run are included.",
-  "updatedAt": "2026-07-09T12:57:26.295621",
+  "updatedAt": "2026-07-09T13:06:57.352811",
   "days": 30,
   "dates": [
     "2026-07-09",

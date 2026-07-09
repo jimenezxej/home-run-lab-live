@@ -1,6 +1,6 @@
 {
   "version": "7.0",
-  "updatedAt": "2026-07-09T12:54:23.434613",
+  "updatedAt": "2026-07-09T13:03:57.699343",
   "paperBoard": [
     {
       "rank": 1,
@@ -683,9 +683,9 @@
       "rank": 50,
       "name": "O'Hearn",
       "team": "PIT",
-      "score": 64.58,
+      "score": 64.54,
       "hrEdge": 37,
-      "pa": 323,
+      "pa": 324,
       "hr": 16,
       "reasons": [
         "strong sample",
@@ -1277,10 +1277,10 @@
       "rank": 28,
       "name": "O'Hearn",
       "team": "PIT",
-      "score": 60.75,
+      "score": 60.71,
       "paperRank": 50,
       "hrEdge": 37,
-      "pa": 323,
+      "pa": 324,
       "hr": 16,
       "order": 5,
       "reasons": [
@@ -1590,10 +1590,10 @@
       "rank": 47,
       "name": "Riley, A",
       "team": "ATL",
-      "score": 57.92,
+      "score": 57.91,
       "paperRank": 92,
       "hrEdge": 34,
-      "pa": 368,
+      "pa": 369,
       "hr": 9,
       "order": 7,
       "reasons": [
