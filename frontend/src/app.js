@@ -5,7 +5,7 @@ function statusTag(status){
   return `<span class="status-tag ${s}">${s}</span>`;
 }
 
-const state = { slate:null, scores:null, history:null, live:null, pitcherProfiles:null, pitchZones:null, updateStatus:null, intelligence:null, glossary:null, tab:"dashboard" };
+const state = { slate:null, scores:null, history:null, live:null, pitcherProfiles:null, pitchZones:null, updateStatus:null, intelligence:null, liveBoard:null, gameState:null, glossary:null, tab:"dashboard" };
 const $ = (sel) => document.querySelector(sel);
 const fmt = (v,d="—") => v===null||v===undefined||Number.isNaN(v)||v===""?d:v;
 const num = (v,d=0)=>{const n=Number(v);return Number.isFinite(n)?n:d};
@@ -324,4 +324,56 @@ function glossary(){const sections=state.glossary?.sections||[];return `${hero("
 function render(){const map={dashboard,hrlab,longshots,pitchers,weather,momentum,live,tracker,ai,guide,glossary};$("#content").innerHTML=(map[state.tab]||dashboard)();if(state.tab==="tracker"){const dateFilter=$("#dateFilter"),playerFilter=$("#playerFilter");const apply=()=>{const d=dateFilter.value,q=playerFilter.value.toLowerCase();const byDate=state.history?.byDate||{};const base=d?(byDate[d]||[]):(state.history?.home_runs||[]);const rows=base.filter(h=>(!q||String(h.batter||"").toLowerCase().includes(q)));$("#trackerCount").textContent=`${rows.length} verified HRs ${d?`on ${d}`:"loaded"}.`;$("#trackerTable").innerHTML=hrRows(rows)};dateFilter.addEventListener("change",apply);playerFilter.addEventListener("input",apply)}}
 document.addEventListener("click",e=>{const btn=e.target.closest("[data-tab]");if(!btn)return;document.querySelectorAll("[data-tab]").forEach(b=>b.classList.remove("active"));btn.classList.add("active");state.tab=btn.dataset.tab;render()});
 if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+async function loadData(){
+  const [
+    slate,
+    scores,
+    history,
+    live,
+    pitcherProfiles,
+    pitchZones,
+    updateStatus,
+    intelligence,
+    glossary,
+    liveBoard,
+    gameState
+  ] = await Promise.all([
+    loadJSON("slate.json", {games:[], hitters:[]}),
+    loadJSON("scores.json", {players:[]}),
+    loadJSON("hr-history.json", {dates:[], byDate:{}, home_runs:[]}),
+    loadJSON("live-events.json", []),
+    loadJSON("pitcher-profiles.json", {profiles:{}}),
+    loadJSON("pitch-zone-profiles.json", {profiles:{}}),
+    loadJSON("update-status.json", {}),
+    loadJSON("intelligence.json", {paperBoard:[], longshotBoard:[]}),
+    loadJSON("glossary.json", {}),
+    loadJSON("live-board.json", {
+      activePaperBoard:[],
+      activeLongshotBoard:[],
+      lockedPlayers:[]
+    }),
+    loadJSON("game-state.json", {
+      teamState:{},
+      lockedTeams:[],
+      activeTeams:[]
+    })
+  ]);
+
+  state.slate = slate;
+  state.scores = scores;
+  state.history = history;
+  state.live = live;
+  state.pitcherProfiles = pitcherProfiles;
+  state.pitchZones = pitchZones;
+  state.updateStatus = updateStatus;
+  state.intelligence = intelligence;
+  state.glossary = glossary;
+  state.liveBoard = liveBoard;
+  state.gameState = gameState;
+
+  if (typeof render === "function") {
+    render();
+  }
+}
+
 loadData();setInterval(loadData,60000);
