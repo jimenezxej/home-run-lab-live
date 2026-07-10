@@ -12,12 +12,14 @@ permissions:
 
 concurrency:
   group: home-run-lab-pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 28
+    env:
+      TZ: America/New_York
 
     steps:
       - name: Check out repository
@@ -35,8 +37,8 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install pybaseball pandas requests beautifulsoup4 lxml
 
-      - name: Build current data and site
-        run: python scripts/cloud_build.py
+      - name: Generate and verify today's slate
+        run: python scripts/cloud_refresh.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
