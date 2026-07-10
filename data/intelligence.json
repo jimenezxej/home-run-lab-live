@@ -1,13 +1,13 @@
 {
   "version": "7.0",
-  "updatedAt": "2026-07-10T14:43:18.387152",
+  "updatedAt": "2026-07-10T15:16:48.522150",
   "paperBoard": [
     {
       "rank": 1,
       "name": "Schwarber",
       "team": "PHI",
-      "score": 89.5,
-      "hrEdge": 71,
+      "score": 89.29,
+      "hrEdge": 75,
       "pa": 401,
       "hr": 32,
       "reasons": [
@@ -18,26 +18,27 @@
     },
     {
       "rank": 2,
-      "name": "Clemens",
-      "team": "MIN",
-      "score": 83.01,
-      "hrEdge": 55,
-      "pa": 319,
-      "hr": 16,
+      "name": "Olson",
+      "team": "ATL",
+      "score": 82.87,
+      "hrEdge": 61,
+      "pa": 403,
+      "hr": 25,
       "reasons": [
+        "proven season HR power",
         "strong sample",
-        "targetable pitcher",
+        "weather carry boost",
         "high confidence"
       ]
     },
     {
       "rank": 3,
-      "name": "Olson",
-      "team": "ATL",
-      "score": 82.36,
-      "hrEdge": 57,
-      "pa": 403,
-      "hr": 25,
+      "name": "Soto, J",
+      "team": "NYM",
+      "score": 82.13,
+      "hrEdge": 65,
+      "pa": 322,
+      "hr": 21,
       "reasons": [
         "proven season HR power",
         "strong sample",
@@ -49,8 +50,8 @@
       "rank": 4,
       "name": "Trout",
       "team": "LAA",
-      "score": 81.96,
-      "hrEdge": 65,
+      "score": 81.27,
+      "hrEdge": 68,
       "pa": 345,
       "hr": 18,
       "reasons": [
@@ -61,26 +62,26 @@
     },
     {
       "rank": 5,
-      "name": "Bell",
-      "team": "MIN",
-      "score": 79.18,
-      "hrEdge": 52,
-      "pa": 363,
-      "hr": 13,
+      "name": "Vargas, M",
+      "team": "CWS",
+      "score": 79.72,
+      "hrEdge": 60,
+      "pa": 396,
+      "hr": 20,
       "reasons": [
+        "proven season HR power",
         "strong sample",
-        "targetable pitcher",
         "high confidence"
       ]
     },
     {
       "rank": 6,
-      "name": "Soto, J",
-      "team": "NYM",
-      "score": 77.95,
-      "hrEdge": 58,
-      "pa": 322,
-      "hr": 21,
+      "name": "Rice",
+      "team": "NYY",
+      "score": 79.28,
+      "hrEdge": 54,
+      "pa": 377,
+      "hr": 28,
       "reasons": [
         "proven season HR power",
         "strong sample",
@@ -90,9 +91,107 @@
     },
     {
       "rank": 7,
+      "name": "Torkelson",
+      "team": "DET",
+      "score": 77.56,
+      "hrEdge": 55,
+      "pa": 360,
+      "hr": 15,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Clemens",
+      "team": "MIN",
+      "score": 77.02,
+      "hrEdge": 53,
+      "pa": 319,
+      "hr": 16,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Montgomery, C",
+      "team": "CWS",
+      "score": 76.29,
+      "hrEdge": 51,
+      "pa": 368,
+      "hr": 23,
+      "reasons": [
+        "proven season HR power",
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Devers",
+      "team": "SF",
+      "score": 76.09,
+      "hrEdge": 53,
+      "pa": 394,
+      "hr": 18,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Greene, R",
+      "team": "DET",
+      "score": 75.27,
+      "hrEdge": 57,
+      "pa": 388,
+      "hr": 13,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Crow-Armstrong",
+      "team": "CHC",
+      "score": 75.09,
+      "hrEdge": 52,
+      "pa": 404,
+      "hr": 21,
+      "reasons": [
+        "proven season HR power",
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Alonso",
+      "team": "BAL",
+      "score": 74.69,
+      "hrEdge": 56,
+      "pa": 406,
+      "hr": 20,
+      "reasons": [
+        "proven season HR power",
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 14,
       "name": "Langeliers",
       "team": "ATH",
-      "score": 77.86,
+      "score": 74.5,
       "hrEdge": 54,
       "pa": 375,
       "hr": 20,
@@ -104,82 +203,24 @@
       ]
     },
     {
-      "rank": 8,
-      "name": "Rice",
-      "team": "NYY",
-      "score": 77.28,
-      "hrEdge": 50,
-      "pa": 377,
-      "hr": 28,
-      "reasons": [
-        "proven season HR power",
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 9,
-      "name": "Alonso",
-      "team": "BAL",
-      "score": 77.21,
-      "hrEdge": 55,
-      "pa": 406,
-      "hr": 20,
-      "reasons": [
-        "proven season HR power",
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 10,
-      "name": "Devers",
+      "rank": 15,
+      "name": "Ramos, H",
       "team": "SF",
-      "score": 75.7,
-      "hrEdge": 50,
-      "pa": 394,
-      "hr": 18,
+      "score": 74.27,
+      "hrEdge": 54,
+      "pa": 223,
+      "hr": 8,
       "reasons": [
         "strong sample",
         "high confidence"
       ]
     },
     {
-      "rank": 11,
-      "name": "Vargas, M",
-      "team": "CWS",
-      "score": 75.69,
-      "hrEdge": 51,
-      "pa": 396,
-      "hr": 20,
-      "reasons": [
-        "proven season HR power",
-        "strong sample",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 12,
-      "name": "Marte, K",
-      "team": "ARI",
-      "score": 74.36,
-      "hrEdge": 49,
-      "pa": 391,
-      "hr": 17,
-      "reasons": [
-        "strong sample",
-        "targetable pitcher",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 13,
+      "rank": 16,
       "name": "Caminero",
       "team": "TB",
-      "score": 74.18,
-      "hrEdge": 50,
+      "score": 74.16,
+      "hrEdge": 53,
       "pa": 398,
       "hr": 27,
       "reasons": [
@@ -190,11 +231,24 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 17,
+      "name": "Stowers",
+      "team": "MIA",
+      "score": 74.0,
+      "hrEdge": 53,
+      "pa": 295,
+      "hr": 12,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 18,
       "name": "Harper, B",
       "team": "PHI",
-      "score": 74.02,
-      "hrEdge": 49,
+      "score": 73.69,
+      "hrEdge": 52,
       "pa": 395,
       "hr": 20,
       "reasons": [
@@ -204,81 +258,11 @@
       ]
     },
     {
-      "rank": 15,
-      "name": "Ramos, H",
-      "team": "SF",
-      "score": 73.73,
-      "hrEdge": 51,
-      "pa": 223,
-      "hr": 8,
-      "reasons": [
-        "strong sample",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 16,
-      "name": "Torkelson",
-      "team": "DET",
-      "score": 72.71,
-      "hrEdge": 48,
-      "pa": 360,
-      "hr": 15,
-      "reasons": [
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 17,
-      "name": "Crow-Armstrong",
-      "team": "CHC",
-      "score": 72.43,
-      "hrEdge": 47,
-      "pa": 404,
-      "hr": 21,
-      "reasons": [
-        "proven season HR power",
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 18,
-      "name": "Montgomery, C",
-      "team": "CWS",
-      "score": 72.43,
-      "hrEdge": 43,
-      "pa": 368,
-      "hr": 23,
-      "reasons": [
-        "proven season HR power",
-        "strong sample",
-        "high confidence"
-      ]
-    },
-    {
       "rank": 19,
-      "name": "Neto",
-      "team": "LAA",
-      "score": 72.05,
-      "hrEdge": 43,
-      "pa": 410,
-      "hr": 19,
-      "reasons": [
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 20,
       "name": "Canzone",
       "team": "SEA",
-      "score": 71.85,
-      "hrEdge": 48,
+      "score": 73.46,
+      "hrEdge": 52,
       "pa": 246,
       "hr": 15,
       "reasons": [
@@ -287,38 +271,11 @@
       ]
     },
     {
-      "rank": 21,
-      "name": "Greene, R",
-      "team": "DET",
-      "score": 70.42,
-      "hrEdge": 50,
-      "pa": 388,
-      "hr": 13,
-      "reasons": [
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 22,
-      "name": "De La Cruz, E",
-      "team": "CIN",
-      "score": 70.38,
-      "hrEdge": 51,
-      "pa": 325,
-      "hr": 14,
-      "reasons": [
-        "strong sample",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 23,
+      "rank": 20,
       "name": "Lowe, B",
       "team": "PIT",
-      "score": 70.24,
-      "hrEdge": 44,
+      "score": 73.31,
+      "hrEdge": 49,
       "pa": 390,
       "hr": 21,
       "reasons": [
@@ -329,11 +286,144 @@
       ]
     },
     {
+      "rank": 21,
+      "name": "Foscue",
+      "team": "TEX",
+      "score": 73.26,
+      "hrEdge": 48,
+      "pa": 113,
+      "hr": 7,
+      "reasons": [
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "Bell",
+      "team": "MIN",
+      "score": 72.97,
+      "hrEdge": 49,
+      "pa": 363,
+      "hr": 13,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "Valdez, Es",
+      "team": "PIT",
+      "score": 72.55,
+      "hrEdge": 49,
+      "pa": 92,
+      "hr": 7,
+      "reasons": [
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
       "rank": 24,
+      "name": "Hern\u00e1ndez, H",
+      "team": "MIA",
+      "score": 72.1,
+      "hrEdge": 50,
+      "pa": 216,
+      "hr": 12,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 25,
+      "name": "Witt Jr.",
+      "team": "KC",
+      "score": 72.07,
+      "hrEdge": 55,
+      "pa": 390,
+      "hr": 13,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "Caglianone",
+      "team": "KC",
+      "score": 71.48,
+      "hrEdge": 55,
+      "pa": 337,
+      "hr": 14,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "De La Cruz, E",
+      "team": "CIN",
+      "score": 71.18,
+      "hrEdge": 54,
+      "pa": 325,
+      "hr": 14,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 28,
+      "name": "Carpenter",
+      "team": "DET",
+      "score": 71.09,
+      "hrEdge": 46,
+      "pa": 226,
+      "hr": 13,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "Neto",
+      "team": "LAA",
+      "score": 70.97,
+      "hrEdge": 44,
+      "pa": 410,
+      "hr": 19,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 30,
+      "name": "Grichuk",
+      "team": "CWS",
+      "score": 70.65,
+      "hrEdge": 46,
+      "pa": 140,
+      "hr": 9,
+      "reasons": [
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 31,
       "name": "Baldwin, D",
       "team": "ATL",
-      "score": 70.09,
-      "hrEdge": 48,
+      "score": 70.53,
+      "hrEdge": 51,
       "pa": 306,
       "hr": 15,
       "reasons": [
@@ -343,10 +433,103 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 32,
+      "name": "Eldridge",
+      "team": "SF",
+      "score": 70.48,
+      "hrEdge": 53,
+      "pa": 205,
+      "hr": 8,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "Harris II",
+      "team": "ATL",
+      "score": 70.35,
+      "hrEdge": 50,
+      "pa": 340,
+      "hr": 16,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 34,
+      "name": "Marte, K",
+      "team": "ARI",
+      "score": 69.57,
+      "hrEdge": 48,
+      "pa": 391,
+      "hr": 17,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "Bauers",
+      "team": "MIL",
+      "score": 69.2,
+      "hrEdge": 51,
+      "pa": 334,
+      "hr": 17,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 36,
+      "name": "Schmitt",
+      "team": "SF",
+      "score": 68.13,
+      "hrEdge": 44,
+      "pa": 357,
+      "hr": 18,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 37,
+      "name": "Keith",
+      "team": "DET",
+      "score": 68.1,
+      "hrEdge": 46,
+      "pa": 262,
+      "hr": 7,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "Marsh",
+      "team": "PHI",
+      "score": 67.95,
+      "hrEdge": 42,
+      "pa": 351,
+      "hr": 15,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 39,
       "name": "Mayo",
       "team": "BAL",
-      "score": 70.09,
+      "score": 67.6,
       "hrEdge": 44,
       "pa": 243,
       "hr": 11,
@@ -357,26 +540,25 @@
       ]
     },
     {
-      "rank": 26,
-      "name": "Witt Jr.",
-      "team": "KC",
-      "score": 70.08,
-      "hrEdge": 50,
-      "pa": 390,
-      "hr": 13,
+      "rank": 40,
+      "name": "Burleson",
+      "team": "STL",
+      "score": 67.51,
+      "hrEdge": 47,
+      "pa": 387,
+      "hr": 15,
       "reasons": [
         "strong sample",
-        "weather carry boost",
         "high confidence"
       ]
     },
     {
-      "rank": 27,
-      "name": "Harris II",
-      "team": "ATL",
-      "score": 69.96,
-      "hrEdge": 47,
-      "pa": 340,
+      "rank": 41,
+      "name": "O'Hearn",
+      "team": "PIT",
+      "score": 67.44,
+      "hrEdge": 41,
+      "pa": 327,
       "hr": 16,
       "reasons": [
         "strong sample",
@@ -385,26 +567,13 @@
       ]
     },
     {
-      "rank": 28,
-      "name": "Eldridge",
-      "team": "SF",
-      "score": 69.94,
-      "hrEdge": 50,
-      "pa": 205,
-      "hr": 8,
-      "reasons": [
-        "strong sample",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 29,
-      "name": "Caglianone",
-      "team": "KC",
-      "score": 69.66,
-      "hrEdge": 51,
-      "pa": 337,
-      "hr": 14,
+      "rank": 42,
+      "name": "Burger",
+      "team": "TEX",
+      "score": 67.39,
+      "hrEdge": 42,
+      "pa": 361,
+      "hr": 15,
       "reasons": [
         "strong sample",
         "weather carry boost",
@@ -412,24 +581,24 @@
       ]
     },
     {
-      "rank": 30,
-      "name": "Bauers",
-      "team": "MIL",
-      "score": 69.53,
-      "hrEdge": 48,
-      "pa": 334,
-      "hr": 17,
+      "rank": 43,
+      "name": "Campusano",
+      "team": "SD",
+      "score": 67.24,
+      "hrEdge": 44,
+      "pa": 75,
+      "hr": 4,
       "reasons": [
-        "strong sample",
+        "targetable pitcher",
         "high confidence"
       ]
     },
     {
-      "rank": 31,
+      "rank": 44,
       "name": "Tatis Jr.",
       "team": "SD",
-      "score": 69.38,
-      "hrEdge": 49,
+      "score": 67.22,
+      "hrEdge": 50,
       "pa": 402,
       "hr": 5,
       "reasons": [
@@ -439,76 +608,104 @@
       ]
     },
     {
-      "rank": 32,
-      "name": "Valdez, Es",
-      "team": "PIT",
-      "score": 69.33,
-      "hrEdge": 44,
-      "pa": 92,
-      "hr": 7,
-      "reasons": [
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 33,
-      "name": "Campusano",
-      "team": "SD",
-      "score": 69.2,
-      "hrEdge": 43,
-      "pa": 75,
-      "hr": 4,
-      "reasons": [
-        "targetable pitcher",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 34,
-      "name": "Foscue",
-      "team": "TEX",
-      "score": 68.97,
+      "rank": 45,
+      "name": "Arias, G",
+      "team": "CLE",
+      "score": 67.0,
       "hrEdge": 42,
-      "pa": 113,
-      "hr": 7,
+      "pa": 89,
+      "hr": 5,
       "reasons": [
-        "weather carry boost",
         "high confidence"
       ]
     },
     {
-      "rank": 35,
-      "name": "Carroll",
-      "team": "ARI",
-      "score": 68.96,
-      "hrEdge": 45,
-      "pa": 384,
-      "hr": 13,
+      "rank": 46,
+      "name": "Ewing",
+      "team": "NYM",
+      "score": 66.68,
+      "hrEdge": 43,
+      "pa": 210,
+      "hr": 7,
       "reasons": [
         "strong sample",
-        "targetable pitcher",
+        "weather carry boost",
         "high confidence"
       ]
     },
     {
-      "rank": 36,
-      "name": "Marsh",
-      "team": "PHI",
-      "score": 68.62,
-      "hrEdge": 41,
-      "pa": 351,
+      "rank": 47,
+      "name": "Suzuki",
+      "team": "CHC",
+      "score": 66.55,
+      "hrEdge": 40,
+      "pa": 329,
       "hr": 15,
       "reasons": [
         "strong sample",
+        "weather carry boost",
         "high confidence"
       ]
     },
     {
-      "rank": 37,
+      "rank": 48,
+      "name": "Reynolds, B",
+      "team": "PIT",
+      "score": 66.45,
+      "hrEdge": 46,
+      "pa": 410,
+      "hr": 14,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 49,
+      "name": "Perez, S",
+      "team": "KC",
+      "score": 66.23,
+      "hrEdge": 41,
+      "pa": 363,
+      "hr": 11,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 50,
+      "name": "Raley, L",
+      "team": "SEA",
+      "score": 65.99,
+      "hrEdge": 45,
+      "pa": 253,
+      "hr": 14,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 51,
+      "name": "Mitchell",
+      "team": "MIL",
+      "score": 65.98,
+      "hrEdge": 52,
+      "pa": 298,
+      "hr": 8,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 52,
       "name": "Basallo",
       "team": "BAL",
-      "score": 68.39,
+      "score": 65.85,
       "hrEdge": 45,
       "pa": 289,
       "hr": 14,
@@ -519,51 +716,11 @@
       ]
     },
     {
-      "rank": 38,
-      "name": "Lewis, R",
-      "team": "MIN",
-      "score": 67.85,
-      "hrEdge": 41,
-      "pa": 245,
-      "hr": 9,
-      "reasons": [
-        "strong sample",
-        "targetable pitcher",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 39,
-      "name": "Schmitt",
-      "team": "SF",
-      "score": 67.74,
-      "hrEdge": 41,
-      "pa": 357,
-      "hr": 18,
-      "reasons": [
-        "strong sample",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 40,
-      "name": "Stowers",
-      "team": "MIA",
-      "score": 67.66,
-      "hrEdge": 46,
-      "pa": 295,
-      "hr": 12,
-      "reasons": [
-        "strong sample",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 41,
+      "rank": 53,
       "name": "Sheets",
       "team": "SD",
-      "score": 67.28,
-      "hrEdge": 38,
+      "score": 65.22,
+      "hrEdge": 39,
       "pa": 309,
       "hr": 14,
       "reasons": [
@@ -573,87 +730,7 @@
       ]
     },
     {
-      "rank": 42,
-      "name": "Grichuk",
-      "team": "CWS",
-      "score": 66.96,
-      "hrEdge": 39,
-      "pa": 140,
-      "hr": 9,
-      "reasons": [
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 43,
-      "name": "Mitchell",
-      "team": "MIL",
-      "score": 66.43,
-      "hrEdge": 50,
-      "pa": 298,
-      "hr": 8,
-      "reasons": [
-        "strong sample",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 44,
-      "name": "Carpenter",
-      "team": "DET",
-      "score": 66.26,
-      "hrEdge": 40,
-      "pa": 226,
-      "hr": 13,
-      "reasons": [
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 45,
-      "name": "Larnach",
-      "team": "MIN",
-      "score": 66.24,
-      "hrEdge": 38,
-      "pa": 279,
-      "hr": 6,
-      "reasons": [
-        "strong sample",
-        "targetable pitcher",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 46,
-      "name": "Soderstrom",
-      "team": "ATH",
-      "score": 66.05,
-      "hrEdge": 40,
-      "pa": 340,
-      "hr": 13,
-      "reasons": [
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 47,
-      "name": "Hern\u00e1ndez, H",
-      "team": "MIA",
-      "score": 65.49,
-      "hrEdge": 42,
-      "pa": 216,
-      "hr": 12,
-      "reasons": [
-        "strong sample",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 48,
+      "rank": 54,
       "name": "Goodman",
       "team": "COL",
       "score": 64.98,
@@ -666,149 +743,12 @@
       ]
     },
     {
-      "rank": 49,
-      "name": "Perez, S",
+      "rank": 55,
+      "name": "Thomas, L",
       "team": "KC",
       "score": 64.58,
       "hrEdge": 38,
-      "pa": 363,
-      "hr": 11,
-      "reasons": [
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 50,
-      "name": "Raley, L",
-      "team": "SEA",
-      "score": 64.55,
-      "hrEdge": 42,
-      "pa": 253,
-      "hr": 14,
-      "reasons": [
-        "strong sample",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 51,
-      "name": "O'Hearn",
-      "team": "PIT",
-      "score": 64.54,
-      "hrEdge": 37,
-      "pa": 327,
-      "hr": 16,
-      "reasons": [
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 52,
-      "name": "Merrill",
-      "team": "SD",
-      "score": 64.41,
-      "hrEdge": 36,
-      "pa": 378,
-      "hr": 10,
-      "reasons": [
-        "strong sample",
-        "targetable pitcher",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 53,
-      "name": "O'Neill",
-      "team": "BAL",
-      "score": 64.39,
-      "hrEdge": 39,
-      "pa": 169,
-      "hr": 6,
-      "reasons": [
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 54,
-      "name": "Suzuki",
-      "team": "CHC",
-      "score": 64.01,
-      "hrEdge": 36,
-      "pa": 329,
-      "hr": 15,
-      "reasons": [
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 55,
-      "name": "Chourio, J",
-      "team": "MIL",
-      "score": 63.86,
-      "hrEdge": 40,
-      "pa": 272,
-      "hr": 13,
-      "reasons": [
-        "strong sample",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 56,
-      "name": "Lee, B",
-      "team": "MIN",
-      "score": 63.74,
-      "hrEdge": 28,
-      "pa": 362,
-      "hr": 14,
-      "reasons": [
-        "strong sample",
-        "targetable pitcher",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 57,
-      "name": "Siri",
-      "team": "LAA",
-      "score": 63.66,
-      "hrEdge": 39,
-      "pa": 96,
-      "hr": 5,
-      "reasons": [
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 58,
-      "name": "Reynolds, B",
-      "team": "PIT",
-      "score": 63.43,
-      "hrEdge": 41,
-      "pa": 410,
-      "hr": 14,
-      "reasons": [
-        "strong sample",
-        "weather carry boost",
-        "high confidence"
-      ]
-    },
-    {
-      "rank": 59,
-      "name": "Keith",
-      "team": "DET",
-      "score": 63.32,
-      "hrEdge": 40,
-      "pa": 262,
+      "pa": 257,
       "hr": 7,
       "reasons": [
         "strong sample",
@@ -817,13 +757,67 @@
       ]
     },
     {
+      "rank": 56,
+      "name": "Alvarez, F",
+      "team": "NYM",
+      "score": 64.22,
+      "hrEdge": 44,
+      "pa": 224,
+      "hr": 9,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 57,
+      "name": "Carroll",
+      "team": "ARI",
+      "score": 64.0,
+      "hrEdge": 43,
+      "pa": 384,
+      "hr": 13,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 58,
+      "name": "Vientos",
+      "team": "NYM",
+      "score": 63.71,
+      "hrEdge": 40,
+      "pa": 254,
+      "hr": 11,
+      "reasons": [
+        "strong sample",
+        "weather carry boost",
+        "high confidence"
+      ]
+    },
+    {
+      "rank": 59,
+      "name": "Chourio, J",
+      "team": "MIL",
+      "score": 63.46,
+      "hrEdge": 42,
+      "pa": 272,
+      "hr": 13,
+      "reasons": [
+        "strong sample",
+        "high confidence"
+      ]
+    },
+    {
       "rank": 60,
-      "name": "Burger",
-      "team": "TEX",
-      "score": 63.25,
-      "hrEdge": 36,
-      "pa": 361,
-      "hr": 15,
+      "name": "Swanson",
+      "team": "CHC",
+      "score": 63.38,
+      "hrEdge": 37,
+      "pa": 345,
+      "hr": 16,
       "reasons": [
         "strong sample",
         "weather carry boost",
@@ -836,9 +830,9 @@
       "rank": 1,
       "name": "Campusano",
       "team": "SD",
-      "score": 75.08,
-      "paperRank": 33,
-      "hrEdge": 43,
+      "score": 72.78,
+      "paperRank": 43,
+      "hrEdge": 44,
       "pa": 75,
       "hr": 4,
       "order": 6,
@@ -851,11 +845,28 @@
     },
     {
       "rank": 2,
+      "name": "Arias, G",
+      "team": "CLE",
+      "score": 72.56,
+      "paperRank": 45,
+      "hrEdge": 42,
+      "pa": 89,
+      "hr": 5,
+      "order": 6,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "pitcher can give up damage",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 3,
       "name": "Eldridge",
       "team": "SF",
-      "score": 72.11,
-      "paperRank": 28,
-      "hrEdge": 50,
+      "score": 72.31,
+      "paperRank": 32,
+      "hrEdge": 53,
       "pa": 205,
       "hr": 8,
       "order": 7,
@@ -866,11 +877,126 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "name": "Carpenter",
+      "team": "DET",
+      "score": 72.12,
+      "paperRank": 28,
+      "hrEdge": 46,
+      "pa": 226,
+      "hr": 13,
+      "order": 8,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "real HR pop",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Hern\u00e1ndez, H",
+      "team": "MIA",
+      "score": 71.71,
+      "paperRank": 24,
+      "hrEdge": 50,
+      "pa": 216,
+      "hr": 12,
+      "order": 6,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "real HR pop"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Valdez, Es",
+      "team": "PIT",
+      "score": 70.37,
+      "paperRank": 23,
+      "hrEdge": 49,
+      "pa": 92,
+      "hr": 7,
+      "order": 4,
+      "reasons": [
+        "not an obvious top-board play",
+        "environment helps carry",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Foscue",
+      "team": "TEX",
+      "score": 70.31,
+      "paperRank": 21,
+      "hrEdge": 48,
+      "pa": 113,
+      "hr": 7,
+      "order": 4,
+      "reasons": [
+        "not an obvious top-board play",
+        "environment helps carry",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Siri",
+      "team": "LAA",
+      "score": 69.42,
+      "paperRank": 62,
+      "hrEdge": 41,
+      "pa": 96,
+      "hr": 5,
+      "order": 7,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "environment helps carry",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Keith",
+      "team": "DET",
+      "score": 69.33,
+      "paperRank": 37,
+      "hrEdge": 46,
+      "pa": 262,
+      "hr": 7,
+      "order": 6,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Caglianone",
+      "team": "KC",
+      "score": 68.28,
+      "paperRank": 26,
+      "hrEdge": 55,
+      "pa": 337,
+      "hr": 14,
+      "order": 6,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "real HR pop",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 11,
       "name": "Mayo",
       "team": "BAL",
-      "score": 70.77,
-      "paperRank": 25,
+      "score": 68.07,
+      "paperRank": 39,
       "hrEdge": 44,
       "pa": 243,
       "hr": 11,
@@ -883,44 +1009,28 @@
       ]
     },
     {
-      "rank": 4,
-      "name": "Siri",
-      "team": "LAA",
-      "score": 70.47,
-      "paperRank": 57,
-      "hrEdge": 39,
-      "pa": 96,
-      "hr": 5,
+      "rank": 12,
+      "name": "Vientos",
+      "team": "NYM",
+      "score": 65.28,
+      "paperRank": 58,
+      "hrEdge": 40,
+      "pa": 254,
+      "hr": 11,
       "order": 7,
       "reasons": [
         "not an obvious top-board play",
         "lower lineup spot",
-        "environment helps carry",
-        "smaller but usable sample"
+        "real HR pop",
+        "environment helps carry"
       ]
     },
     {
-      "rank": 5,
-      "name": "Valdez, Es",
-      "team": "PIT",
-      "score": 68.26,
-      "paperRank": 32,
-      "hrEdge": 44,
-      "pa": 92,
-      "hr": 7,
-      "order": 4,
-      "reasons": [
-        "not an obvious top-board play",
-        "environment helps carry",
-        "smaller but usable sample"
-      ]
-    },
-    {
-      "rank": 6,
+      "rank": 13,
       "name": "Basallo",
       "team": "BAL",
-      "score": 68.01,
-      "paperRank": 37,
+      "score": 65.24,
+      "paperRank": 52,
       "hrEdge": 45,
       "pa": 289,
       "hr": 14,
@@ -933,225 +1043,12 @@
       ]
     },
     {
-      "rank": 7,
-      "name": "Foscue",
-      "team": "TEX",
-      "score": 67.94,
-      "paperRank": 34,
-      "hrEdge": 42,
-      "pa": 113,
-      "hr": 7,
-      "order": 4,
-      "reasons": [
-        "not an obvious top-board play",
-        "environment helps carry",
-        "smaller but usable sample"
-      ]
-    },
-    {
-      "rank": 8,
-      "name": "Carpenter",
-      "team": "DET",
-      "score": 67.52,
-      "paperRank": 44,
-      "hrEdge": 40,
-      "pa": 226,
-      "hr": 13,
-      "order": 8,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 9,
-      "name": "Caglianone",
-      "team": "KC",
-      "score": 66.84,
-      "paperRank": 29,
-      "hrEdge": 51,
-      "pa": 337,
-      "hr": 14,
-      "order": 6,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 10,
-      "name": "Arias, G",
-      "team": "CLE",
-      "score": 66.11,
-      "paperRank": 71,
-      "hrEdge": 35,
-      "pa": 89,
-      "hr": 5,
-      "order": 6,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "smaller but usable sample"
-      ]
-    },
-    {
-      "rank": 11,
-      "name": "Hern\u00e1ndez, H",
-      "team": "MIA",
-      "score": 65.91,
-      "paperRank": 47,
-      "hrEdge": 42,
-      "pa": 216,
-      "hr": 12,
-      "order": 6,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop"
-      ]
-    },
-    {
-      "rank": 12,
-      "name": "Lewis, R",
-      "team": "MIN",
-      "score": 65.81,
-      "paperRank": 38,
-      "hrEdge": 41,
-      "pa": 245,
-      "hr": 9,
-      "order": 5,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop",
-        "pitcher can give up damage"
-      ]
-    },
-    {
-      "rank": 13,
-      "name": "O'Neill",
-      "team": "BAL",
-      "score": 65.75,
-      "paperRank": 53,
-      "hrEdge": 39,
-      "pa": 169,
-      "hr": 6,
-      "order": 5,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "environment helps carry"
-      ]
-    },
-    {
       "rank": 14,
-      "name": "Lowe, J",
-      "team": "LAA",
-      "score": 65.29,
-      "paperRank": 75,
-      "hrEdge": 34,
-      "pa": 177,
-      "hr": 7,
-      "order": 9,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 15,
-      "name": "Gray, T",
-      "team": "MIN",
-      "score": 65.04,
-      "paperRank": 69,
-      "hrEdge": 35,
-      "pa": 176,
-      "hr": 4,
-      "order": 8,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "pitcher can give up damage"
-      ]
-    },
-    {
-      "rank": 16,
-      "name": "Keith",
-      "team": "DET",
-      "score": 64.8,
-      "paperRank": 59,
-      "hrEdge": 40,
-      "pa": 262,
-      "hr": 7,
-      "order": 6,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 17,
-      "name": "Greene, R",
-      "team": "DET",
-      "score": 64.23,
-      "paperRank": 21,
-      "hrEdge": 50,
-      "pa": 388,
-      "hr": 13,
-      "order": 5,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 18,
-      "name": "Mitchell",
-      "team": "MIL",
-      "score": 63.28,
-      "paperRank": 43,
-      "hrEdge": 50,
-      "pa": 298,
-      "hr": 8,
-      "order": 5,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop"
-      ]
-    },
-    {
-      "rank": 19,
-      "name": "Troy",
-      "team": "ARI",
-      "score": 63.25,
-      "paperRank": 91,
-      "hrEdge": 34,
-      "pa": 132,
-      "hr": 4,
-      "order": 9,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "pitcher can give up damage",
-        "smaller but usable sample"
-      ]
-    },
-    {
-      "rank": 20,
       "name": "McMahon",
       "team": "NYY",
-      "score": 63.2,
-      "paperRank": 70,
-      "hrEdge": 39,
+      "score": 65.1,
+      "paperRank": 64,
+      "hrEdge": 43,
       "pa": 218,
       "hr": 8,
       "order": 8,
@@ -1163,31 +1060,30 @@
       ]
     },
     {
-      "rank": 21,
-      "name": "Sosa, E",
-      "team": "PHI",
-      "score": 62.87,
-      "paperRank": 88,
-      "hrEdge": 36,
-      "pa": 158,
-      "hr": 5,
-      "order": 9,
+      "rank": 15,
+      "name": "Bell",
+      "team": "MIN",
+      "score": 64.27,
+      "paperRank": 22,
+      "hrEdge": 49,
+      "pa": 363,
+      "hr": 13,
+      "order": 4,
       "reasons": [
         "not an obvious top-board play",
-        "lower lineup spot",
-        "pitcher can give up damage"
+        "real HR pop"
       ]
     },
     {
-      "rank": 22,
-      "name": "O'Hoppe",
+      "rank": 16,
+      "name": "Lowe, J",
       "team": "LAA",
-      "score": 62.68,
-      "paperRank": 80,
-      "hrEdge": 36,
-      "pa": 225,
-      "hr": 4,
-      "order": 8,
+      "score": 64.24,
+      "paperRank": 83,
+      "hrEdge": 35,
+      "pa": 177,
+      "hr": 7,
+      "order": 9,
       "reasons": [
         "not an obvious top-board play",
         "lower lineup spot",
@@ -1195,12 +1091,12 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 17,
       "name": "Raley, L",
       "team": "SEA",
-      "score": 62.33,
+      "score": 63.58,
       "paperRank": 50,
-      "hrEdge": 42,
+      "hrEdge": 45,
       "pa": 253,
       "hr": 14,
       "order": 6,
@@ -1211,108 +1107,27 @@
       ]
     },
     {
-      "rank": 24,
-      "name": "Cronenworth",
-      "team": "SD",
-      "score": 62.06,
-      "paperRank": 81,
-      "hrEdge": 33,
-      "pa": 153,
-      "hr": 3,
-      "order": 5,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "pitcher can give up damage"
-      ]
-    },
-    {
-      "rank": 25,
-      "name": "Vientos",
-      "team": "NYM",
-      "score": 61.53,
-      "paperRank": 76,
-      "hrEdge": 35,
-      "pa": 254,
-      "hr": 11,
-      "order": 7,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 26,
-      "name": "Torkelson",
-      "team": "DET",
-      "score": 61.37,
-      "paperRank": 16,
-      "hrEdge": 48,
-      "pa": 360,
-      "hr": 15,
+      "rank": 18,
+      "name": "Stowers",
+      "team": "MIA",
+      "score": 63.46,
+      "paperRank": 17,
+      "hrEdge": 53,
+      "pa": 295,
+      "hr": 12,
       "order": 4,
       "reasons": [
         "not an obvious top-board play",
-        "real HR pop",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 27,
-      "name": "Monasterio",
-      "team": "BOS",
-      "score": 61.26,
-      "paperRank": 92,
-      "hrEdge": 32,
-      "pa": 161,
-      "hr": 4,
-      "order": 6,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot"
-      ]
-    },
-    {
-      "rank": 28,
-      "name": "Baldwin, D",
-      "team": "ATL",
-      "score": 60.97,
-      "paperRank": 24,
-      "hrEdge": 48,
-      "pa": 306,
-      "hr": 15,
-      "order": 4,
-      "reasons": [
-        "not an obvious top-board play",
-        "real HR pop",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 29,
-      "name": "Adames",
-      "team": "SF",
-      "score": 60.67,
-      "paperRank": 65,
-      "hrEdge": 33,
-      "pa": 371,
-      "hr": 15,
-      "order": 6,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
         "real HR pop"
       ]
     },
     {
-      "rank": 30,
+      "rank": 19,
       "name": "O'Hearn",
       "team": "PIT",
-      "score": 60.61,
-      "paperRank": 51,
-      "hrEdge": 37,
+      "score": 63.3,
+      "paperRank": 41,
+      "hrEdge": 41,
       "pa": 327,
       "hr": 16,
       "order": 5,
@@ -1324,27 +1139,76 @@
       ]
     },
     {
-      "rank": 31,
-      "name": "Stowers",
-      "team": "MIA",
-      "score": 60.52,
-      "paperRank": 40,
-      "hrEdge": 46,
-      "pa": 295,
-      "hr": 12,
-      "order": 4,
+      "rank": 20,
+      "name": "Schneemann",
+      "team": "CLE",
+      "score": 63.16,
+      "paperRank": 75,
+      "hrEdge": 36,
+      "pa": 258,
+      "hr": 6,
+      "order": 7,
       "reasons": [
         "not an obvious top-board play",
-        "real HR pop"
+        "lower lineup spot",
+        "pitcher can give up damage"
       ]
     },
     {
-      "rank": 32,
+      "rank": 21,
+      "name": "O'Neill",
+      "team": "BAL",
+      "score": 63.1,
+      "paperRank": 69,
+      "hrEdge": 39,
+      "pa": 169,
+      "hr": 6,
+      "order": 5,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "Conine",
+      "team": "MIA",
+      "score": 62.62,
+      "paperRank": 80,
+      "hrEdge": 40,
+      "pa": 84,
+      "hr": 4,
+      "order": 5,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "Romo",
+      "team": "CWS",
+      "score": 62.6,
+      "paperRank": 106,
+      "hrEdge": 33,
+      "pa": 117,
+      "hr": 5,
+      "order": 9,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 24,
       "name": "Swanson",
       "team": "CHC",
-      "score": 60.27,
-      "paperRank": 67,
-      "hrEdge": 33,
+      "score": 62.56,
+      "paperRank": 60,
+      "hrEdge": 37,
       "pa": 345,
       "hr": 16,
       "order": 8,
@@ -1356,15 +1220,46 @@
       ]
     },
     {
-      "rank": 33,
-      "name": "Bolte",
-      "team": "ATH",
-      "score": 60.04,
-      "paperRank": 104,
-      "hrEdge": 36,
-      "pa": 193,
-      "hr": 3,
+      "rank": 25,
+      "name": "Mitchell",
+      "team": "MIL",
+      "score": 62.54,
+      "paperRank": 51,
+      "hrEdge": 52,
+      "pa": 298,
+      "hr": 8,
+      "order": 5,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "real HR pop"
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "Sosa, E",
+      "team": "PHI",
+      "score": 62.27,
+      "paperRank": 94,
+      "hrEdge": 38,
+      "pa": 158,
+      "hr": 5,
       "order": 9,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot"
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "Young, J",
+      "team": "NYM",
+      "score": 62.07,
+      "paperRank": 82,
+      "hrEdge": 38,
+      "pa": 152,
+      "hr": 6,
+      "order": 6,
       "reasons": [
         "not an obvious top-board play",
         "lower lineup spot",
@@ -1372,11 +1267,350 @@
       ]
     },
     {
+      "rank": 28,
+      "name": "Alvarez, F",
+      "team": "NYM",
+      "score": 62.01,
+      "paperRank": 56,
+      "hrEdge": 44,
+      "pa": 224,
+      "hr": 9,
+      "order": 5,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "real HR pop",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "O'Hoppe",
+      "team": "LAA",
+      "score": 61.68,
+      "paperRank": 88,
+      "hrEdge": 38,
+      "pa": 225,
+      "hr": 4,
+      "order": 8,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 30,
+      "name": "Burleson",
+      "team": "STL",
+      "score": 61.52,
+      "paperRank": 40,
+      "hrEdge": 47,
+      "pa": 387,
+      "hr": 15,
+      "order": 5,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "real HR pop"
+      ]
+    },
+    {
+      "rank": 31,
+      "name": "Baldwin, D",
+      "team": "ATL",
+      "score": 61.47,
+      "paperRank": 31,
+      "hrEdge": 51,
+      "pa": 306,
+      "hr": 15,
+      "order": 4,
+      "reasons": [
+        "not an obvious top-board play",
+        "real HR pop",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 32,
+      "name": "Monasterio",
+      "team": "BOS",
+      "score": 61.31,
+      "paperRank": 96,
+      "hrEdge": 34,
+      "pa": 161,
+      "hr": 4,
+      "order": 6,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot"
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "Adames",
+      "team": "SF",
+      "score": 60.71,
+      "paperRank": 67,
+      "hrEdge": 35,
+      "pa": 371,
+      "hr": 15,
+      "order": 6,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "real HR pop"
+      ]
+    },
+    {
       "rank": 34,
+      "name": "Callihan, T",
+      "team": "PIT",
+      "score": 60.62,
+      "paperRank": 126,
+      "hrEdge": 33,
+      "pa": 84,
+      "hr": 3,
+      "order": 7,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "environment helps carry",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "Happ",
+      "team": "CHC",
+      "score": 60.13,
+      "paperRank": 66,
+      "hrEdge": 40,
+      "pa": 385,
+      "hr": 17,
+      "order": 7,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "real HR pop",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 36,
+      "name": "Cronenworth",
+      "team": "SD",
+      "score": 59.81,
+      "paperRank": 101,
+      "hrEdge": 33,
+      "pa": 153,
+      "hr": 3,
+      "order": 5,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "pitcher can give up damage"
+      ]
+    },
+    {
+      "rank": 37,
+      "name": "Carter",
+      "team": "TEX",
+      "score": 59.68,
+      "paperRank": 97,
+      "hrEdge": 30,
+      "pa": 255,
+      "hr": 7,
+      "order": 6,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "Lewis, R",
+      "team": "MIN",
+      "score": 59.41,
+      "paperRank": 70,
+      "hrEdge": 38,
+      "pa": 245,
+      "hr": 9,
+      "order": 5,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "real HR pop"
+      ]
+    },
+    {
+      "rank": 39,
+      "name": "Chisholm Jr.",
+      "team": "NYY",
+      "score": 59.3,
+      "paperRank": 79,
+      "hrEdge": 34,
+      "pa": 348,
+      "hr": 12,
+      "order": 6,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "real HR pop",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 40,
+      "name": "March\u00e1n",
+      "team": "PHI",
+      "score": 59.1,
+      "paperRank": 153,
+      "hrEdge": 30,
+      "pa": 85,
+      "hr": 2,
+      "order": 8,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 41,
+      "name": "Outman",
+      "team": "DET",
+      "score": 58.97,
+      "paperRank": 140,
+      "hrEdge": 30,
+      "pa": 129,
+      "hr": 3,
+      "order": 7,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "environment helps carry",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 42,
+      "name": "Gray, T",
+      "team": "MIN",
+      "score": 58.64,
+      "paperRank": 116,
+      "hrEdge": 32,
+      "pa": 176,
+      "hr": 4,
+      "order": 8,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot"
+      ]
+    },
+    {
+      "rank": 43,
+      "name": "Young",
+      "team": "SEA",
+      "score": 58.59,
+      "paperRank": 118,
+      "hrEdge": 32,
+      "pa": 152,
+      "hr": 6,
+      "order": 7,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot"
+      ]
+    },
+    {
+      "rank": 44,
+      "name": "Nootbaar",
+      "team": "STL",
+      "score": 58.37,
+      "paperRank": 130,
+      "hrEdge": 38,
+      "pa": 113,
+      "hr": 2,
+      "order": 8,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 45,
+      "name": "Mack",
+      "team": "MIA",
+      "score": 58.24,
+      "paperRank": 119,
+      "hrEdge": 31,
+      "pa": 163,
+      "hr": 7,
+      "order": 8,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot"
+      ]
+    },
+    {
+      "rank": 46,
+      "name": "Troy",
+      "team": "ARI",
+      "score": 58.1,
+      "paperRank": 143,
+      "hrEdge": 32,
+      "pa": 132,
+      "hr": 4,
+      "order": 9,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 47,
+      "name": "Guzman, D",
+      "team": "LAA",
+      "score": 57.98,
+      "paperRank": 124,
+      "hrEdge": 32,
+      "pa": 107,
+      "hr": 3,
+      "order": 5,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "environment helps carry",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 48,
+      "name": "Riley, A",
+      "team": "ATL",
+      "score": 57.87,
+      "paperRank": 98,
+      "hrEdge": 36,
+      "pa": 373,
+      "hr": 9,
+      "order": 7,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "real HR pop",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 49,
       "name": "Song",
       "team": "SD",
-      "score": 59.96,
-      "paperRank": 135,
+      "score": 57.71,
+      "paperRank": 163,
       "hrEdge": 31,
       "pa": 91,
       "hr": 1,
@@ -1389,44 +1623,11 @@
       ]
     },
     {
-      "rank": 35,
-      "name": "Sheets",
-      "team": "SD",
-      "score": 59.79,
-      "paperRank": 41,
-      "hrEdge": 38,
-      "pa": 309,
-      "hr": 14,
-      "order": 4,
-      "reasons": [
-        "not an obvious top-board play",
-        "real HR pop",
-        "pitcher can give up damage"
-      ]
-    },
-    {
-      "rank": 36,
-      "name": "March\u00e1n",
-      "team": "PHI",
-      "score": 59.7,
-      "paperRank": 136,
-      "hrEdge": 29,
-      "pa": 85,
-      "hr": 2,
-      "order": 8,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "pitcher can give up damage",
-        "smaller but usable sample"
-      ]
-    },
-    {
-      "rank": 37,
+      "rank": 50,
       "name": "Andujar",
       "team": "SD",
-      "score": 59.69,
-      "paperRank": 97,
+      "score": 57.44,
+      "paperRank": 121,
       "hrEdge": 29,
       "pa": 237,
       "hr": 5,
@@ -1438,354 +1639,28 @@
       ]
     },
     {
-      "rank": 38,
-      "name": "Romo",
-      "team": "CWS",
-      "score": 59.57,
-      "paperRank": 128,
-      "hrEdge": 28,
-      "pa": 117,
-      "hr": 5,
-      "order": 9,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "smaller but usable sample"
-      ]
-    },
-    {
-      "rank": 39,
-      "name": "Montgomery, C",
-      "team": "CWS",
-      "score": 59.18,
-      "paperRank": 18,
-      "hrEdge": 43,
-      "pa": 368,
-      "hr": 23,
-      "order": 4,
-      "reasons": [
-        "not an obvious top-board play",
-        "real HR pop"
-      ]
-    },
-    {
-      "rank": 40,
-      "name": "Guzman, D",
-      "team": "LAA",
-      "score": 58.98,
-      "paperRank": 111,
-      "hrEdge": 31,
-      "pa": 107,
-      "hr": 3,
-      "order": 5,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "environment helps carry",
-        "smaller but usable sample"
-      ]
-    },
-    {
-      "rank": 41,
-      "name": "Smith, P",
-      "team": "ARI",
-      "score": 58.77,
-      "paperRank": 143,
-      "hrEdge": 30,
-      "pa": 89,
-      "hr": 1,
-      "order": 8,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "pitcher can give up damage",
-        "smaller but usable sample"
-      ]
-    },
-    {
-      "rank": 42,
-      "name": "Soderstrom",
-      "team": "ATH",
-      "score": 58.66,
-      "paperRank": 46,
-      "hrEdge": 40,
-      "pa": 340,
-      "hr": 13,
-      "order": 4,
-      "reasons": [
-        "not an obvious top-board play",
-        "real HR pop",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 43,
-      "name": "Young, J",
-      "team": "NYM",
-      "score": 58.32,
-      "paperRank": 106,
-      "hrEdge": 33,
-      "pa": 152,
-      "hr": 6,
-      "order": 6,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 44,
-      "name": "Alvarez, F",
-      "team": "NYM",
-      "score": 58.26,
-      "paperRank": 72,
-      "hrEdge": 38,
-      "pa": 224,
-      "hr": 9,
-      "order": 5,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 45,
-      "name": "Arenado",
-      "team": "ARI",
-      "score": 58.02,
-      "paperRank": 96,
-      "hrEdge": 26,
-      "pa": 334,
-      "hr": 11,
-      "order": 7,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop",
-        "pitcher can give up damage"
-      ]
-    },
-    {
-      "rank": 46,
-      "name": "Happ",
-      "team": "CHC",
-      "score": 57.84,
-      "paperRank": 73,
-      "hrEdge": 36,
-      "pa": 385,
-      "hr": 17,
-      "order": 7,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 47,
-      "name": "Riley, A",
-      "team": "ATL",
-      "score": 57.83,
-      "paperRank": 93,
-      "hrEdge": 34,
-      "pa": 373,
-      "hr": 9,
-      "order": 7,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 48,
-      "name": "Callihan, T",
-      "team": "PIT",
-      "score": 57.72,
-      "paperRank": 150,
-      "hrEdge": 29,
-      "pa": 84,
-      "hr": 3,
-      "order": 7,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "environment helps carry",
-        "smaller but usable sample"
-      ]
-    },
-    {
-      "rank": 49,
-      "name": "Chisholm Jr.",
-      "team": "NYY",
-      "score": 57.61,
-      "paperRank": 90,
-      "hrEdge": 31,
-      "pa": 348,
-      "hr": 12,
-      "order": 6,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 50,
-      "name": "Young",
-      "team": "SEA",
-      "score": 57.29,
-      "paperRank": 127,
-      "hrEdge": 29,
-      "pa": 152,
-      "hr": 6,
-      "order": 7,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot"
-      ]
-    },
-    {
       "rank": 51,
-      "name": "Keaschall",
-      "team": "MIN",
-      "score": 57.12,
-      "paperRank": 110,
-      "hrEdge": 26,
-      "pa": 345,
-      "hr": 4,
-      "order": 7,
+      "name": "Sheets",
+      "team": "SD",
+      "score": 57.35,
+      "paperRank": 53,
+      "hrEdge": 39,
+      "pa": 309,
+      "hr": 14,
+      "order": 4,
       "reasons": [
         "not an obvious top-board play",
-        "lower lineup spot",
+        "real HR pop",
         "pitcher can give up damage"
       ]
     },
     {
       "rank": 52,
-      "name": "Alexander",
-      "team": "BAL",
-      "score": 56.98,
-      "paperRank": 112,
-      "hrEdge": 35,
-      "pa": 238,
-      "hr": 3,
-      "order": 8,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 53,
-      "name": "Cortes",
-      "team": "ATH",
-      "score": 56.87,
-      "paperRank": 116,
-      "hrEdge": 32,
-      "pa": 225,
-      "hr": 6,
-      "order": 8,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 54,
-      "name": "Peraza, O",
-      "team": "LAA",
-      "score": 56.83,
-      "paperRank": 109,
-      "hrEdge": 27,
-      "pa": 270,
-      "hr": 7,
-      "order": 6,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "environment helps carry"
-      ]
-    },
-    {
-      "rank": 55,
-      "name": "Burleson",
-      "team": "STL",
-      "score": 56.73,
-      "paperRank": 64,
-      "hrEdge": 41,
-      "pa": 387,
-      "hr": 15,
-      "order": 5,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop"
-      ]
-    },
-    {
-      "rank": 56,
-      "name": "Schneemann",
-      "team": "CLE",
-      "score": 56.71,
-      "paperRank": 118,
-      "hrEdge": 29,
-      "pa": 258,
-      "hr": 6,
-      "order": 7,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot"
-      ]
-    },
-    {
-      "rank": 57,
-      "name": "Conine",
-      "team": "MIA",
-      "score": 56.37,
-      "paperRank": 126,
-      "hrEdge": 34,
-      "pa": 84,
-      "hr": 4,
-      "order": 5,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "smaller but usable sample"
-      ]
-    },
-    {
-      "rank": 58,
-      "name": "Bohm",
-      "team": "PHI",
-      "score": 56.05,
-      "paperRank": 83,
-      "hrEdge": 29,
-      "pa": 361,
-      "hr": 11,
-      "order": 5,
-      "reasons": [
-        "not an obvious top-board play",
-        "lower lineup spot",
-        "real HR pop",
-        "pitcher can give up damage"
-      ]
-    },
-    {
-      "rank": 59,
       "name": "Emerson",
       "team": "SEA",
-      "score": 56.01,
-      "paperRank": 148,
-      "hrEdge": 24,
+      "score": 57.26,
+      "paperRank": 149,
+      "hrEdge": 26,
       "pa": 156,
       "hr": 7,
       "order": 9,
@@ -1795,19 +1670,130 @@
       ]
     },
     {
-      "rank": 60,
-      "name": "Gurriel Jr.",
-      "team": "ARI",
-      "score": 56.0,
-      "paperRank": 132,
-      "hrEdge": 26,
-      "pa": 176,
-      "hr": 2,
-      "order": 6,
+      "rank": 53,
+      "name": "Bailey",
+      "team": "CLE",
+      "score": 57.22,
+      "paperRank": 136,
+      "hrEdge": 30,
+      "pa": 186,
+      "hr": 3,
+      "order": 8,
       "reasons": [
         "not an obvious top-board play",
         "lower lineup spot",
         "pitcher can give up damage"
+      ]
+    },
+    {
+      "rank": 54,
+      "name": "Montgomery, B",
+      "team": "CWS",
+      "score": 57.02,
+      "paperRank": 158,
+      "hrEdge": 31,
+      "pa": 104,
+      "hr": 2,
+      "order": 7,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 55,
+      "name": "Grichuk",
+      "team": "CWS",
+      "score": 57.01,
+      "paperRank": 30,
+      "hrEdge": 46,
+      "pa": 140,
+      "hr": 9,
+      "order": 2,
+      "reasons": [
+        "not an obvious top-board play",
+        "real HR pop",
+        "smaller but usable sample"
+      ]
+    },
+    {
+      "rank": 56,
+      "name": "Baty",
+      "team": "NYM",
+      "score": 56.81,
+      "paperRank": 113,
+      "hrEdge": 35,
+      "pa": 316,
+      "hr": 3,
+      "order": 8,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 57,
+      "name": "Bolte",
+      "team": "ATH",
+      "score": 56.54,
+      "paperRank": 144,
+      "hrEdge": 35,
+      "pa": 193,
+      "hr": 3,
+      "order": 9,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 58,
+      "name": "Acu\u00f1a",
+      "team": "CWS",
+      "score": 56.51,
+      "paperRank": 152,
+      "hrEdge": 32,
+      "pa": 158,
+      "hr": 1,
+      "order": 8,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot"
+      ]
+    },
+    {
+      "rank": 59,
+      "name": "Amaya",
+      "team": "CHC",
+      "score": 56.46,
+      "paperRank": 155,
+      "hrEdge": 31,
+      "pa": 154,
+      "hr": 3,
+      "order": 9,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "environment helps carry"
+      ]
+    },
+    {
+      "rank": 60,
+      "name": "Yastrzemski",
+      "team": "ATL",
+      "score": 55.84,
+      "paperRank": 141,
+      "hrEdge": 28,
+      "pa": 259,
+      "hr": 6,
+      "order": 8,
+      "reasons": [
+        "not an obvious top-board play",
+        "lower lineup spot",
+        "environment helps carry"
       ]
     }
   ],

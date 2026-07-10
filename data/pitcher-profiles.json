@@ -1,20 +1,42 @@
 {
-  "version": "5.0",
-  "updatedAt": "2026-07-10T14:43:18.065579",
-  "integrityRule": "No fake pitcher values. Missing source fields display N/A.",
+  "version": "mlb-statcast-pitcher-metrics-1.0",
+  "updatedAt": "2026-07-10T19:16:47.676496+00:00",
+  "season": 2026,
+  "source": "MLB Stats API + Baseball Savant Statcast",
+  "integrityRule": "Missing values remain null. No neutral defaults.",
+  "fipConstant": 3.105775,
+  "leagueTotals": {
+    "outs": 74394,
+    "hr": 3247,
+    "bb": 9534,
+    "hbp": 1204,
+    "so": 23440,
+    "er": 11618,
+    "ip": 24798.0,
+    "era": 4.216549721751754,
+    "fipConstant": 3.1057746592467135
+  },
+  "completeRequiredProfiles": 25,
+  "unresolvedProfiles": [
+    {
+      "team": "SF",
+      "name": "TBD",
+      "reason": "missing_mlbam_id"
+    }
+  ],
   "profiles": {
     "PIT": {
       "team": "PIT",
       "name": "Keller, M",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.132,
       "barrelA": 7.3,
       "hardHitA": 42.0,
-      "fb": null,
-      "gb": null,
+      "fb": 31.25,
+      "gb": 39.205,
       "xera": 5.38,
-      "fip": null,
-      "siera": null,
+      "fip": 4.47,
+      "siera": 4.322,
       "veloTrend": -0.2,
       "mix": [
         {
@@ -42,23 +64,29 @@
           "pct": 7
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -69,8 +97,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.523780+00:00",
+          "playerId": 656605
         },
         "barrelA": {
           "status": "verified",
@@ -81,24 +112,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.523780+00:00",
+          "playerId": 656605,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.523780+00:00",
+          "playerId": 656605,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.523780+00:00",
+          "playerId": 656605,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.523780+00:00",
+          "playerId": 656605,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -107,6 +155,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.523780+00:00",
+          "playerId": 656605
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.523780+00:00",
+          "playerId": 656605
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.523780+00:00",
+          "playerId": 656605
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.523780+00:00",
+          "playerId": 656605
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.523780+00:00",
+          "playerId": 656605
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.523780+00:00",
+          "playerId": 656605
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.523780+00:00",
+          "playerId": 656605
         }
       },
       "notes": [
@@ -172,20 +269,37 @@
         ],
         "primary": "4-Seam",
         "strike": null
+      },
+      "ip": 103.333,
+      "hrAllowed": 13,
+      "walksAllowed": 35,
+      "hitBatters": 7,
+      "strikeouts": 77,
+      "battersFaced": 443,
+      "earnedRuns": 59,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:36.523780+00:00",
+      "battedBallCounts": {
+        "groundBalls": 138,
+        "flyBalls": 88,
+        "popups": 22,
+        "lineDrives": 104,
+        "bip": 352
       }
     },
     "ATL": {
       "team": "ATL",
       "name": "Elder",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.315,
       "barrelA": 4.7,
       "hardHitA": 39.3,
-      "fb": null,
-      "gb": null,
+      "fb": 33.43,
+      "gb": 44.186,
       "xera": 3.62,
-      "fip": null,
-      "siera": null,
+      "fip": 4.323,
+      "siera": 3.955,
       "veloTrend": -0.7,
       "mix": [
         {
@@ -209,23 +323,29 @@
           "pct": 7
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -236,8 +356,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.946917+00:00",
+          "playerId": 693821
         },
         "barrelA": {
           "status": "verified",
@@ -248,24 +371,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.946917+00:00",
+          "playerId": 693821,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.946917+00:00",
+          "playerId": 693821,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.946917+00:00",
+          "playerId": 693821,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.946917+00:00",
+          "playerId": 693821,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -274,6 +414,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.946917+00:00",
+          "playerId": 693821
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.946917+00:00",
+          "playerId": 693821
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.946917+00:00",
+          "playerId": 693821
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.946917+00:00",
+          "playerId": 693821
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.946917+00:00",
+          "playerId": 693821
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.946917+00:00",
+          "playerId": 693821
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:36.946917+00:00",
+          "playerId": 693821
         }
       },
       "notes": [
@@ -335,20 +524,37 @@
         ],
         "primary": "Sinker",
         "strike": null
+      },
+      "ip": 102.667,
+      "hrAllowed": 15,
+      "walksAllowed": 32,
+      "hitBatters": 2,
+      "strikeouts": 86,
+      "battersFaced": 435,
+      "earnedRuns": 47,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:36.946917+00:00",
+      "battedBallCounts": {
+        "groundBalls": 152,
+        "flyBalls": 93,
+        "popups": 22,
+        "lineDrives": 77,
+        "bip": 344
       }
     },
     "NYM": {
       "team": "NYM",
       "name": "Manaea",
       "hand": "L",
-      "hr9": null,
+      "hr9": 1.2,
       "barrelA": 7.4,
       "hardHitA": 39.7,
-      "fb": null,
-      "gb": null,
+      "fb": 34.274,
+      "gb": 39.919,
       "xera": 4.14,
-      "fip": null,
-      "siera": null,
+      "fip": 4.146,
+      "siera": 3.56,
       "veloTrend": -0.1,
       "mix": [
         {
@@ -372,23 +578,29 @@
           "pct": 3
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -399,8 +611,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.309746+00:00",
+          "playerId": 640455
         },
         "barrelA": {
           "status": "verified",
@@ -411,24 +626,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.309746+00:00",
+          "playerId": 640455,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.309746+00:00",
+          "playerId": 640455,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.309746+00:00",
+          "playerId": 640455,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.309746+00:00",
+          "playerId": 640455,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -437,6 +669,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.309746+00:00",
+          "playerId": 640455
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.309746+00:00",
+          "playerId": 640455
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.309746+00:00",
+          "playerId": 640455
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.309746+00:00",
+          "playerId": 640455
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.309746+00:00",
+          "playerId": 640455
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.309746+00:00",
+          "playerId": 640455
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.309746+00:00",
+          "playerId": 640455
         }
       },
       "notes": [
@@ -498,20 +779,37 @@
         ],
         "primary": "4-Seam",
         "strike": null
+      },
+      "ip": 75.0,
+      "hrAllowed": 10,
+      "walksAllowed": 24,
+      "hitBatters": 8,
+      "strikeouts": 74,
+      "battersFaced": 329,
+      "earnedRuns": 38,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:37.309746+00:00",
+      "battedBallCounts": {
+        "groundBalls": 99,
+        "flyBalls": 66,
+        "popups": 19,
+        "lineDrives": 64,
+        "bip": 248
       }
     },
     "KC": {
       "team": "KC",
       "name": "Wacha",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.056,
       "barrelA": 6.2,
       "hardHitA": 36.4,
-      "fb": null,
-      "gb": null,
+      "fb": 36.247,
+      "gb": 39.589,
       "xera": 4.05,
-      "fip": null,
-      "siera": null,
+      "fip": 4.002,
+      "siera": 3.891,
       "veloTrend": 0.0,
       "mix": [
         {
@@ -539,23 +837,29 @@
           "pct": 6
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -566,8 +870,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.817026+00:00",
+          "playerId": 608379
         },
         "barrelA": {
           "status": "verified",
@@ -578,24 +885,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.817026+00:00",
+          "playerId": 608379,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.817026+00:00",
+          "playerId": 608379,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.817026+00:00",
+          "playerId": 608379,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.817026+00:00",
+          "playerId": 608379,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -604,6 +928,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.817026+00:00",
+          "playerId": 608379
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.817026+00:00",
+          "playerId": 608379
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.817026+00:00",
+          "playerId": 608379
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.817026+00:00",
+          "playerId": 608379
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.817026+00:00",
+          "playerId": 608379
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.817026+00:00",
+          "playerId": 608379
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:37.817026+00:00",
+          "playerId": 608379
         }
       },
       "notes": [
@@ -669,20 +1042,37 @@
         ],
         "primary": "4-Seam",
         "strike": null
+      },
+      "ip": 119.333,
+      "hrAllowed": 14,
+      "walksAllowed": 34,
+      "hitBatters": 5,
+      "strikeouts": 96,
+      "battersFaced": 487,
+      "earnedRuns": 50,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:37.817026+00:00",
+      "battedBallCounts": {
+        "groundBalls": 154,
+        "flyBalls": 110,
+        "popups": 31,
+        "lineDrives": 94,
+        "bip": 389
       }
     },
     "TB": {
       "team": "TB",
       "name": "Rasmussen",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.087,
       "barrelA": 6.9,
       "hardHitA": 33.5,
-      "fb": null,
-      "gb": null,
+      "fb": 30.476,
+      "gb": 46.984,
       "xera": 3.17,
-      "fip": null,
-      "siera": null,
+      "fip": 3.368,
+      "siera": 3.05,
       "veloTrend": -0.4,
       "mix": [
         {
@@ -710,23 +1100,29 @@
           "pct": 4
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -737,8 +1133,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.202045+00:00",
+          "playerId": 656876
         },
         "barrelA": {
           "status": "verified",
@@ -749,24 +1148,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.202045+00:00",
+          "playerId": 656876,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.202045+00:00",
+          "playerId": 656876,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.202045+00:00",
+          "playerId": 656876,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.202045+00:00",
+          "playerId": 656876,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -775,6 +1191,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.202045+00:00",
+          "playerId": 656876
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.202045+00:00",
+          "playerId": 656876
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.202045+00:00",
+          "playerId": 656876
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.202045+00:00",
+          "playerId": 656876
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.202045+00:00",
+          "playerId": 656876
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.202045+00:00",
+          "playerId": 656876
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.202045+00:00",
+          "playerId": 656876
         }
       },
       "notes": [
@@ -840,20 +1305,37 @@
         ],
         "primary": "Cutter",
         "strike": null
+      },
+      "ip": 99.333,
+      "hrAllowed": 12,
+      "walksAllowed": 17,
+      "hitBatters": 5,
+      "strikeouts": 98,
+      "battersFaced": 392,
+      "earnedRuns": 36,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:38.202045+00:00",
+      "battedBallCounts": {
+        "groundBalls": 148,
+        "flyBalls": 73,
+        "popups": 23,
+        "lineDrives": 71,
+        "bip": 315
       }
     },
     "NYY": {
       "team": "NYY",
       "name": "Blackburn, P",
       "hand": "R",
-      "hr9": null,
+      "hr9": 0.771,
       "barrelA": 6.1,
       "hardHitA": 32.8,
-      "fb": null,
-      "gb": null,
+      "fb": 24.684,
+      "gb": 55.696,
       "xera": 3.51,
-      "fip": null,
-      "siera": null,
+      "fip": 3.749,
+      "siera": 4.509,
       "veloTrend": -0.1,
       "mix": [
         {
@@ -881,23 +1363,29 @@
           "pct": 6
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -908,8 +1396,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.606365+00:00",
+          "playerId": 621112
         },
         "barrelA": {
           "status": "verified",
@@ -920,24 +1411,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.606365+00:00",
+          "playerId": 621112,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.606365+00:00",
+          "playerId": 621112,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.606365+00:00",
+          "playerId": 621112,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.606365+00:00",
+          "playerId": 621112,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -946,6 +1454,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.606365+00:00",
+          "playerId": 621112
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.606365+00:00",
+          "playerId": 621112
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.606365+00:00",
+          "playerId": 621112
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.606365+00:00",
+          "playerId": 621112
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.606365+00:00",
+          "playerId": 621112
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.606365+00:00",
+          "playerId": 621112
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:38.606365+00:00",
+          "playerId": 621112
         }
       },
       "notes": [
@@ -1011,20 +1568,37 @@
         ],
         "primary": "Changeup",
         "strike": null
+      },
+      "ip": 46.667,
+      "hrAllowed": 4,
+      "walksAllowed": 15,
+      "hitBatters": 1,
+      "strikeouts": 35,
+      "battersFaced": 187,
+      "earnedRuns": 12,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:38.606365+00:00",
+      "battedBallCounts": {
+        "groundBalls": 88,
+        "flyBalls": 34,
+        "popups": 5,
+        "lineDrives": 31,
+        "bip": 158
       }
     },
     "BAL": {
       "team": "BAL",
       "name": "Rogers, Tr",
       "hand": "L",
-      "hr9": null,
+      "hr9": 0.996,
       "barrelA": 6.8,
       "hardHitA": 39.0,
-      "fb": null,
-      "gb": null,
+      "fb": 37.419,
+      "gb": 38.387,
       "xera": 4.14,
-      "fip": null,
-      "siera": null,
+      "fip": 4.08,
+      "siera": 4.251,
       "veloTrend": 0.4,
       "mix": [
         {
@@ -1048,23 +1622,29 @@
           "pct": 6
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -1075,8 +1655,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.108698+00:00",
+          "playerId": 669432
         },
         "barrelA": {
           "status": "verified",
@@ -1087,24 +1670,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.108698+00:00",
+          "playerId": 669432,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.108698+00:00",
+          "playerId": 669432,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.108698+00:00",
+          "playerId": 669432,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.108698+00:00",
+          "playerId": 669432,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -1113,6 +1713,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.108698+00:00",
+          "playerId": 669432
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.108698+00:00",
+          "playerId": 669432
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.108698+00:00",
+          "playerId": 669432
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.108698+00:00",
+          "playerId": 669432
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.108698+00:00",
+          "playerId": 669432
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.108698+00:00",
+          "playerId": 669432
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.108698+00:00",
+          "playerId": 669432
         }
       },
       "notes": [
@@ -1174,20 +1823,37 @@
         ],
         "primary": "4-Seam",
         "strike": null
+      },
+      "ip": 90.333,
+      "hrAllowed": 10,
+      "walksAllowed": 31,
+      "hitBatters": 1,
+      "strikeouts": 69,
+      "battersFaced": 382,
+      "earnedRuns": 45,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:39.108698+00:00",
+      "battedBallCounts": {
+        "groundBalls": 119,
+        "flyBalls": 78,
+        "popups": 38,
+        "lineDrives": 75,
+        "bip": 310
       }
     },
     "CHC": {
       "team": "CHC",
       "name": "Peterson, D",
       "hand": "L",
-      "hr9": null,
+      "hr9": 0.984,
       "barrelA": 6.6,
       "hardHitA": 42.2,
-      "fb": null,
-      "gb": null,
+      "fb": 22.611,
+      "gb": 51.274,
       "xera": 5.14,
-      "fip": null,
-      "siera": null,
+      "fip": 4.284,
+      "siera": 4.648,
       "veloTrend": -1.3,
       "mix": [
         {
@@ -1211,23 +1877,29 @@
           "pct": 9
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -1238,8 +1910,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.528080+00:00",
+          "playerId": 656849
         },
         "barrelA": {
           "status": "verified",
@@ -1250,24 +1925,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.528080+00:00",
+          "playerId": 656849,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.528080+00:00",
+          "playerId": 656849,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.528080+00:00",
+          "playerId": 656849,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.528080+00:00",
+          "playerId": 656849,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -1276,6 +1968,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.528080+00:00",
+          "playerId": 656849
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.528080+00:00",
+          "playerId": 656849
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.528080+00:00",
+          "playerId": 656849
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.528080+00:00",
+          "playerId": 656849
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.528080+00:00",
+          "playerId": 656849
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.528080+00:00",
+          "playerId": 656849
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:39.528080+00:00",
+          "playerId": 656849
         }
       },
       "notes": [
@@ -1337,20 +2078,37 @@
         ],
         "primary": "Sinker",
         "strike": null
+      },
+      "ip": 82.333,
+      "hrAllowed": 9,
+      "walksAllowed": 37,
+      "hitBatters": 3,
+      "strikeouts": 70,
+      "battersFaced": 382,
+      "earnedRuns": 59,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:39.528080+00:00",
+      "battedBallCounts": {
+        "groundBalls": 161,
+        "flyBalls": 60,
+        "popups": 11,
+        "lineDrives": 82,
+        "bip": 314
       }
     },
     "MIN": {
       "team": "MIN",
       "name": "Ober",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.633,
       "barrelA": 9.8,
       "hardHitA": 32.7,
-      "fb": null,
-      "gb": null,
+      "fb": 45.055,
+      "gb": 34.066,
       "xera": 4.37,
-      "fip": null,
-      "siera": null,
+      "fip": 4.92,
+      "siera": 4.183,
       "veloTrend": 0.4,
       "mix": [
         {
@@ -1370,23 +2128,29 @@
           "pct": 4
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -1397,8 +2161,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.058131+00:00",
+          "playerId": 641927
         },
         "barrelA": {
           "status": "verified",
@@ -1409,24 +2176,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.058131+00:00",
+          "playerId": 641927,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.058131+00:00",
+          "playerId": 641927,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.058131+00:00",
+          "playerId": 641927,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.058131+00:00",
+          "playerId": 641927,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -1435,6 +2219,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.058131+00:00",
+          "playerId": 641927
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.058131+00:00",
+          "playerId": 641927
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.058131+00:00",
+          "playerId": 641927
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.058131+00:00",
+          "playerId": 641927
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.058131+00:00",
+          "playerId": 641927
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.058131+00:00",
+          "playerId": 641927
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.058131+00:00",
+          "playerId": 641927
         }
       },
       "notes": [
@@ -1492,20 +2325,37 @@
         ],
         "primary": "Changeup",
         "strike": null
+      },
+      "ip": 71.667,
+      "hrAllowed": 13,
+      "walksAllowed": 19,
+      "hitBatters": 2,
+      "strikeouts": 51,
+      "battersFaced": 300,
+      "earnedRuns": 35,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:40.058131+00:00",
+      "battedBallCounts": {
+        "groundBalls": 93,
+        "flyBalls": 82,
+        "popups": 41,
+        "lineDrives": 57,
+        "bip": 273
       }
     },
     "CLE": {
       "team": "CLE",
       "name": "Williams, G",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.35,
       "barrelA": 12.1,
       "hardHitA": 48.3,
-      "fb": null,
-      "gb": null,
+      "fb": 29.94,
+      "gb": 46.707,
       "xera": 4.56,
-      "fip": null,
-      "siera": null,
+      "fip": 3.75,
+      "siera": 2.947,
       "veloTrend": 1.1,
       "mix": [
         {
@@ -1529,23 +2379,29 @@
           "pct": 9
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -1556,8 +2412,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.448676+00:00",
+          "playerId": 668909
         },
         "barrelA": {
           "status": "verified",
@@ -1568,24 +2427,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.448676+00:00",
+          "playerId": 668909,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.448676+00:00",
+          "playerId": 668909,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.448676+00:00",
+          "playerId": 668909,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.448676+00:00",
+          "playerId": 668909,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -1594,6 +2470,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.448676+00:00",
+          "playerId": 668909
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.448676+00:00",
+          "playerId": 668909
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.448676+00:00",
+          "playerId": 668909
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.448676+00:00",
+          "playerId": 668909
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.448676+00:00",
+          "playerId": 668909
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.448676+00:00",
+          "playerId": 668909
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.448676+00:00",
+          "playerId": 668909
         }
       },
       "notes": [
@@ -1655,20 +2580,37 @@
         ],
         "primary": "Slider",
         "strike": null
+      },
+      "ip": 113.333,
+      "hrAllowed": 17,
+      "walksAllowed": 37,
+      "hitBatters": 3,
+      "strikeouts": 134,
+      "battersFaced": 460,
+      "earnedRuns": 48,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:40.448676+00:00",
+      "battedBallCounts": {
+        "groundBalls": 156,
+        "flyBalls": 82,
+        "popups": 18,
+        "lineDrives": 78,
+        "bip": 334
       }
     },
     "CWS": {
       "team": "CWS",
       "name": "Kay",
       "hand": "L",
-      "hr9": null,
+      "hr9": 1.209,
       "barrelA": 8.6,
       "hardHitA": 39.1,
-      "fb": null,
-      "gb": null,
+      "fb": 30.539,
+      "gb": 42.216,
       "xera": 5.24,
-      "fip": null,
-      "siera": null,
+      "fip": 4.975,
+      "siera": 4.395,
       "veloTrend": 0.3,
       "mix": [
         {
@@ -1692,23 +2634,29 @@
           "pct": 11
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -1719,8 +2667,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.816193+00:00",
+          "playerId": 641743
         },
         "barrelA": {
           "status": "verified",
@@ -1731,24 +2682,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.816193+00:00",
+          "playerId": 641743,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.816193+00:00",
+          "playerId": 641743,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.816193+00:00",
+          "playerId": 641743,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.816193+00:00",
+          "playerId": 641743,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -1757,6 +2725,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.816193+00:00",
+          "playerId": 641743
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.816193+00:00",
+          "playerId": 641743
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.816193+00:00",
+          "playerId": 641743
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.816193+00:00",
+          "playerId": 641743
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.816193+00:00",
+          "playerId": 641743
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.816193+00:00",
+          "playerId": 641743
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:40.816193+00:00",
+          "playerId": 641743
         }
       },
       "notes": [
@@ -1818,39 +2835,57 @@
         ],
         "primary": "Slider",
         "strike": null
+      },
+      "ip": 89.333,
+      "hrAllowed": 12,
+      "walksAllowed": 35,
+      "hitBatters": 16,
+      "strikeouts": 71,
+      "battersFaced": 403,
+      "earnedRuns": 42,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:40.816193+00:00",
+      "battedBallCounts": {
+        "groundBalls": 141,
+        "flyBalls": 77,
+        "popups": 25,
+        "lineDrives": 91,
+        "bip": 334
       }
     },
     "BOS": {
       "team": "BOS",
       "name": "Sandoval",
       "hand": "L",
-      "hr9": null,
+      "hr9": 0.0,
       "barrelA": null,
       "hardHitA": null,
-      "fb": null,
-      "gb": null,
+      "fb": 38.462,
+      "gb": 15.385,
       "xera": null,
-      "fip": null,
-      "siera": null,
+      "fip": 1.49,
+      "siera": 2.556,
       "veloTrend": null,
       "mix": [],
-      "dataQuality": "limited",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand"
-      ],
-      "missingFields": [
-        "hr9",
-        "barrelA",
-        "hardHitA",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
-        "xera",
         "fip",
+        "gb",
+        "hand",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "name",
         "siera",
-        "veloTrend",
-        "mix"
+        "strikeouts",
+        "walksAllowed"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -1861,8 +2896,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.243862+00:00",
+          "playerId": 663776
         },
         "barrelA": {
           "status": "missing",
@@ -1873,24 +2911,41 @@
           "source": null
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.243862+00:00",
+          "playerId": 663776,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.243862+00:00",
+          "playerId": 663776,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "missing",
           "source": null
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.243862+00:00",
+          "playerId": 663776,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.243862+00:00",
+          "playerId": 663776,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "missing",
@@ -1899,6 +2954,55 @@
         "mix": {
           "status": "missing",
           "source": null
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.243862+00:00",
+          "playerId": 663776
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.243862+00:00",
+          "playerId": 663776
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.243862+00:00",
+          "playerId": 663776
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.243862+00:00",
+          "playerId": 663776
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.243862+00:00",
+          "playerId": 663776
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.243862+00:00",
+          "playerId": 663776
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.243862+00:00",
+          "playerId": 663776
         }
       },
       "notes": [
@@ -1940,20 +3044,37 @@
         "mix": [],
         "primary": null,
         "strike": null
+      },
+      "ip": 4.333,
+      "hrAllowed": 0,
+      "walksAllowed": 1,
+      "hitBatters": 0,
+      "strikeouts": 5,
+      "battersFaced": 19,
+      "earnedRuns": 1,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:41.243862+00:00",
+      "battedBallCounts": {
+        "groundBalls": 2,
+        "flyBalls": 2,
+        "popups": 3,
+        "lineDrives": 6,
+        "bip": 13
       }
     },
     "DET": {
       "team": "DET",
       "name": "Valdez, F",
       "hand": "L",
-      "hr9": null,
+      "hr9": 0.92,
       "barrelA": 6.9,
       "hardHitA": 42.1,
-      "fb": null,
-      "gb": null,
+      "fb": 24.485,
+      "gb": 53.866,
       "xera": 4.4,
-      "fip": null,
-      "siera": null,
+      "fip": 4.1,
+      "siera": 4.437,
       "veloTrend": -0.2,
       "mix": [
         {
@@ -1977,23 +3098,29 @@
           "pct": 3
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -2004,8 +3131,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.664882+00:00",
+          "playerId": 664285
         },
         "barrelA": {
           "status": "verified",
@@ -2016,24 +3146,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.664882+00:00",
+          "playerId": 664285,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.664882+00:00",
+          "playerId": 664285,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.664882+00:00",
+          "playerId": 664285,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.664882+00:00",
+          "playerId": 664285,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -2042,6 +3189,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.664882+00:00",
+          "playerId": 664285
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.664882+00:00",
+          "playerId": 664285
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.664882+00:00",
+          "playerId": 664285
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.664882+00:00",
+          "playerId": 664285
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.664882+00:00",
+          "playerId": 664285
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.664882+00:00",
+          "playerId": 664285
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:41.664882+00:00",
+          "playerId": 664285
         }
       },
       "notes": [
@@ -2103,20 +3299,37 @@
         ],
         "primary": "Sinker",
         "strike": null
+      },
+      "ip": 107.667,
+      "hrAllowed": 11,
+      "walksAllowed": 36,
+      "hitBatters": 10,
+      "strikeouts": 87,
+      "battersFaced": 469,
+      "earnedRuns": 49,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:41.664882+00:00",
+      "battedBallCounts": {
+        "groundBalls": 209,
+        "flyBalls": 83,
+        "popups": 12,
+        "lineDrives": 84,
+        "bip": 388
       }
     },
     "ATH": {
       "team": "ATH",
       "name": "Perkins",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.561,
       "barrelA": 7.2,
       "hardHitA": 38.4,
-      "fb": null,
-      "gb": null,
+      "fb": 38.462,
+      "gb": 34.615,
       "xera": 4.08,
-      "fip": null,
-      "siera": null,
+      "fip": 4.424,
+      "siera": 3.061,
       "veloTrend": 0.2,
       "mix": [
         {
@@ -2140,23 +3353,29 @@
           "pct": 3
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -2167,8 +3386,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.053292+00:00",
+          "playerId": 678022
         },
         "barrelA": {
           "status": "verified",
@@ -2179,24 +3401,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.053292+00:00",
+          "playerId": 678022,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.053292+00:00",
+          "playerId": 678022,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.053292+00:00",
+          "playerId": 678022,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.053292+00:00",
+          "playerId": 678022,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -2205,6 +3444,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.053292+00:00",
+          "playerId": 678022
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.053292+00:00",
+          "playerId": 678022
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.053292+00:00",
+          "playerId": 678022
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.053292+00:00",
+          "playerId": 678022
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.053292+00:00",
+          "playerId": 678022
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.053292+00:00",
+          "playerId": 678022
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.053292+00:00",
+          "playerId": 678022
         }
       },
       "notes": [
@@ -2266,20 +3554,37 @@
         ],
         "primary": "Slider",
         "strike": null
+      },
+      "ip": 57.667,
+      "hrAllowed": 10,
+      "walksAllowed": 23,
+      "hitBatters": 7,
+      "strikeouts": 72,
+      "battersFaced": 264,
+      "earnedRuns": 44,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:42.053292+00:00",
+      "battedBallCounts": {
+        "groundBalls": 63,
+        "flyBalls": 60,
+        "popups": 10,
+        "lineDrives": 49,
+        "bip": 182
       }
     },
     "MIA": {
       "team": "MIA",
       "name": "Junk",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.246,
       "barrelA": 6.6,
       "hardHitA": 41.6,
-      "fb": null,
-      "gb": null,
+      "fb": 35.714,
+      "gb": 43.277,
       "xera": 4.0,
-      "fip": null,
-      "siera": null,
+      "fip": 4.26,
+      "siera": 4.128,
       "veloTrend": 0.4,
       "mix": [
         {
@@ -2303,23 +3608,29 @@
           "pct": 4
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -2330,8 +3641,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.573139+00:00",
+          "playerId": 676083
         },
         "barrelA": {
           "status": "verified",
@@ -2342,24 +3656,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.573139+00:00",
+          "playerId": 676083,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.573139+00:00",
+          "playerId": 676083,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.573139+00:00",
+          "playerId": 676083,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.573139+00:00",
+          "playerId": 676083,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -2368,6 +3699,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.573139+00:00",
+          "playerId": 676083
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.573139+00:00",
+          "playerId": 676083
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.573139+00:00",
+          "playerId": 676083
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.573139+00:00",
+          "playerId": 676083
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.573139+00:00",
+          "playerId": 676083
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.573139+00:00",
+          "playerId": 676083
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.573139+00:00",
+          "playerId": 676083
         }
       },
       "notes": [
@@ -2429,20 +3809,37 @@
         ],
         "primary": "4-Seam",
         "strike": null
+      },
+      "ip": 65.0,
+      "hrAllowed": 9,
+      "walksAllowed": 17,
+      "hitBatters": 1,
+      "strikeouts": 48,
+      "battersFaced": 276,
+      "earnedRuns": 33,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:42.573139+00:00",
+      "battedBallCounts": {
+        "groundBalls": 103,
+        "flyBalls": 55,
+        "popups": 30,
+        "lineDrives": 50,
+        "bip": 238
       }
     },
     "SEA": {
       "team": "SEA",
       "name": "Miller, B",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.249,
       "barrelA": 6.7,
       "hardHitA": 27.5,
-      "fb": null,
-      "gb": null,
+      "fb": 41.135,
+      "gb": 39.716,
       "xera": 2.09,
-      "fip": null,
-      "siera": null,
+      "fip": 3.123,
+      "siera": 2.178,
       "veloTrend": -0.5,
       "mix": [
         {
@@ -2470,23 +3867,29 @@
           "pct": 3
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -2497,8 +3900,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.989658+00:00",
+          "playerId": 682243
         },
         "barrelA": {
           "status": "verified",
@@ -2509,24 +3915,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.989658+00:00",
+          "playerId": 682243,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.989658+00:00",
+          "playerId": 682243,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.989658+00:00",
+          "playerId": 682243,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.989658+00:00",
+          "playerId": 682243,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -2535,6 +3958,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.989658+00:00",
+          "playerId": 682243
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.989658+00:00",
+          "playerId": 682243
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.989658+00:00",
+          "playerId": 682243
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.989658+00:00",
+          "playerId": 682243
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.989658+00:00",
+          "playerId": 682243
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.989658+00:00",
+          "playerId": 682243
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:42.989658+00:00",
+          "playerId": 682243
         }
       },
       "notes": [
@@ -2600,20 +4072,37 @@
         ],
         "primary": "4-Seam",
         "strike": null
+      },
+      "ip": 57.667,
+      "hrAllowed": 8,
+      "walksAllowed": 9,
+      "hitBatters": 0,
+      "strikeouts": 65,
+      "battersFaced": 215,
+      "earnedRuns": 14,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:42.989658+00:00",
+      "battedBallCounts": {
+        "groundBalls": 56,
+        "flyBalls": 46,
+        "popups": 12,
+        "lineDrives": 27,
+        "bip": 141
       }
     },
     "CIN": {
       "team": "CIN",
       "name": "Singer",
       "hand": "R",
-      "hr9": null,
+      "hr9": 2.007,
       "barrelA": 10.9,
       "hardHitA": 40.8,
-      "fb": null,
-      "gb": null,
+      "fb": 30.294,
+      "gb": 43.235,
       "xera": 5.56,
-      "fip": null,
-      "siera": null,
+      "fip": 5.615,
+      "siera": 4.131,
       "veloTrend": -0.2,
       "mix": [
         {
@@ -2633,23 +4122,29 @@
           "pct": 3
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -2660,8 +4155,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.507325+00:00",
+          "playerId": 663903
         },
         "barrelA": {
           "status": "verified",
@@ -2672,24 +4170,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.507325+00:00",
+          "playerId": 663903,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.507325+00:00",
+          "playerId": 663903,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.507325+00:00",
+          "playerId": 663903,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.507325+00:00",
+          "playerId": 663903,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -2698,6 +4213,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.507325+00:00",
+          "playerId": 663903
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.507325+00:00",
+          "playerId": 663903
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.507325+00:00",
+          "playerId": 663903
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.507325+00:00",
+          "playerId": 663903
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.507325+00:00",
+          "playerId": 663903
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.507325+00:00",
+          "playerId": 663903
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.507325+00:00",
+          "playerId": 663903
         }
       },
       "notes": [
@@ -2755,20 +4319,37 @@
         ],
         "primary": "Sinker",
         "strike": null
+      },
+      "ip": 89.667,
+      "hrAllowed": 20,
+      "walksAllowed": 31,
+      "hitBatters": 8,
+      "strikeouts": 76,
+      "battersFaced": 402,
+      "earnedRuns": 47,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:43.507325+00:00",
+      "battedBallCounts": {
+        "groundBalls": 147,
+        "flyBalls": 94,
+        "popups": 9,
+        "lineDrives": 90,
+        "bip": 340
       }
     },
     "PHI": {
       "team": "PHI",
       "name": "Luzardo",
       "hand": "L",
-      "hr9": null,
+      "hr9": 0.734,
       "barrelA": 5.5,
       "hardHitA": 30.0,
-      "fb": null,
-      "gb": null,
+      "fb": 24.625,
+      "gb": 53.754,
       "xera": 3.05,
-      "fip": null,
-      "siera": null,
+      "fip": 2.843,
+      "siera": 3.125,
       "veloTrend": 0.4,
       "mix": [
         {
@@ -2788,23 +4369,29 @@
           "pct": 13
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -2815,8 +4402,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.902082+00:00",
+          "playerId": 666200
         },
         "barrelA": {
           "status": "verified",
@@ -2827,24 +4417,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.902082+00:00",
+          "playerId": 666200,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.902082+00:00",
+          "playerId": 666200,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.902082+00:00",
+          "playerId": 666200,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.902082+00:00",
+          "playerId": 666200,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -2853,6 +4460,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.902082+00:00",
+          "playerId": 666200
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.902082+00:00",
+          "playerId": 666200
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.902082+00:00",
+          "playerId": 666200
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.902082+00:00",
+          "playerId": 666200
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.902082+00:00",
+          "playerId": 666200
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.902082+00:00",
+          "playerId": 666200
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:43.902082+00:00",
+          "playerId": 666200
         }
       },
       "notes": [
@@ -2910,20 +4566,37 @@
         ],
         "primary": "Slider",
         "strike": null
+      },
+      "ip": 110.333,
+      "hrAllowed": 9,
+      "walksAllowed": 35,
+      "hitBatters": 7,
+      "strikeouts": 136,
+      "battersFaced": 463,
+      "earnedRuns": 43,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:43.902082+00:00",
+      "battedBallCounts": {
+        "groundBalls": 179,
+        "flyBalls": 66,
+        "popups": 16,
+        "lineDrives": 72,
+        "bip": 333
       }
     },
     "STL": {
       "team": "STL",
       "name": "Pallante",
       "hand": "R",
-      "hr9": null,
+      "hr9": 0.9,
       "barrelA": 6.1,
       "hardHitA": 34.6,
-      "fb": null,
-      "gb": null,
+      "fb": 24.355,
+      "gb": 55.301,
       "xera": 3.7,
-      "fip": null,
-      "siera": null,
+      "fip": 4.016,
+      "siera": 4.569,
       "veloTrend": 0.3,
       "mix": [
         {
@@ -2947,23 +4620,29 @@
           "pct": 2
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -2974,8 +4653,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.308284+00:00",
+          "playerId": 669467
         },
         "barrelA": {
           "status": "verified",
@@ -2986,24 +4668,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.308284+00:00",
+          "playerId": 669467,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.308284+00:00",
+          "playerId": 669467,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.308284+00:00",
+          "playerId": 669467,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.308284+00:00",
+          "playerId": 669467,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -3012,6 +4711,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.308284+00:00",
+          "playerId": 669467
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.308284+00:00",
+          "playerId": 669467
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.308284+00:00",
+          "playerId": 669467
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.308284+00:00",
+          "playerId": 669467
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.308284+00:00",
+          "playerId": 669467
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.308284+00:00",
+          "playerId": 669467
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.308284+00:00",
+          "playerId": 669467
         }
       },
       "notes": [
@@ -3073,20 +4821,37 @@
         ],
         "primary": "4-Seam",
         "strike": null
+      },
+      "ip": 100.0,
+      "hrAllowed": 10,
+      "walksAllowed": 29,
+      "hitBatters": 6,
+      "strikeouts": 72,
+      "battersFaced": 423,
+      "earnedRuns": 44,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:44.308284+00:00",
+      "battedBallCounts": {
+        "groundBalls": 193,
+        "flyBalls": 66,
+        "popups": 19,
+        "lineDrives": 71,
+        "bip": 349
       }
     },
     "MIL": {
       "team": "MIL",
       "name": "Henderson",
       "hand": "R",
-      "hr9": null,
+      "hr9": 0.635,
       "barrelA": 9.3,
       "hardHitA": 29.6,
-      "fb": null,
-      "gb": null,
+      "fb": 43.373,
+      "gb": 25.301,
       "xera": 2.98,
-      "fip": null,
-      "siera": null,
+      "fip": 2.47,
+      "siera": 2.136,
       "veloTrend": -0.1,
       "mix": [
         {
@@ -3106,23 +4871,29 @@
           "pct": 3
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -3133,8 +4904,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.769633+00:00",
+          "playerId": 701656
         },
         "barrelA": {
           "status": "verified",
@@ -3145,24 +4919,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.769633+00:00",
+          "playerId": 701656,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.769633+00:00",
+          "playerId": 701656,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.769633+00:00",
+          "playerId": 701656,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.769633+00:00",
+          "playerId": 701656,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -3171,6 +4962,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.769633+00:00",
+          "playerId": 701656
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.769633+00:00",
+          "playerId": 701656
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.769633+00:00",
+          "playerId": 701656
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.769633+00:00",
+          "playerId": 701656
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.769633+00:00",
+          "playerId": 701656
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.769633+00:00",
+          "playerId": 701656
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:44.769633+00:00",
+          "playerId": 701656
         }
       },
       "notes": [
@@ -3228,20 +5068,37 @@
         ],
         "primary": "4-Seam",
         "strike": null
+      },
+      "ip": 28.333,
+      "hrAllowed": 2,
+      "walksAllowed": 7,
+      "hitBatters": 1,
+      "strikeouts": 34,
+      "battersFaced": 111,
+      "earnedRuns": 10,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:44.769633+00:00",
+      "battedBallCounts": {
+        "groundBalls": 21,
+        "flyBalls": 26,
+        "popups": 10,
+        "lineDrives": 26,
+        "bip": 83
       }
     },
     "TEX": {
       "team": "TEX",
       "name": "Eovaldi",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.536,
       "barrelA": 8.1,
       "hardHitA": 39.2,
-      "fb": null,
-      "gb": null,
+      "fb": 28.771,
+      "gb": 51.676,
       "xera": 4.02,
-      "fip": null,
-      "siera": null,
+      "fip": 4.031,
+      "siera": 3.192,
       "veloTrend": 0.6,
       "mix": [
         {
@@ -3265,23 +5122,29 @@
           "pct": 6
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -3292,8 +5155,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:45.352474+00:00",
+          "playerId": 543135
         },
         "barrelA": {
           "status": "verified",
@@ -3304,24 +5170,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:45.352474+00:00",
+          "playerId": 543135,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:45.352474+00:00",
+          "playerId": 543135,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:45.352474+00:00",
+          "playerId": 543135,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:45.352474+00:00",
+          "playerId": 543135,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -3330,6 +5213,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:45.352474+00:00",
+          "playerId": 543135
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:45.352474+00:00",
+          "playerId": 543135
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:45.352474+00:00",
+          "playerId": 543135
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:45.352474+00:00",
+          "playerId": 543135
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:45.352474+00:00",
+          "playerId": 543135
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:45.352474+00:00",
+          "playerId": 543135
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:45.352474+00:00",
+          "playerId": 543135
         }
       },
       "notes": [
@@ -3391,20 +5323,37 @@
         ],
         "primary": "Changeup",
         "strike": null
+      },
+      "ip": 111.333,
+      "hrAllowed": 19,
+      "walksAllowed": 26,
+      "hitBatters": 6,
+      "strikeouts": 120,
+      "battersFaced": 463,
+      "earnedRuns": 50,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:45.352474+00:00",
+      "battedBallCounts": {
+        "groundBalls": 185,
+        "flyBalls": 87,
+        "popups": 16,
+        "lineDrives": 70,
+        "bip": 358
       }
     },
     "LAA": {
       "team": "LAA",
       "name": "Detmers",
       "hand": "L",
-      "hr9": null,
+      "hr9": 0.994,
       "barrelA": 6.9,
       "hardHitA": 37.0,
-      "fb": null,
-      "gb": null,
+      "fb": 39.432,
+      "gb": 36.593,
       "xera": 3.19,
-      "fip": null,
-      "siera": null,
+      "fip": 3.354,
+      "siera": 2.962,
       "veloTrend": -0.2,
       "mix": [
         {
@@ -3424,23 +5373,29 @@
           "pct": 8
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -3451,8 +5406,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.099895+00:00",
+          "playerId": 672282
         },
         "barrelA": {
           "status": "verified",
@@ -3463,24 +5421,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.099895+00:00",
+          "playerId": 672282,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.099895+00:00",
+          "playerId": 672282,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.099895+00:00",
+          "playerId": 672282,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.099895+00:00",
+          "playerId": 672282,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -3489,6 +5464,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.099895+00:00",
+          "playerId": 672282
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.099895+00:00",
+          "playerId": 672282
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.099895+00:00",
+          "playerId": 672282
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.099895+00:00",
+          "playerId": 672282
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.099895+00:00",
+          "playerId": 672282
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.099895+00:00",
+          "playerId": 672282
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.099895+00:00",
+          "playerId": 672282
         }
       },
       "notes": [
@@ -3546,20 +5570,37 @@
         ],
         "primary": "4-Seam",
         "strike": null
+      },
+      "ip": 108.667,
+      "hrAllowed": 12,
+      "walksAllowed": 35,
+      "hitBatters": 4,
+      "strikeouts": 123,
+      "battersFaced": 452,
+      "earnedRuns": 53,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:46.099895+00:00",
+      "battedBallCounts": {
+        "groundBalls": 116,
+        "flyBalls": 95,
+        "popups": 30,
+        "lineDrives": 76,
+        "bip": 317
       }
     },
     "SD": {
       "team": "SD",
       "name": "Canning",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.293,
       "barrelA": 9.7,
       "hardHitA": 49.0,
-      "fb": null,
-      "gb": null,
+      "fb": 30.0,
+      "gb": 46.25,
       "xera": 4.81,
-      "fip": null,
-      "siera": null,
+      "fip": 4.723,
+      "siera": 4.18,
       "veloTrend": 1.1,
       "mix": [
         {
@@ -3587,23 +5628,29 @@
           "pct": 5
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -3614,8 +5661,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.791753+00:00",
+          "playerId": 656288
         },
         "barrelA": {
           "status": "verified",
@@ -3626,24 +5676,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.791753+00:00",
+          "playerId": 656288,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.791753+00:00",
+          "playerId": 656288,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.791753+00:00",
+          "playerId": 656288,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.791753+00:00",
+          "playerId": 656288,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -3652,6 +5719,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.791753+00:00",
+          "playerId": 656288
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.791753+00:00",
+          "playerId": 656288
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.791753+00:00",
+          "playerId": 656288
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.791753+00:00",
+          "playerId": 656288
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.791753+00:00",
+          "playerId": 656288
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.791753+00:00",
+          "playerId": 656288
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:46.791753+00:00",
+          "playerId": 656288
         }
       },
       "notes": [
@@ -3717,20 +5833,37 @@
         ],
         "primary": "4-Seam",
         "strike": null
+      },
+      "ip": 55.667,
+      "hrAllowed": 8,
+      "walksAllowed": 30,
+      "hitBatters": 2,
+      "strikeouts": 55,
+      "battersFaced": 247,
+      "earnedRuns": 40,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:46.791753+00:00",
+      "battedBallCounts": {
+        "groundBalls": 74,
+        "flyBalls": 39,
+        "popups": 9,
+        "lineDrives": 38,
+        "bip": 160
       }
     },
     "ARI": {
       "team": "ARI",
       "name": "Kelly, Me",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.922,
       "barrelA": 14.5,
       "hardHitA": 43.9,
-      "fb": null,
-      "gb": null,
+      "fb": 32.362,
+      "gb": 39.65,
       "xera": 7.78,
-      "fip": null,
-      "siera": null,
+      "fip": 5.903,
+      "siera": 4.892,
       "veloTrend": 1.1,
       "mix": [
         {
@@ -3758,23 +5891,29 @@
           "pct": 6
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -3785,8 +5924,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.229159+00:00",
+          "playerId": 518876
         },
         "barrelA": {
           "status": "verified",
@@ -3797,24 +5939,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.229159+00:00",
+          "playerId": 518876,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.229159+00:00",
+          "playerId": 518876,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.229159+00:00",
+          "playerId": 518876,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.229159+00:00",
+          "playerId": 518876,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -3823,6 +5982,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.229159+00:00",
+          "playerId": 518876
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.229159+00:00",
+          "playerId": 518876
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.229159+00:00",
+          "playerId": 518876
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.229159+00:00",
+          "playerId": 518876
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.229159+00:00",
+          "playerId": 518876
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.229159+00:00",
+          "playerId": 518876
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.229159+00:00",
+          "playerId": 518876
         }
       },
       "notes": [
@@ -3888,6 +6096,23 @@
         ],
         "primary": "4-Seam",
         "strike": null
+      },
+      "ip": 93.667,
+      "hrAllowed": 20,
+      "walksAllowed": 38,
+      "hitBatters": 2,
+      "strikeouts": 59,
+      "battersFaced": 411,
+      "earnedRuns": 56,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:47.229159+00:00",
+      "battedBallCounts": {
+        "groundBalls": 136,
+        "flyBalls": 95,
+        "popups": 16,
+        "lineDrives": 96,
+        "bip": 343
       }
     },
     "SF": {
@@ -3988,14 +6213,14 @@
       "team": "COL",
       "name": "Feltner",
       "hand": "R",
-      "hr9": null,
+      "hr9": 1.563,
       "barrelA": 8.9,
       "hardHitA": 40.2,
-      "fb": null,
-      "gb": null,
+      "fb": 32.627,
+      "gb": 44.068,
       "xera": 4.91,
-      "fip": null,
-      "siera": null,
+      "fip": 5.064,
+      "siera": 4.433,
       "veloTrend": -0.5,
       "mix": [
         {
@@ -4019,23 +6244,29 @@
           "pct": 7
         }
       ],
-      "dataQuality": "partial",
+      "dataQuality": "complete",
       "realFields": [
-        "name",
-        "hand",
         "barrelA",
-        "hardHitA",
-        "xera",
-        "veloTrend",
-        "mix"
-      ],
-      "missingFields": [
-        "hr9",
+        "battersFaced",
+        "earnedRuns",
         "fb",
-        "gb",
         "fip",
-        "siera"
+        "gb",
+        "hand",
+        "hardHitA",
+        "hitBatters",
+        "hr9",
+        "hrAllowed",
+        "ip",
+        "mix",
+        "name",
+        "siera",
+        "strikeouts",
+        "veloTrend",
+        "walksAllowed",
+        "xera"
       ],
+      "missingFields": [],
       "provenance": {
         "name": {
           "status": "verified",
@@ -4046,8 +6277,11 @@
           "source": "hand"
         },
         "hr9": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.626209+00:00",
+          "playerId": 663372
         },
         "barrelA": {
           "status": "verified",
@@ -4058,24 +6292,41 @@
           "source": "hardHitA"
         },
         "fb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.626209+00:00",
+          "playerId": 663372,
+          "formula": "(fly_ball + popup) / Statcast BIP"
         },
         "gb": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Baseball Savant Statcast bb_type",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.626209+00:00",
+          "playerId": 663372,
+          "formula": "ground_ball / Statcast BIP"
         },
         "xera": {
           "status": "verified",
           "source": "xera"
         },
         "fip": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.626209+00:00",
+          "playerId": 663372,
+          "formula": "((13*HR)+(3*(BB+HBP))-(2*SO))/IP + current MLB FIP constant",
+          "fipConstant": 3.105775
         },
         "siera": {
-          "status": "missing",
-          "source": null
+          "status": "verified",
+          "source": "Calculated from MLB Stats API and Baseball Savant",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.626209+00:00",
+          "playerId": 663372,
+          "formulaSource": "MLB Advanced Stats glossary SIERA formula"
         },
         "veloTrend": {
           "status": "verified",
@@ -4084,6 +6335,55 @@
         "mix": {
           "status": "verified",
           "source": "mix"
+        },
+        "ip": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.626209+00:00",
+          "playerId": 663372
+        },
+        "hrAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.626209+00:00",
+          "playerId": 663372
+        },
+        "walksAllowed": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.626209+00:00",
+          "playerId": 663372
+        },
+        "hitBatters": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.626209+00:00",
+          "playerId": 663372
+        },
+        "strikeouts": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.626209+00:00",
+          "playerId": 663372
+        },
+        "battersFaced": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.626209+00:00",
+          "playerId": 663372
+        },
+        "earnedRuns": {
+          "status": "verified",
+          "source": "MLB Stats API season pitching totals",
+          "season": 2026,
+          "updatedAt": "2026-07-10T19:16:47.626209+00:00",
+          "playerId": 663372
         }
       },
       "notes": [
@@ -4145,6 +6445,23 @@
         ],
         "primary": "Slider",
         "strike": null
+      },
+      "ip": 63.333,
+      "hrAllowed": 11,
+      "walksAllowed": 24,
+      "hitBatters": 1,
+      "strikeouts": 47,
+      "battersFaced": 267,
+      "earnedRuns": 32,
+      "verifiedPitcherMetricsSource": "MLB Stats API + Baseball Savant Statcast",
+      "verifiedPitcherMetricsSeason": 2026,
+      "verifiedPitcherMetricsUpdatedAt": "2026-07-10T19:16:47.626209+00:00",
+      "battedBallCounts": {
+        "groundBalls": 104,
+        "flyBalls": 63,
+        "popups": 14,
+        "lineDrives": 55,
+        "bip": 236
       }
     }
   }

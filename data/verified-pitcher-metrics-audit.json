@@ -1,0 +1,22 @@
+{
+  "version": "mlb-statcast-pitcher-metrics-1.0",
+  "season": 2026,
+  "source": "MLB Stats API + Baseball Savant Statcast",
+  "fipConstant": 3.105775,
+  "totalProfiles": 26,
+  "completeRequiredProfiles": 25,
+  "unresolvedProfiles": [
+    {
+      "team": "SF",
+      "name": "TBD",
+      "reason": "missing_mlbam_id"
+    }
+  ],
+  "requiredMetrics": [
+    "hr9",
+    "fb",
+    "gb",
+    "fip",
+    "siera"
+  ]
+}
