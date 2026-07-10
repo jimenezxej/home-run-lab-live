@@ -72,19 +72,32 @@ function smallDot(metric,v){
   return `<span class="dot ${gradeClass(g)}" title="${gradeLabel(g)}"></span>`;
 }
 
-async function loadJSON(path,fallback){try{const r=await fetch(`${path}?t=${Date.now()}`);if(!r.ok)throw new Error(`${path}: HTTP ${r.status}`);return await r.json()}catch(e){console.warn(e);return fallback}}
-async function loadData(){
-  state.slate=await loadJSON("slate.json",{games:[],hitters:[],pitchers:{},bullpens:{},parks:{}});
-  state.scores=await loadJSON("scores.json",{players:[]});
-  state.history=await loadJSON("hr-history.json",{home_runs:[]});
-  state.live=await loadJSON("live-events.json",{events:[]});
-  state.pitcherProfiles=await loadJSON("pitcher-profiles.json",{profiles:{}});
-  state.pitchZones=await loadJSON("pitch-zone-profiles.json",{profiles:{}});
-  state.updateStatus=await loadJSON("update-status.json",{});
-  state.intelligence=await loadJSON("intelligence.json",{paperBoard:[],longshotBoard:[]});
-  state.glossary=await loadJSON("glossary.json",{sections:[]});
-  $("#status").textContent=`${state.slate?.games?.length||0} games · ${players().length} hitters`;
-  render();
+// HOME_RUN_LAB_GITHUB_PATH_FALLBACK_8_4
+async function loadJSON(path, fallback={}){
+  const raw = String(path || "").replace(/^\/+/, "");
+  const filename = raw.split("/").pop();
+  const projectBase = window.location.pathname.includes("/home-run-lab-live/")
+    ? "/home-run-lab-live/"
+    : "./";
+  const candidates = [
+    path,
+    `./${raw}`,
+    `./${filename}`,
+    `./data/${filename}`,
+    `${projectBase}${filename}`,
+    `${projectBase}data/${filename}`
+  ].filter(Boolean);
+
+  for (const candidate of [...new Set(candidates)]) {
+    try {
+      const sep = candidate.includes("?") ? "&" : "?";
+      const response = await fetch(`${candidate}${sep}v=${Date.now()}`, {cache:"no-store"});
+      if (!response.ok) continue;
+      return await response.json();
+    } catch (error) {}
+  }
+  console.warn("Unable to load JSON:", path, candidates);
+  return fallback;
 }
 function players(){return state.scores?.players?.length?state.scores.players:[]}
 function games(){return state.slate?.games||[]}

@@ -1,6 +1,6 @@
 {
   "version": "8.0",
-  "updatedAt": "2026-07-09T13:03:56.563592",
+  "updatedAt": "2026-07-10T02:28:50.375477",
   "mappedCount": 228,
   "missingCount": 6,
   "suspiciousAttachedCount": 0,
@@ -10,9 +10,9 @@
       "team": "PIT",
       "resolved": "Jake Mangum",
       "playerId": "663968",
-      "pa": 240,
-      "h": 66,
-      "hr": 1,
+      "pa": 244,
+      "h": 69,
+      "hr": 2,
       "trusted": true
     },
     {
@@ -20,7 +20,7 @@
       "team": "PIT",
       "resolved": "Brandon Lowe",
       "playerId": "664040",
-      "pa": 386,
+      "pa": 390,
       "h": 84,
       "hr": 21,
       "trusted": true
@@ -30,9 +30,9 @@
       "team": "PIT",
       "resolved": "Bryan Reynolds",
       "playerId": "668804",
-      "pa": 406,
-      "h": 95,
-      "hr": 13,
+      "pa": 410,
+      "h": 96,
+      "hr": 14,
       "trusted": true
     },
     {
@@ -40,9 +40,9 @@
       "team": "PIT",
       "resolved": "Esmerlyn Valdez",
       "playerId": "699013",
-      "pa": 88,
-      "h": 23,
-      "hr": 6,
+      "pa": 92,
+      "h": 24,
+      "hr": 7,
       "trusted": true
     },
     {
@@ -50,7 +50,7 @@
       "team": "PIT",
       "resolved": "Ryan O'Hearn",
       "playerId": "656811",
-      "pa": 324,
+      "pa": 327,
       "h": 86,
       "hr": 16,
       "trusted": true
@@ -60,7 +60,7 @@
       "team": "PIT",
       "resolved": "Nick Gonzales",
       "playerId": "693304",
-      "pa": 356,
+      "pa": 360,
       "h": 101,
       "hr": 4,
       "trusted": true
@@ -70,8 +70,8 @@
       "team": "PIT",
       "resolved": "Tyler Callihan",
       "playerId": "682997",
-      "pa": 80,
-      "h": 18,
+      "pa": 84,
+      "h": 19,
       "hr": 3,
       "trusted": true
     },
@@ -80,8 +80,8 @@
       "team": "PIT",
       "resolved": "Rafael Flores Jr.",
       "playerId": "804668",
-      "pa": 5,
-      "h": 2,
+      "pa": 9,
+      "h": 3,
       "hr": 1,
       "trusted": true
     },
@@ -90,7 +90,7 @@
       "team": "PIT",
       "resolved": "Jared Triolo",
       "playerId": "669707",
-      "pa": 199,
+      "pa": 203,
       "h": 42,
       "hr": 1,
       "trusted": true
@@ -100,8 +100,8 @@
       "team": "ATL",
       "resolved": "Michael Harris II",
       "playerId": "671739",
-      "pa": 335,
-      "h": 97,
+      "pa": 340,
+      "h": 98,
       "hr": 16,
       "trusted": true
     },
@@ -110,8 +110,8 @@
       "team": "ATL",
       "resolved": "Ozzie Albies",
       "playerId": "645277",
-      "pa": 393,
-      "h": 96,
+      "pa": 397,
+      "h": 97,
       "hr": 14,
       "trusted": true
     },
@@ -120,7 +120,7 @@
       "team": "ATL",
       "resolved": "Matt Olson",
       "playerId": "621566",
-      "pa": 399,
+      "pa": 403,
       "h": 97,
       "hr": 25,
       "trusted": true
@@ -130,8 +130,8 @@
       "team": "ATL",
       "resolved": "Drake Baldwin",
       "playerId": "686948",
-      "pa": 302,
-      "h": 67,
+      "pa": 306,
+      "h": 69,
       "hr": 15,
       "trusted": true
     },
@@ -140,8 +140,8 @@
       "team": "ATL",
       "resolved": "Mauricio Dub\u00f3n",
       "playerId": "643289",
-      "pa": 355,
-      "h": 89,
+      "pa": 359,
+      "h": 90,
       "hr": 9,
       "trusted": true
     },
@@ -150,7 +150,7 @@
       "team": "ATL",
       "resolved": "Austin Riley",
       "playerId": "663586",
-      "pa": 369,
+      "pa": 373,
       "h": 69,
       "hr": 9,
       "trusted": true
@@ -160,9 +160,9 @@
       "team": "ATL",
       "resolved": "Mike Yastrzemski",
       "playerId": "573262",
-      "pa": 255,
-      "h": 51,
-      "hr": 5,
+      "pa": 259,
+      "h": 52,
+      "hr": 6,
       "trusted": true
     },
     {
@@ -170,9 +170,9 @@
       "team": "ATL",
       "resolved": "Jim Jarvis",
       "playerId": "805347",
-      "pa": 20,
-      "h": 4,
-      "hr": 0,
+      "pa": 25,
+      "h": 7,
+      "hr": 1,
       "trusted": true
     },
     {
@@ -180,8 +180,8 @@
       "team": "NYM",
       "resolved": "A.J. Ewing",
       "playerId": "805999",
-      "pa": 205,
-      "h": 50,
+      "pa": 210,
+      "h": 51,
       "hr": 7,
       "trusted": true
     },
@@ -190,9 +190,9 @@
       "team": "NYM",
       "resolved": "Juan Soto",
       "playerId": "665742",
-      "pa": 318,
-      "h": 78,
-      "hr": 20,
+      "pa": 322,
+      "h": 79,
+      "hr": 21,
       "trusted": true
     },
     {
@@ -200,7 +200,7 @@
       "team": "NYM",
       "resolved": "Bo Bichette",
       "playerId": "666182",
-      "pa": 407,
+      "pa": 411,
       "h": 97,
       "hr": 10,
       "trusted": true
@@ -210,8 +210,8 @@
       "team": "NYM",
       "resolved": "Carson Benge",
       "playerId": "701807",
-      "pa": 370,
-      "h": 90,
+      "pa": 374,
+      "h": 92,
       "hr": 11,
       "trusted": true
     },
@@ -220,8 +220,8 @@
       "team": "NYM",
       "resolved": "Francisco Alvarez",
       "playerId": "682626",
-      "pa": 220,
-      "h": 50,
+      "pa": 224,
+      "h": 51,
       "hr": 9,
       "trusted": true
     },
@@ -230,8 +230,8 @@
       "team": "NYM",
       "resolved": "Jared Young",
       "playerId": "676724",
-      "pa": 148,
-      "h": 30,
+      "pa": 152,
+      "h": 32,
       "hr": 6,
       "trusted": true
     },
@@ -240,7 +240,7 @@
       "team": "NYM",
       "resolved": "Mark Vientos",
       "playerId": "668901",
-      "pa": 253,
+      "pa": 254,
       "h": 50,
       "hr": 11,
       "trusted": true
@@ -250,8 +250,8 @@
       "team": "NYM",
       "resolved": "Brett Baty",
       "playerId": "683146",
-      "pa": 312,
-      "h": 60,
+      "pa": 316,
+      "h": 61,
       "hr": 3,
       "trusted": true
     },
@@ -260,7 +260,7 @@
       "team": "NYM",
       "resolved": "Luis Torrens",
       "playerId": "620443",
-      "pa": 171,
+      "pa": 175,
       "h": 34,
       "hr": 2,
       "trusted": true
@@ -270,9 +270,9 @@
       "team": "KC",
       "resolved": "Lane Thomas",
       "playerId": "657041",
-      "pa": 253,
-      "h": 50,
-      "hr": 6,
+      "pa": 257,
+      "h": 51,
+      "hr": 7,
       "trusted": true
     },
     {
@@ -280,9 +280,9 @@
       "team": "KC",
       "resolved": "Bobby Witt Jr.",
       "playerId": "677951",
-      "pa": 386,
-      "h": 99,
-      "hr": 12,
+      "pa": 390,
+      "h": 100,
+      "hr": 13,
       "trusted": true
     },
     {
@@ -290,7 +290,7 @@
       "team": "KC",
       "resolved": "Salvador Perez",
       "playerId": "521692",
-      "pa": 359,
+      "pa": 363,
       "h": 71,
       "hr": 11,
       "trusted": true
@@ -300,8 +300,8 @@
       "team": "KC",
       "resolved": "Starling Marte",
       "playerId": "516782",
-      "pa": 122,
-      "h": 29,
+      "pa": 125,
+      "h": 30,
       "hr": 1,
       "trusted": true
     },
@@ -310,8 +310,8 @@
       "team": "KC",
       "resolved": "Nick Loftin",
       "playerId": "679845",
-      "pa": 195,
-      "h": 41,
+      "pa": 199,
+      "h": 43,
       "hr": 4,
       "trusted": true
     },
@@ -320,8 +320,8 @@
       "team": "KC",
       "resolved": "Jac Caglianone",
       "playerId": "695506",
-      "pa": 333,
-      "h": 78,
+      "pa": 337,
+      "h": 79,
       "hr": 14,
       "trusted": true
     },
@@ -330,7 +330,7 @@
       "team": "KC",
       "resolved": "Isaac Collins",
       "playerId": "686555",
-      "pa": 302,
+      "pa": 305,
       "h": 61,
       "hr": 4,
       "trusted": true
@@ -340,8 +340,8 @@
       "team": "KC",
       "resolved": "Tyler Tolbert",
       "playerId": "686475",
-      "pa": 57,
-      "h": 19,
+      "pa": 60,
+      "h": 20,
       "hr": 2,
       "trusted": true
     },
@@ -350,7 +350,7 @@
       "team": "KC",
       "resolved": "Luke Maile",
       "playerId": "571912",
-      "pa": 5,
+      "pa": 7,
       "h": 1,
       "hr": 1,
       "trusted": true
@@ -360,8 +360,8 @@
       "team": "TB",
       "resolved": "Yandy D\u00edaz",
       "playerId": "650490",
-      "pa": 376,
-      "h": 107,
+      "pa": 380,
+      "h": 108,
       "hr": 13,
       "trusted": true
     },
@@ -370,8 +370,8 @@
       "team": "TB",
       "resolved": "Jonathan Aranda",
       "playerId": "666018",
-      "pa": 388,
-      "h": 92,
+      "pa": 393,
+      "h": 94,
       "hr": 13,
       "trusted": true
     },
@@ -380,9 +380,9 @@
       "team": "TB",
       "resolved": "Junior Caminero",
       "playerId": "691406",
-      "pa": 393,
-      "h": 95,
-      "hr": 26,
+      "pa": 398,
+      "h": 96,
+      "hr": 27,
       "trusted": true
     },
     {
@@ -390,8 +390,8 @@
       "team": "TB",
       "resolved": "Victor Mesa Jr.",
       "playerId": "683748",
-      "pa": 94,
-      "h": 15,
+      "pa": 96,
+      "h": 16,
       "hr": 4,
       "trusted": true
     },
@@ -400,7 +400,7 @@
       "team": "TB",
       "resolved": "Ryan Vilade",
       "playerId": "668723",
-      "pa": 151,
+      "pa": 155,
       "h": 35,
       "hr": 6,
       "trusted": true
@@ -410,8 +410,8 @@
       "team": "TB",
       "resolved": "Chandler Simpson",
       "playerId": "802415",
-      "pa": 339,
-      "h": 86,
+      "pa": 343,
+      "h": 88,
       "hr": 0,
       "trusted": true
     },
@@ -420,8 +420,8 @@
       "team": "TB",
       "resolved": "Ben Williamson",
       "playerId": "810938",
-      "pa": 211,
-      "h": 44,
+      "pa": 215,
+      "h": 46,
       "hr": 2,
       "trusted": true
     },
@@ -430,7 +430,7 @@
       "team": "TB",
       "resolved": "Taylor Walls",
       "playerId": "670764",
-      "pa": 255,
+      "pa": 259,
       "h": 48,
       "hr": 0,
       "trusted": true
@@ -440,8 +440,8 @@
       "team": "TB",
       "resolved": "Nick Fortes",
       "playerId": "663743",
-      "pa": 214,
-      "h": 51,
+      "pa": 218,
+      "h": 52,
       "hr": 2,
       "trusted": true
     },
@@ -450,8 +450,8 @@
       "team": "NYY",
       "resolved": "Trent Grisham",
       "playerId": "663757",
-      "pa": 285,
-      "h": 56,
+      "pa": 290,
+      "h": 58,
       "hr": 9,
       "trusted": true
     },
@@ -460,9 +460,9 @@
       "team": "NYY",
       "resolved": "Ben Rice",
       "playerId": "700250",
-      "pa": 372,
-      "h": 88,
-      "hr": 26,
+      "pa": 377,
+      "h": 90,
+      "hr": 28,
       "trusted": true
     },
     {
@@ -470,8 +470,8 @@
       "team": "NYY",
       "resolved": "Jasson Dom\u00ednguez",
       "playerId": "691176",
-      "pa": 123,
-      "h": 26,
+      "pa": 128,
+      "h": 28,
       "hr": 4,
       "trusted": true
     },
@@ -480,8 +480,8 @@
       "team": "NYY",
       "resolved": "Cody Bellinger",
       "playerId": "641355",
-      "pa": 386,
-      "h": 81,
+      "pa": 391,
+      "h": 83,
       "hr": 11,
       "trusted": true
     },
@@ -490,8 +490,8 @@
       "team": "NYY",
       "resolved": "Jos\u00e9 Caballero",
       "playerId": "676609",
-      "pa": 284,
-      "h": 64,
+      "pa": 289,
+      "h": 65,
       "hr": 10,
       "trusted": true
     },
@@ -500,7 +500,7 @@
       "team": "NYY",
       "resolved": "Jazz Chisholm Jr.",
       "playerId": "665862",
-      "pa": 343,
+      "pa": 348,
       "h": 68,
       "hr": 12,
       "trusted": true
@@ -510,8 +510,8 @@
       "team": "NYY",
       "resolved": "Max Schuemann",
       "playerId": "680474",
-      "pa": 59,
-      "h": 10,
+      "pa": 64,
+      "h": 12,
       "hr": 2,
       "trusted": true
     },
@@ -520,8 +520,8 @@
       "team": "NYY",
       "resolved": "Ryan McMahon",
       "playerId": "641857",
-      "pa": 213,
-      "h": 41,
+      "pa": 218,
+      "h": 43,
       "hr": 8,
       "trusted": true
     },
@@ -530,9 +530,9 @@
       "team": "NYY",
       "resolved": "Austin Wells",
       "playerId": "669224",
-      "pa": 207,
-      "h": 27,
-      "hr": 4,
+      "pa": 212,
+      "h": 28,
+      "hr": 5,
       "trusted": true
     },
     {
@@ -540,7 +540,7 @@
       "team": "BAL",
       "resolved": "Adley Rutschman",
       "playerId": "668939",
-      "pa": 263,
+      "pa": 267,
       "h": 60,
       "hr": 8,
       "trusted": true
@@ -550,8 +550,8 @@
       "team": "BAL",
       "resolved": "Taylor Ward",
       "playerId": "621493",
-      "pa": 422,
-      "h": 88,
+      "pa": 426,
+      "h": 89,
       "hr": 5,
       "trusted": true
     },
@@ -560,7 +560,7 @@
       "team": "BAL",
       "resolved": "Gunnar Henderson",
       "playerId": "683002",
-      "pa": 422,
+      "pa": 426,
       "h": 84,
       "hr": 16,
       "trusted": true
@@ -570,7 +570,7 @@
       "team": "BAL",
       "resolved": "Pete Alonso",
       "playerId": "624413",
-      "pa": 402,
+      "pa": 406,
       "h": 87,
       "hr": 20,
       "trusted": true
@@ -580,9 +580,9 @@
       "team": "BAL",
       "resolved": "Tyler O'Neill",
       "playerId": "641933",
-      "pa": 166,
-      "h": 28,
-      "hr": 5,
+      "pa": 169,
+      "h": 29,
+      "hr": 6,
       "trusted": true
     },
     {
@@ -590,7 +590,7 @@
       "team": "BAL",
       "resolved": "Coby Mayo",
       "playerId": "691723",
-      "pa": 241,
+      "pa": 243,
       "h": 42,
       "hr": 11,
       "trusted": true
@@ -600,7 +600,7 @@
       "team": "BAL",
       "resolved": "Samuel Basallo",
       "playerId": "694212",
-      "pa": 285,
+      "pa": 289,
       "h": 65,
       "hr": 14,
       "trusted": true
@@ -610,7 +610,7 @@
       "team": "BAL",
       "resolved": "Blaze Alexander",
       "playerId": "677942",
-      "pa": 234,
+      "pa": 238,
       "h": 65,
       "hr": 3,
       "trusted": true
@@ -620,7 +620,7 @@
       "team": "BAL",
       "resolved": "Leody Taveras",
       "playerId": "665750",
-      "pa": 280,
+      "pa": 283,
       "h": 58,
       "hr": 3,
       "trusted": true
@@ -630,8 +630,8 @@
       "team": "CHC",
       "resolved": "Pete Crow-Armstrong",
       "playerId": "691718",
-      "pa": 400,
-      "h": 102,
+      "pa": 404,
+      "h": 103,
       "hr": 21,
       "trusted": true
     },
@@ -640,7 +640,7 @@
       "team": "CHC",
       "resolved": "Alex Bregman",
       "playerId": "608324",
-      "pa": 413,
+      "pa": 417,
       "h": 85,
       "hr": 7,
       "trusted": true
@@ -650,9 +650,9 @@
       "team": "CHC",
       "resolved": "Seiya Suzuki",
       "playerId": "673548",
-      "pa": 325,
-      "h": 74,
-      "hr": 14,
+      "pa": 329,
+      "h": 77,
+      "hr": 15,
       "trusted": true
     },
     {
@@ -660,7 +660,7 @@
       "team": "CHC",
       "resolved": "Carson Kelly",
       "playerId": "608348",
-      "pa": 235,
+      "pa": 239,
       "h": 58,
       "hr": 5,
       "trusted": true
@@ -670,8 +670,8 @@
       "team": "CHC",
       "resolved": "Michael Busch",
       "playerId": "683737",
-      "pa": 408,
-      "h": 77,
+      "pa": 412,
+      "h": 78,
       "hr": 11,
       "trusted": true
     },
@@ -680,8 +680,8 @@
       "team": "CHC",
       "resolved": "Nico Hoerner",
       "playerId": "663538",
-      "pa": 405,
-      "h": 86,
+      "pa": 409,
+      "h": 87,
       "hr": 4,
       "trusted": true
     },
@@ -690,8 +690,8 @@
       "team": "CHC",
       "resolved": "Ian Happ",
       "playerId": "664023",
-      "pa": 381,
-      "h": 71,
+      "pa": 385,
+      "h": 73,
       "hr": 17,
       "trusted": true
     },
@@ -700,8 +700,8 @@
       "team": "CHC",
       "resolved": "Dansby Swanson",
       "playerId": "621020",
-      "pa": 341,
-      "h": 63,
+      "pa": 345,
+      "h": 64,
       "hr": 16,
       "trusted": true
     },
@@ -710,7 +710,7 @@
       "team": "CHC",
       "resolved": "Miguel Amaya",
       "playerId": "665804",
-      "pa": 151,
+      "pa": 154,
       "h": 29,
       "hr": 3,
       "trusted": true
@@ -720,7 +720,7 @@
       "team": "MIN",
       "resolved": "Trevor Larnach",
       "playerId": "663616",
-      "pa": 275,
+      "pa": 279,
       "h": 68,
       "hr": 6,
       "trusted": true
@@ -730,7 +730,7 @@
       "team": "MIN",
       "resolved": "Brooks Lee",
       "playerId": "686797",
-      "pa": 358,
+      "pa": 362,
       "h": 83,
       "hr": 14,
       "trusted": true
@@ -740,7 +740,7 @@
       "team": "MIN",
       "resolved": "Kody Clemens",
       "playerId": "665019",
-      "pa": 315,
+      "pa": 319,
       "h": 73,
       "hr": 16,
       "trusted": true
@@ -750,7 +750,7 @@
       "team": "MIN",
       "resolved": "Josh Bell",
       "playerId": "605137",
-      "pa": 359,
+      "pa": 363,
       "h": 82,
       "hr": 13,
       "trusted": true
@@ -760,9 +760,9 @@
       "team": "MIN",
       "resolved": "Royce Lewis",
       "playerId": "668904",
-      "pa": 241,
-      "h": 45,
-      "hr": 8,
+      "pa": 245,
+      "h": 47,
+      "hr": 9,
       "trusted": true
     },
     {
@@ -770,7 +770,7 @@
       "team": "MIN",
       "resolved": "Alan Roden",
       "playerId": "702176",
-      "pa": 5,
+      "pa": 8,
       "h": 2,
       "hr": 0,
       "trusted": true
@@ -780,7 +780,7 @@
       "team": "MIN",
       "resolved": "Luke Keaschall",
       "playerId": "807712",
-      "pa": 342,
+      "pa": 345,
       "h": 76,
       "hr": 4,
       "trusted": true
@@ -790,8 +790,8 @@
       "team": "MIN",
       "resolved": "Tristan Gray",
       "playerId": "656484",
-      "pa": 173,
-      "h": 36,
+      "pa": 176,
+      "h": 37,
       "hr": 4,
       "trusted": true
     },
@@ -800,7 +800,7 @@
       "team": "MIN",
       "resolved": "Alex Jackson",
       "playerId": "656577",
-      "pa": 53,
+      "pa": 56,
       "h": 16,
       "hr": 1,
       "trusted": true
@@ -810,8 +810,8 @@
       "team": "CLE",
       "resolved": "Travis Bazzana",
       "playerId": "683953",
-      "pa": 263,
-      "h": 56,
+      "pa": 268,
+      "h": 57,
       "hr": 7,
       "trusted": true
     },
@@ -820,8 +820,8 @@
       "team": "CLE",
       "resolved": "Brayan Rocchio",
       "playerId": "677587",
-      "pa": 341,
-      "h": 82,
+      "pa": 345,
+      "h": 83,
       "hr": 7,
       "trusted": true
     },
@@ -830,9 +830,9 @@
       "team": "CLE",
       "resolved": "Chase DeLauter",
       "playerId": "800050",
-      "pa": 315,
-      "h": 79,
-      "hr": 8,
+      "pa": 319,
+      "h": 80,
+      "hr": 9,
       "trusted": true
     },
     {
@@ -840,7 +840,7 @@
       "team": "CLE",
       "resolved": "Kyle Manzardo",
       "playerId": "700932",
-      "pa": 293,
+      "pa": 297,
       "h": 56,
       "hr": 10,
       "trusted": true
@@ -850,7 +850,7 @@
       "team": "CLE",
       "resolved": "Kahlil Watson",
       "playerId": "696135",
-      "pa": 66,
+      "pa": 68,
       "h": 14,
       "hr": 1,
       "trusted": true
@@ -860,9 +860,9 @@
       "team": "CLE",
       "resolved": "Gabriel Arias",
       "playerId": "672356",
-      "pa": 85,
-      "h": 17,
-      "hr": 4,
+      "pa": 89,
+      "h": 18,
+      "hr": 5,
       "trusted": true
     },
     {
@@ -870,8 +870,8 @@
       "team": "CLE",
       "resolved": "Daniel Schneemann",
       "playerId": "682177",
-      "pa": 254,
-      "h": 49,
+      "pa": 258,
+      "h": 50,
       "hr": 6,
       "trusted": true
     },
@@ -880,9 +880,9 @@
       "team": "CLE",
       "resolved": "Patrick Bailey",
       "playerId": "672275",
-      "pa": 182,
-      "h": 30,
-      "hr": 2,
+      "pa": 186,
+      "h": 31,
+      "hr": 3,
       "trusted": true
     },
     {
@@ -890,7 +890,7 @@
       "team": "CLE",
       "resolved": "Steven Kwan",
       "playerId": "680757",
-      "pa": 339,
+      "pa": 343,
       "h": 63,
       "hr": 1,
       "trusted": true
@@ -900,8 +900,8 @@
       "team": "CWS",
       "resolved": "Chase Meidroth",
       "playerId": "805367",
-      "pa": 376,
-      "h": 88,
+      "pa": 380,
+      "h": 89,
       "hr": 7,
       "trusted": true
     },
@@ -910,7 +910,7 @@
       "team": "CWS",
       "resolved": "Randal Grichuk",
       "playerId": "545341",
-      "pa": 138,
+      "pa": 140,
       "h": 33,
       "hr": 9,
       "trusted": true
@@ -920,7 +920,7 @@
       "team": "CWS",
       "resolved": "Miguel Vargas",
       "playerId": "678246",
-      "pa": 392,
+      "pa": 396,
       "h": 79,
       "hr": 20,
       "trusted": true
@@ -930,8 +930,8 @@
       "team": "CWS",
       "resolved": "Colson Montgomery",
       "playerId": "695657",
-      "pa": 364,
-      "h": 71,
+      "pa": 368,
+      "h": 73,
       "hr": 23,
       "trusted": true
     },
@@ -940,7 +940,7 @@
       "team": "CWS",
       "resolved": "Junior Perez",
       "playerId": "678577",
-      "pa": 29,
+      "pa": 31,
       "h": 5,
       "hr": 2,
       "trusted": true
@@ -950,7 +950,7 @@
       "team": "CWS",
       "resolved": "Sam Antonacci",
       "playerId": "803011",
-      "pa": 290,
+      "pa": 294,
       "h": 73,
       "hr": 5,
       "trusted": true
@@ -960,8 +960,8 @@
       "team": "CWS",
       "resolved": "Braden Montgomery",
       "playerId": "695731",
-      "pa": 100,
-      "h": 20,
+      "pa": 104,
+      "h": 21,
       "hr": 2,
       "trusted": true
     },
@@ -970,8 +970,8 @@
       "team": "CWS",
       "resolved": "Luisangel Acu\u00f1a",
       "playerId": "682668",
-      "pa": 156,
-      "h": 33,
+      "pa": 158,
+      "h": 34,
       "hr": 1,
       "trusted": true
     },
@@ -980,7 +980,7 @@
       "team": "CWS",
       "resolved": "Drew Romo",
       "playerId": "691011",
-      "pa": 115,
+      "pa": 117,
       "h": 14,
       "hr": 5,
       "trusted": true
@@ -990,7 +990,7 @@
       "team": "BOS",
       "resolved": "Anthony Seigler",
       "playerId": "678011",
-      "pa": 66,
+      "pa": 70,
       "h": 17,
       "hr": 1,
       "trusted": true
@@ -1000,7 +1000,7 @@
       "team": "BOS",
       "resolved": "Ceddanne Rafaela",
       "playerId": "678882",
-      "pa": 349,
+      "pa": 353,
       "h": 93,
       "hr": 8,
       "trusted": true
@@ -1010,8 +1010,8 @@
       "team": "BOS",
       "resolved": "Wilyer Abreu",
       "playerId": "677800",
-      "pa": 383,
-      "h": 88,
+      "pa": 387,
+      "h": 89,
       "hr": 10,
       "trusted": true
     },
@@ -1020,8 +1020,8 @@
       "team": "BOS",
       "resolved": "Romy Gonzalez",
       "playerId": "663853",
-      "pa": 28,
-      "h": 8,
+      "pa": 32,
+      "h": 9,
       "hr": 1,
       "trusted": true
     },
@@ -1030,9 +1030,9 @@
       "team": "BOS",
       "resolved": "Caleb Durbin",
       "playerId": "702332",
-      "pa": 300,
-      "h": 61,
-      "hr": 8,
+      "pa": 304,
+      "h": 62,
+      "hr": 9,
       "trusted": true
     },
     {
@@ -1040,7 +1040,7 @@
       "team": "BOS",
       "resolved": "Andruw Monasterio",
       "playerId": "655316",
-      "pa": 157,
+      "pa": 161,
       "h": 33,
       "hr": 4,
       "trusted": true
@@ -1050,7 +1050,7 @@
       "team": "BOS",
       "resolved": "Nate Eaton",
       "playerId": "681987",
-      "pa": 34,
+      "pa": 36,
       "h": 4,
       "hr": 1,
       "trusted": true
@@ -1060,7 +1060,7 @@
       "team": "BOS",
       "resolved": "Brett Harris",
       "playerId": "695391",
-      "pa": 6,
+      "pa": 9,
       "h": 0,
       "hr": 0,
       "trusted": true
@@ -1070,8 +1070,8 @@
       "team": "BOS",
       "resolved": "Connor Wong",
       "playerId": "657136",
-      "pa": 122,
-      "h": 30,
+      "pa": 125,
+      "h": 31,
       "hr": 1,
       "trusted": true
     },
@@ -1080,8 +1080,8 @@
       "team": "DET",
       "resolved": "Matt Vierling",
       "playerId": "663837",
-      "pa": 249,
-      "h": 45,
+      "pa": 253,
+      "h": 46,
       "hr": 5,
       "trusted": true
     },
@@ -1090,8 +1090,8 @@
       "team": "DET",
       "resolved": "Kevin McGonigle",
       "playerId": "805808",
-      "pa": 396,
-      "h": 96,
+      "pa": 400,
+      "h": 97,
       "hr": 7,
       "trusted": true
     },
@@ -1100,7 +1100,7 @@
       "team": "DET",
       "resolved": "Spencer Torkelson",
       "playerId": "679529",
-      "pa": 356,
+      "pa": 360,
       "h": 66,
       "hr": 15,
       "trusted": true
@@ -1110,7 +1110,7 @@
       "team": "DET",
       "resolved": "Riley Greene",
       "playerId": "682985",
-      "pa": 384,
+      "pa": 388,
       "h": 97,
       "hr": 13,
       "trusted": true
@@ -1130,7 +1130,7 @@
       "team": "DET",
       "resolved": "James Outman",
       "playerId": "681546",
-      "pa": 126,
+      "pa": 129,
       "h": 18,
       "hr": 3,
       "trusted": true
@@ -1140,7 +1140,7 @@
       "team": "DET",
       "resolved": "Kerry Carpenter",
       "playerId": "681481",
-      "pa": 224,
+      "pa": 226,
       "h": 45,
       "hr": 13,
       "trusted": true
@@ -1150,9 +1150,9 @@
       "team": "DET",
       "resolved": "Zach McKinstry",
       "playerId": "656716",
-      "pa": 233,
-      "h": 41,
-      "hr": 3,
+      "pa": 237,
+      "h": 42,
+      "hr": 4,
       "trusted": true
     },
     {
@@ -1160,7 +1160,7 @@
       "team": "ATH",
       "resolved": "Zack Gelof",
       "playerId": "680869",
-      "pa": 246,
+      "pa": 247,
       "h": 62,
       "hr": 11,
       "trusted": true
@@ -1170,8 +1170,8 @@
       "team": "ATH",
       "resolved": "Jeff McNeil",
       "playerId": "643446",
-      "pa": 288,
-      "h": 59,
+      "pa": 289,
+      "h": 60,
       "hr": 3,
       "trusted": true
     },
@@ -1180,8 +1180,8 @@
       "team": "ATH",
       "resolved": "Shea Langeliers",
       "playerId": "669127",
-      "pa": 371,
-      "h": 88,
+      "pa": 375,
+      "h": 89,
       "hr": 20,
       "trusted": true
     },
@@ -1190,7 +1190,7 @@
       "team": "ATH",
       "resolved": "Tyler Soderstrom",
       "playerId": "691016",
-      "pa": 339,
+      "pa": 340,
       "h": 71,
       "hr": 13,
       "trusted": true
@@ -1200,8 +1200,8 @@
       "team": "ATH",
       "resolved": "Jacob Wilson",
       "playerId": "805779",
-      "pa": 222,
-      "h": 56,
+      "pa": 226,
+      "h": 58,
       "hr": 4,
       "trusted": true
     },
@@ -1210,7 +1210,7 @@
       "team": "ATH",
       "resolved": "Lawrence Butler",
       "playerId": "671732",
-      "pa": 259,
+      "pa": 262,
       "h": 46,
       "hr": 5,
       "trusted": true
@@ -1220,7 +1220,7 @@
       "team": "ATH",
       "resolved": "Joshua Kuroda-Grauer",
       "playerId": "811965",
-      "pa": 31,
+      "pa": 35,
       "h": 15,
       "hr": 0,
       "trusted": true
@@ -1240,7 +1240,7 @@
       "team": "ATH",
       "resolved": "Henry Bolte",
       "playerId": "703607",
-      "pa": 190,
+      "pa": 193,
       "h": 46,
       "hr": 3,
       "trusted": true
@@ -1250,8 +1250,8 @@
       "team": "MIA",
       "resolved": "Liam Hicks",
       "playerId": "689414",
-      "pa": 328,
-      "h": 82,
+      "pa": 333,
+      "h": 83,
       "hr": 13,
       "trusted": true
     },
@@ -1260,8 +1260,8 @@
       "team": "MIA",
       "resolved": "Otto Lopez",
       "playerId": "672640",
-      "pa": 392,
-      "h": 126,
+      "pa": 397,
+      "h": 127,
       "hr": 9,
       "trusted": true
     },
@@ -1270,8 +1270,8 @@
       "team": "MIA",
       "resolved": "Xavier Edwards",
       "playerId": "669364",
-      "pa": 392,
-      "h": 102,
+      "pa": 397,
+      "h": 103,
       "hr": 6,
       "trusted": true
     },
@@ -1280,8 +1280,8 @@
       "team": "MIA",
       "resolved": "Kyle Stowers",
       "playerId": "669065",
-      "pa": 290,
-      "h": 62,
+      "pa": 295,
+      "h": 63,
       "hr": 12,
       "trusted": true
     },
@@ -1290,9 +1290,9 @@
       "team": "MIA",
       "resolved": "Griffin Conine",
       "playerId": "665052",
-      "pa": 80,
-      "h": 16,
-      "hr": 3,
+      "pa": 84,
+      "h": 19,
+      "hr": 4,
       "trusted": true
     },
     {
@@ -1300,7 +1300,7 @@
       "team": "MIA",
       "resolved": "Heriberto Hern\u00e1ndez",
       "playerId": "681715",
-      "pa": 212,
+      "pa": 216,
       "h": 45,
       "hr": 12,
       "trusted": true
@@ -1310,8 +1310,8 @@
       "team": "MIA",
       "resolved": "Jakob Marsee",
       "playerId": "805300",
-      "pa": 375,
-      "h": 61,
+      "pa": 379,
+      "h": 63,
       "hr": 5,
       "trusted": true
     },
@@ -1340,7 +1340,7 @@
       "team": "SEA",
       "resolved": "J.P. Crawford",
       "playerId": "641487",
-      "pa": 317,
+      "pa": 322,
       "h": 57,
       "hr": 10,
       "trusted": true
@@ -1350,9 +1350,9 @@
       "team": "SEA",
       "resolved": "Randy Arozarena",
       "playerId": "668227",
-      "pa": 361,
-      "h": 89,
-      "hr": 9,
+      "pa": 366,
+      "h": 90,
+      "hr": 10,
       "trusted": true
     },
     {
@@ -1360,9 +1360,9 @@
       "team": "SEA",
       "resolved": "Dominic Canzone",
       "playerId": "686527",
-      "pa": 241,
-      "h": 57,
-      "hr": 14,
+      "pa": 246,
+      "h": 59,
+      "hr": 15,
       "trusted": true
     },
     {
@@ -1370,7 +1370,7 @@
       "team": "SEA",
       "resolved": "Cal Raleigh",
       "playerId": "663728",
-      "pa": 263,
+      "pa": 267,
       "h": 39,
       "hr": 9,
       "trusted": true
@@ -1380,8 +1380,8 @@
       "team": "SEA",
       "resolved": "Josh Naylor",
       "playerId": "647304",
-      "pa": 372,
-      "h": 85,
+      "pa": 376,
+      "h": 86,
       "hr": 8,
       "trusted": true
     },
@@ -1390,8 +1390,8 @@
       "team": "SEA",
       "resolved": "Luke Raley",
       "playerId": "670042",
-      "pa": 249,
-      "h": 52,
+      "pa": 253,
+      "h": 54,
       "hr": 14,
       "trusted": true
     },
@@ -1400,8 +1400,8 @@
       "team": "SEA",
       "resolved": "Jared Young",
       "playerId": "676724",
-      "pa": 148,
-      "h": 30,
+      "pa": 152,
+      "h": 32,
       "hr": 6,
       "trusted": true
     },
@@ -1410,7 +1410,7 @@
       "team": "SEA",
       "resolved": "Victor Robles",
       "playerId": "645302",
-      "pa": 94,
+      "pa": 98,
       "h": 20,
       "hr": 0,
       "trusted": true
@@ -1420,8 +1420,8 @@
       "team": "SEA",
       "resolved": "Colt Emerson",
       "playerId": "806068",
-      "pa": 152,
-      "h": 28,
+      "pa": 156,
+      "h": 29,
       "hr": 7,
       "trusted": true
     },
@@ -1430,7 +1430,7 @@
       "team": "CIN",
       "resolved": "Elly De La Cruz",
       "playerId": "682829",
-      "pa": 321,
+      "pa": 325,
       "h": 78,
       "hr": 14,
       "trusted": true
@@ -1440,7 +1440,7 @@
       "team": "CIN",
       "resolved": "Sal Stewart",
       "playerId": "701398",
-      "pa": 396,
+      "pa": 400,
       "h": 89,
       "hr": 19,
       "trusted": true
@@ -1450,8 +1450,8 @@
       "team": "CIN",
       "resolved": "JJ Bleday",
       "playerId": "668709",
-      "pa": 268,
-      "h": 54,
+      "pa": 272,
+      "h": 55,
       "hr": 14,
       "trusted": true
     },
@@ -1460,7 +1460,7 @@
       "team": "CIN",
       "resolved": "Eugenio Su\u00e1rez",
       "playerId": "553993",
-      "pa": 251,
+      "pa": 255,
       "h": 46,
       "hr": 9,
       "trusted": true
@@ -1470,7 +1470,7 @@
       "team": "CIN",
       "resolved": "Spencer Steer",
       "playerId": "668715",
-      "pa": 341,
+      "pa": 345,
       "h": 73,
       "hr": 14,
       "trusted": true
@@ -1480,7 +1480,7 @@
       "team": "CIN",
       "resolved": "Noelvi Marte",
       "playerId": "682622",
-      "pa": 125,
+      "pa": 129,
       "h": 24,
       "hr": 6,
       "trusted": true
@@ -1500,7 +1500,7 @@
       "team": "CIN",
       "resolved": "Edwin Arroyo",
       "playerId": "695490",
-      "pa": 93,
+      "pa": 96,
       "h": 21,
       "hr": 0,
       "trusted": true
@@ -1510,8 +1510,8 @@
       "team": "CIN",
       "resolved": "TJ Friedl",
       "playerId": "670770",
-      "pa": 207,
-      "h": 31,
+      "pa": 210,
+      "h": 32,
       "hr": 3,
       "trusted": true
     },
@@ -1520,7 +1520,7 @@
       "team": "PHI",
       "resolved": "Bryce Harper",
       "playerId": "547180",
-      "pa": 391,
+      "pa": 395,
       "h": 86,
       "hr": 20,
       "trusted": true
@@ -1530,8 +1530,8 @@
       "team": "PHI",
       "resolved": "Kyle Schwarber",
       "playerId": "656941",
-      "pa": 397,
-      "h": 85,
+      "pa": 401,
+      "h": 86,
       "hr": 32,
       "trusted": true
     },
@@ -1540,8 +1540,8 @@
       "team": "PHI",
       "resolved": "Brandon Marsh",
       "playerId": "669016",
-      "pa": 347,
-      "h": 99,
+      "pa": 351,
+      "h": 101,
       "hr": 15,
       "trusted": true
     },
@@ -1550,8 +1550,8 @@
       "team": "PHI",
       "resolved": "Bryson Stott",
       "playerId": "681082",
-      "pa": 337,
-      "h": 75,
+      "pa": 341,
+      "h": 76,
       "hr": 7,
       "trusted": true
     },
@@ -1560,7 +1560,7 @@
       "team": "PHI",
       "resolved": "Alec Bohm",
       "playerId": "664761",
-      "pa": 357,
+      "pa": 361,
       "h": 72,
       "hr": 11,
       "trusted": true
@@ -1570,7 +1570,7 @@
       "team": "PHI",
       "resolved": "Gabriel Rincones Jr.",
       "playerId": "687282",
-      "pa": 60,
+      "pa": 63,
       "h": 12,
       "hr": 2,
       "trusted": true
@@ -1580,7 +1580,7 @@
       "team": "PHI",
       "resolved": "J.P. Crawford",
       "playerId": "641487",
-      "pa": 317,
+      "pa": 322,
       "h": 57,
       "hr": 10,
       "trusted": true
@@ -1610,7 +1610,7 @@
       "team": "STL",
       "resolved": "Masyn Winn",
       "playerId": "691026",
-      "pa": 343,
+      "pa": 347,
       "h": 76,
       "hr": 4,
       "trusted": true
@@ -1620,7 +1620,7 @@
       "team": "STL",
       "resolved": "Iv\u00e1n Herrera",
       "playerId": "671056",
-      "pa": 407,
+      "pa": 411,
       "h": 83,
       "hr": 11,
       "trusted": true
@@ -1630,7 +1630,7 @@
       "team": "STL",
       "resolved": "Nathan Church",
       "playerId": "701675",
-      "pa": 245,
+      "pa": 249,
       "h": 56,
       "hr": 8,
       "trusted": true
@@ -1640,8 +1640,8 @@
       "team": "STL",
       "resolved": "Alec Burleson",
       "playerId": "676475",
-      "pa": 383,
-      "h": 96,
+      "pa": 387,
+      "h": 97,
       "hr": 15,
       "trusted": true
     },
@@ -1660,8 +1660,8 @@
       "team": "STL",
       "resolved": "Lars Nootbaar",
       "playerId": "663457",
-      "pa": 109,
-      "h": 25,
+      "pa": 113,
+      "h": 26,
       "hr": 2,
       "trusted": true
     },
@@ -1690,8 +1690,8 @@
       "team": "MIL",
       "resolved": "Jackson Chourio",
       "playerId": "694192",
-      "pa": 267,
-      "h": 69,
+      "pa": 272,
+      "h": 71,
       "hr": 13,
       "trusted": true
     },
@@ -1700,9 +1700,9 @@
       "team": "MIL",
       "resolved": "Jake Bauers",
       "playerId": "641343",
-      "pa": 329,
-      "h": 75,
-      "hr": 16,
+      "pa": 334,
+      "h": 77,
+      "hr": 17,
       "trusted": true
     },
     {
@@ -1710,7 +1710,7 @@
       "team": "MIL",
       "resolved": "William Contreras",
       "playerId": "661388",
-      "pa": 373,
+      "pa": 378,
       "h": 95,
       "hr": 9,
       "trusted": true
@@ -1720,8 +1720,8 @@
       "team": "MIL",
       "resolved": "Garrett Mitchell",
       "playerId": "669003",
-      "pa": 293,
-      "h": 70,
+      "pa": 298,
+      "h": 71,
       "hr": 8,
       "trusted": true
     },
@@ -1740,8 +1740,8 @@
       "team": "MIL",
       "resolved": "Cooper Pratt",
       "playerId": "806198",
-      "pa": 77,
-      "h": 15,
+      "pa": 81,
+      "h": 17,
       "hr": 0,
       "trusted": true
     },
@@ -1750,8 +1750,8 @@
       "team": "MIL",
       "resolved": "Sal Frelick",
       "playerId": "686217",
-      "pa": 300,
-      "h": 62,
+      "pa": 304,
+      "h": 64,
       "hr": 3,
       "trusted": true
     },
@@ -1760,7 +1760,7 @@
       "team": "MIL",
       "resolved": "Andrew Vaughn",
       "playerId": "683734",
-      "pa": 163,
+      "pa": 167,
       "h": 46,
       "hr": 2,
       "trusted": true
@@ -1770,8 +1770,8 @@
       "team": "TEX",
       "resolved": "Kyle Higashioka",
       "playerId": "543309",
-      "pa": 166,
-      "h": 33,
+      "pa": 169,
+      "h": 34,
       "hr": 6,
       "trusted": true
     },
@@ -1790,8 +1790,8 @@
       "team": "TEX",
       "resolved": "Jake Burger",
       "playerId": "669394",
-      "pa": 357,
-      "h": 79,
+      "pa": 361,
+      "h": 80,
       "hr": 15,
       "trusted": true
     },
@@ -1800,9 +1800,9 @@
       "team": "TEX",
       "resolved": "Justin Foscue",
       "playerId": "679822",
-      "pa": 109,
-      "h": 27,
-      "hr": 6,
+      "pa": 113,
+      "h": 29,
+      "hr": 7,
       "trusted": true
     },
     {
@@ -1810,9 +1810,9 @@
       "team": "TEX",
       "resolved": "Ezequiel Duran",
       "playerId": "677649",
-      "pa": 309,
-      "h": 76,
-      "hr": 7,
+      "pa": 313,
+      "h": 77,
+      "hr": 8,
       "trusted": true
     },
     {
@@ -1820,7 +1820,7 @@
       "team": "TEX",
       "resolved": "Evan Carter",
       "playerId": "694497",
-      "pa": 254,
+      "pa": 255,
       "h": 39,
       "hr": 7,
       "trusted": true
@@ -1830,8 +1830,8 @@
       "team": "TEX",
       "resolved": "Alejandro Osuna",
       "playerId": "696030",
-      "pa": 186,
-      "h": 41,
+      "pa": 190,
+      "h": 42,
       "hr": 1,
       "trusted": true
     },
@@ -1840,8 +1840,8 @@
       "team": "TEX",
       "resolved": "Cam Cauley",
       "playerId": "695508",
-      "pa": 18,
-      "h": 3,
+      "pa": 21,
+      "h": 4,
       "hr": 0,
       "trusted": true
     },
@@ -1850,8 +1850,8 @@
       "team": "LAA",
       "resolved": "Zach Neto",
       "playerId": "687263",
-      "pa": 405,
-      "h": 83,
+      "pa": 410,
+      "h": 84,
       "hr": 19,
       "trusted": true
     },
@@ -1860,7 +1860,7 @@
       "team": "LAA",
       "resolved": "Mike Trout",
       "playerId": "545361",
-      "pa": 340,
+      "pa": 345,
       "h": 63,
       "hr": 18,
       "trusted": true
@@ -1870,8 +1870,8 @@
       "team": "LAA",
       "resolved": "Vaughn Grissom",
       "playerId": "687093",
-      "pa": 197,
-      "h": 43,
+      "pa": 202,
+      "h": 44,
       "hr": 4,
       "trusted": true
     },
@@ -1880,8 +1880,8 @@
       "team": "LAA",
       "resolved": "Jo Adell",
       "playerId": "666176",
-      "pa": 385,
-      "h": 90,
+      "pa": 387,
+      "h": 91,
       "hr": 13,
       "trusted": true
     },
@@ -1890,7 +1890,7 @@
       "team": "LAA",
       "resolved": "Denzer Guzman",
       "playerId": "694203",
-      "pa": 103,
+      "pa": 107,
       "h": 25,
       "hr": 3,
       "trusted": true
@@ -1910,7 +1910,7 @@
       "team": "LAA",
       "resolved": "Jose Siri",
       "playerId": "642350",
-      "pa": 95,
+      "pa": 96,
       "h": 22,
       "hr": 5,
       "trusted": true
@@ -1920,7 +1920,7 @@
       "team": "LAA",
       "resolved": "Logan O'Hoppe",
       "playerId": "681351",
-      "pa": 221,
+      "pa": 225,
       "h": 45,
       "hr": 4,
       "trusted": true
@@ -1930,7 +1930,7 @@
       "team": "LAA",
       "resolved": "Josh Lowe",
       "playerId": "666139",
-      "pa": 174,
+      "pa": 177,
       "h": 35,
       "hr": 7,
       "trusted": true
@@ -1940,8 +1940,8 @@
       "team": "SD",
       "resolved": "Fernando Tatis Jr.",
       "playerId": "665487",
-      "pa": 398,
-      "h": 101,
+      "pa": 402,
+      "h": 102,
       "hr": 5,
       "trusted": true
     },
@@ -1950,7 +1950,7 @@
       "team": "SD",
       "resolved": "Jackson Merrill",
       "playerId": "701538",
-      "pa": 374,
+      "pa": 378,
       "h": 76,
       "hr": 10,
       "trusted": true
@@ -1960,7 +1960,7 @@
       "team": "SD",
       "resolved": "Xander Bogaerts",
       "playerId": "593428",
-      "pa": 345,
+      "pa": 349,
       "h": 69,
       "hr": 8,
       "trusted": true
@@ -1970,7 +1970,7 @@
       "team": "SD",
       "resolved": "Gavin Sheets",
       "playerId": "657757",
-      "pa": 306,
+      "pa": 309,
       "h": 62,
       "hr": 14,
       "trusted": true
@@ -1980,7 +1980,7 @@
       "team": "SD",
       "resolved": "Jake Cronenworth",
       "playerId": "630105",
-      "pa": 150,
+      "pa": 153,
       "h": 24,
       "hr": 3,
       "trusted": true
@@ -1990,7 +1990,7 @@
       "team": "SD",
       "resolved": "Luis Campusano",
       "playerId": "669134",
-      "pa": 72,
+      "pa": 75,
       "h": 20,
       "hr": 4,
       "trusted": true
@@ -2000,7 +2000,7 @@
       "team": "SD",
       "resolved": "Miguel Andujar",
       "playerId": "609280",
-      "pa": 234,
+      "pa": 237,
       "h": 59,
       "hr": 5,
       "trusted": true
@@ -2020,7 +2020,7 @@
       "team": "SD",
       "resolved": "Sung-Mun Song",
       "playerId": "823550",
-      "pa": 88,
+      "pa": 91,
       "h": 17,
       "hr": 1,
       "trusted": true
@@ -2030,7 +2030,7 @@
       "team": "ARI",
       "resolved": "Ketel Marte",
       "playerId": "606466",
-      "pa": 387,
+      "pa": 391,
       "h": 94,
       "hr": 17,
       "trusted": true
@@ -2040,7 +2040,7 @@
       "team": "ARI",
       "resolved": "Ildemaro Vargas",
       "playerId": "545121",
-      "pa": 289,
+      "pa": 290,
       "h": 69,
       "hr": 7,
       "trusted": true
@@ -2050,8 +2050,8 @@
       "team": "ARI",
       "resolved": "Corbin Carroll",
       "playerId": "682998",
-      "pa": 380,
-      "h": 86,
+      "pa": 384,
+      "h": 87,
       "hr": 13,
       "trusted": true
     },
@@ -2060,8 +2060,8 @@
       "team": "ARI",
       "resolved": "Gabriel Moreno",
       "playerId": "672515",
-      "pa": 257,
-      "h": 65,
+      "pa": 261,
+      "h": 66,
       "hr": 6,
       "trusted": true
     },
@@ -2070,8 +2070,8 @@
       "team": "ARI",
       "resolved": "Max Kepler",
       "playerId": "596146",
-      "pa": 29,
-      "h": 5,
+      "pa": 33,
+      "h": 6,
       "hr": 1,
       "trusted": true
     },
@@ -2080,8 +2080,8 @@
       "team": "ARI",
       "resolved": "Lourdes Gurriel Jr.",
       "playerId": "666971",
-      "pa": 172,
-      "h": 35,
+      "pa": 176,
+      "h": 36,
       "hr": 2,
       "trusted": true
     },
@@ -2090,9 +2090,9 @@
       "team": "ARI",
       "resolved": "Nolan Arenado",
       "playerId": "571448",
-      "pa": 330,
-      "h": 72,
-      "hr": 10,
+      "pa": 334,
+      "h": 73,
+      "hr": 11,
       "trusted": true
     },
     {
@@ -2110,8 +2110,8 @@
       "team": "ARI",
       "resolved": "Tommy Troy",
       "playerId": "694371",
-      "pa": 128,
-      "h": 26,
+      "pa": 132,
+      "h": 27,
       "hr": 4,
       "trusted": true
     },
@@ -2120,8 +2120,8 @@
       "team": "SF",
       "resolved": "Heliot Ramos",
       "playerId": "671218",
-      "pa": 218,
-      "h": 57,
+      "pa": 223,
+      "h": 58,
       "hr": 8,
       "trusted": true
     },
@@ -2130,8 +2130,8 @@
       "team": "SF",
       "resolved": "Luis Arraez",
       "playerId": "650333",
-      "pa": 384,
-      "h": 112,
+      "pa": 389,
+      "h": 114,
       "hr": 4,
       "trusted": true
     },
@@ -2140,9 +2140,9 @@
       "team": "SF",
       "resolved": "Casey Schmitt",
       "playerId": "669477",
-      "pa": 352,
-      "h": 92,
-      "hr": 17,
+      "pa": 357,
+      "h": 94,
+      "hr": 18,
       "trusted": true
     },
     {
@@ -2150,8 +2150,8 @@
       "team": "SF",
       "resolved": "Rafael Devers",
       "playerId": "646240",
-      "pa": 389,
-      "h": 86,
+      "pa": 394,
+      "h": 88,
       "hr": 18,
       "trusted": true
     },
@@ -2160,8 +2160,8 @@
       "team": "SF",
       "resolved": "Jung Hoo Lee",
       "playerId": "808982",
-      "pa": 338,
-      "h": 98,
+      "pa": 340,
+      "h": 99,
       "hr": 5,
       "trusted": true
     },
@@ -2170,9 +2170,9 @@
       "team": "SF",
       "resolved": "Willy Adames",
       "playerId": "642715",
-      "pa": 366,
-      "h": 78,
-      "hr": 14,
+      "pa": 371,
+      "h": 79,
+      "hr": 15,
       "trusted": true
     },
     {
@@ -2180,9 +2180,9 @@
       "team": "SF",
       "resolved": "Bryce Eldridge",
       "playerId": "805811",
-      "pa": 200,
-      "h": 47,
-      "hr": 7,
+      "pa": 205,
+      "h": 49,
+      "hr": 8,
       "trusted": true
     },
     {
@@ -2190,8 +2190,8 @@
       "team": "SF",
       "resolved": "Drew Cavanaugh",
       "playerId": "701852",
-      "pa": 26,
-      "h": 4,
+      "pa": 30,
+      "h": 6,
       "hr": 0,
       "trusted": true
     },
@@ -2200,7 +2200,7 @@
       "team": "COL",
       "resolved": "Jake McCarthy",
       "playerId": "664983",
-      "pa": 290,
+      "pa": 294,
       "h": 80,
       "hr": 9,
       "trusted": true
@@ -2210,8 +2210,8 @@
       "team": "COL",
       "resolved": "Hunter Goodman",
       "playerId": "696100",
-      "pa": 359,
-      "h": 81,
+      "pa": 363,
+      "h": 82,
       "hr": 27,
       "trusted": true
     },
@@ -2220,7 +2220,7 @@
       "team": "COL",
       "resolved": "Cole Carrigg",
       "playerId": "694249",
-      "pa": 105,
+      "pa": 109,
       "h": 27,
       "hr": 4,
       "trusted": true
@@ -2230,8 +2230,8 @@
       "team": "COL",
       "resolved": "TJ Rumfield",
       "playerId": "681198",
-      "pa": 368,
-      "h": 96,
+      "pa": 372,
+      "h": 97,
       "hr": 12,
       "trusted": true
     },
@@ -2240,7 +2240,7 @@
       "team": "COL",
       "resolved": "Kyle Karros",
       "playerId": "691720",
-      "pa": 306,
+      "pa": 310,
       "h": 69,
       "hr": 8,
       "trusted": true
@@ -2250,8 +2250,8 @@
       "team": "COL",
       "resolved": "Tyler Freeman",
       "playerId": "671289",
-      "pa": 239,
-      "h": 56,
+      "pa": 243,
+      "h": 57,
       "hr": 3,
       "trusted": true
     },
@@ -2260,9 +2260,9 @@
       "team": "COL",
       "resolved": "Willi Castro",
       "playerId": "650489",
-      "pa": 311,
-      "h": 74,
-      "hr": 6,
+      "pa": 315,
+      "h": 75,
+      "hr": 7,
       "trusted": true
     },
     {
@@ -2270,7 +2270,7 @@
       "team": "COL",
       "resolved": "Ezequiel Tovar",
       "playerId": "678662",
-      "pa": 329,
+      "pa": 332,
       "h": 62,
       "hr": 8,
       "trusted": true
@@ -2280,8 +2280,8 @@
       "team": "COL",
       "resolved": "Braxton Fulford",
       "playerId": "690924",
-      "pa": 63,
-      "h": 10,
+      "pa": 66,
+      "h": 11,
       "hr": 1,
       "trusted": true
     }
