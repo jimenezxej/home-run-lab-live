@@ -78,7 +78,7 @@ def main():
 
     run(["python3", "backend/pitchers/enrich_pitchers.py"], required=False)
     run(["python3", "backend/pitchers/build_pitch_zone_profiles.py"], required=False)
-    run(["python3", "backend/pitchers/collect_verified_pitcher_metrics.py"])
+    run(["python3", "backend/pitchers/collect_mlb_statcast_pitcher_metrics.py"])
     run(["python3", "backend/model/scoring.py"])
     run(["python3", "backend/model/intelligence_engine.py"])
     run(["python3", "backend/model/apply_verified_pitcher_reasons.py"])

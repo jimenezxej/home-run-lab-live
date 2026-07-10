@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import subprocess,sys
 cmds=[
- ["python3","backend/pitchers/collect_verified_pitcher_metrics.py"],
+ ["python3","backend/pitchers/collect_mlb_statcast_pitcher_metrics.py"],
  ["python3","backend/quality/audit_verified_pitcher_metrics.py"],
  ["python3","backend/model/scoring.py"],
  ["python3","backend/model/intelligence_engine.py"],
