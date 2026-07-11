@@ -82,6 +82,7 @@ def main():
     run(["python3", "backend/model/scoring.py"])
     run(["python3", "backend/model/intelligence_engine.py"])
     run(["python3", "backend/model/apply_verified_pitcher_reasons.py"])
+    run(["python3", "backend/model/build_game_dashboard.py"])
 
     run(["python3", "backend/live/build_game_state.py"])
     run(["python3", "backend/live/filter_live_boards.py"])
