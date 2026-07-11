@@ -2,45 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Home Run Lab 4.6</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1f3a" />
+  <title>Home Run Lab</title>
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" href="icon.svg" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=9.0.0" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-shell">
-      <div class="brand-mark"><span></span></div>
-      <div class="brand-copy">
-        <div class="eyebrow">HOME RUN LAB 4.6</div>
-        <h1>The War Room</h1>
-        <p>MLB home run intelligence · model edge · weather · pitcher risk · live tracker</p>
-      </div>
-      <div class="status-card">
-        <span id="status">Loading slate…</span>
-        <small>updates every 60s</small>
-      </div>
-    </div>
-    <nav class="nav">
-      <button data-tab="dashboard" class="active">Command Center</button>
-      <button data-tab="hrlab">Home Run Lab</button>
-      <button data-tab="longshots">Longshots</button>
-      <button data-tab="pitchers">Pitchers</button>
-      <button data-tab="weather">Weather</button>
-      <button data-tab="momentum">Momentum</button>
-      <button data-tab="live">Live</button>
-      <button data-tab="tracker">HR Tracker</button>
-      <button data-tab="ai">AI Report</button>
-      <button data-tab="guide">Model Guide</button>
-      <button data-tab="glossary">Glossary</button>
-    </nav>
-  </header>
-
-  <main class="main">
-    <section id="content"></section>
-  </main>
-
-  <script src="app.js"></script>
+  <div class="app-shell">
+    <header class="topbar">
+      <div><p class="eyebrow">THE HOME RUN LAB</p><h1>Game Intelligence</h1></div>
+      <div class="live-chip" id="updateChip">Loading…</div>
+    </header>
+    <main>
+      <section class="hero">
+        <div><p class="eyebrow">TODAY'S SLATE</p><h2 id="slateTitle">Today's Games</h2><p id="slateSubtitle">Choose a matchup to see hitters, pitchers, weather, and model reasoning together.</p></div>
+        <button class="ghost-btn" id="refreshBtn" type="button">Refresh</button>
+      </section>
+      <section class="overview-grid" id="overviewGrid"></section>
+      <section class="panel">
+        <div class="section-head"><div><p class="eyebrow">GAME BOARD</p><h2>Choose a game</h2></div><select id="gameSelect" aria-label="Select game"></select></div>
+        <div class="game-strip" id="gameStrip"></div>
+      </section>
+      <section id="gameView" class="game-view"></section>
+    </main>
+  </div>
+  <div class="modal-backdrop hidden" id="playerModal" role="dialog" aria-modal="true">
+    <div class="modal-card"><button class="modal-close" id="closeModal" aria-label="Close">×</button><div id="playerModalBody"></div></div>
+  </div>
+  <script src="app.js?v=9.0.0"></script>
 </body>
 </html>
