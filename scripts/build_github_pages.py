@@ -12,7 +12,8 @@ def cpdir(src,dst):
 def main():
     if DIST.exists(): shutil.rmtree(DIST)
     DIST.mkdir(parents=True); cpdir(PUBLIC,DIST)
-    files=["slate.json","scores.json","scorecards.json","intelligence.json","live-board.json","game-state.json","player-identity-map.json","identity-audit.json","manual-player-overrides.json","hitter-season-map.json","season-stats-audit.json","hr-history.json","hr-history-audit.json","live-events.json","pitcher-profiles.json","pitch-zone-profiles.json","truth-audit.json","metric-manifest.json","data-provenance-summary.json","glossary.json","model-results.json","update-status.json","github-readiness.json"]
+    files=["slate.json","scores.json","scorecards.json","intelligence.json",
+        "game-dashboard.json","live-board.json","game-state.json","player-identity-map.json","identity-audit.json","manual-player-overrides.json","hitter-season-map.json","season-stats-audit.json","hr-history.json","hr-history-audit.json","live-events.json","pitcher-profiles.json","pitch-zone-profiles.json","truth-audit.json","metric-manifest.json","data-provenance-summary.json","glossary.json","model-results.json","update-status.json","github-readiness.json"]
     for name in files:
         src=DATA/name
         if src.exists(): shutil.copy2(src,DIST/name)
